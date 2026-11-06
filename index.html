@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Beyond Zenith Software</title>
-<meta name="description" content="Software you own, from a team that stays. Beyond Zenith Software builds and runs software for Australian businesses: senior-led delivery teams, data and integration platforms, and technical advisory. Melbourne, Australia.">
+<title>Beyond Zenith Software, Melbourne</title>
+<meta name="description" content="Software you own, from a team that stays. Beyond Zenith Software builds and runs software for Australian businesses: delivery teams, data and integration platforms, and technical advisory. Melbourne, Australia.">
 <meta name="theme-color" content="#0B1520">
 <link rel="canonical" href="https://beyondzenith.com.au/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -12,9 +12,9 @@
 <meta property="og:site_name" content="Beyond Zenith Software">
 <meta property="og:locale" content="en_AU">
 <meta property="og:url" content="https://beyondzenith.com.au/">
-<meta property="og:title" content="Beyond Zenith Software">
-<meta property="og:description" content="Software you own, from a team that stays. Senior-led delivery teams, data and integration platforms, and technical advisory for Australian businesses.">
-<meta property="og:image" content="https://beyondzenith.com.au/brand/og-image.png">
+<meta property="og:title" content="Beyond Zenith Software, Melbourne">
+<meta property="og:description" content="Software you own, from a team that stays. Delivery teams, data and integration platforms, and technical advisory for Australian businesses.">
+<meta property="og:image" content="https://beyondzenith.com.au/brand/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Beyond Zenith: Software you own, from a team that stays.">
@@ -37,241 +37,390 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="art/hero-zenith.jpg">
+<script>document.documentElement.classList.add('js')</script>
 <style>
-  :root {
-    --night: #0B1520;
-    --deep: #0F1C29;
-    --line: #1F3043;
-    --dim: #5E7389;
-    --text: #A9B8C7;
-    --bright: #EEF3F7;
-    --star: #F2B544;
-    color-scheme: dark;
-    box-sizing: border-box;
-    padding-top: env(safe-area-inset-top, 0px);
-    padding-bottom: env(safe-area-inset-bottom, 0px);
-  }
-  *, *::before, *::after { box-sizing: inherit; }
-  html { scroll-behavior: smooth; scroll-padding-top: calc(4.5rem + env(safe-area-inset-top, 0px)); }
-  body {
-    margin: 0;
-    background: var(--night);
-    color: var(--text);
-    font-family: "Geist", "Helvetica Neue", Arial, sans-serif;
-    font-size: 1.0625rem;
-    line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
-  }
-  body::before {
-    content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px);
-    z-index: 10; background: rgba(11, 21, 32, 0.85);
-  }
-  a { color: var(--bright); }
-  a:focus-visible, button:focus-visible { outline: 2px solid var(--star); outline-offset: 3px; border-radius: 4px; }
-  .wrap { max-width: 72rem; margin: 0 auto; padding: 0 clamp(1.25rem, 5vw, 2.5rem); }
+:root {
+  --night: #0B1520;
+  --deep: #0F1C29;
+  --dim: #6F849A;
+  --soft: #A9B8C7;
+  --ink: #EEF3F7;
+  --star: #F2B544;
+  --star-light: #C8871C;
+  --paper: #EEF3F7;
+  --paper-soft: #4A5D70;
 
-  /* Nav */
-  .nav {
-    position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
-    background: rgba(11, 21, 32, 0.85);
-    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--line);
-  }
-  .nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 4rem; }
-  .mark { display: flex; align-items: center; gap: 0.6rem; color: var(--bright); text-decoration: none; font-weight: 600; letter-spacing: -0.01em; }
-  .mark .wm { height: 1.35rem; width: auto; display: block; }
-  .links { display: flex; gap: 1.75rem; align-items: center; }
-  .links a { color: var(--text); text-decoration: none; font-size: 0.95rem; }
-  .links a:hover { color: var(--bright); }
-  .links .cta { color: var(--night); background: var(--bright); padding: 0.45rem 0.95rem; border-radius: 6px; font-weight: 500; }
-  .links .cta:hover { background: var(--star); color: var(--night); }
-  @media (max-width: 40rem) { .links a:not(.cta) { display: none; } }
+  --margin: clamp(20px, 2.4vw, 36px);
+  --gutter: clamp(16px, 2vw, 32px);
+  --section: clamp(96px, 10vw, 150px);
 
-  /* Hero */
-  .hero { position: relative; overflow: hidden; padding: clamp(5rem, 13vw, 9rem) 0 clamp(4rem, 9vw, 6.5rem); }
-  .sky { opacity: 0.9; position: absolute; left: 50%; top: 0; transform: translateX(-50%); width: max(100%, 70rem); height: 100%; pointer-events: none; }
-  .sky .meridian { stroke: var(--dim); opacity: .6; }
-  .sky .star { fill: var(--star); }
-  .sky .halo { fill: var(--star); opacity: 0.12; }
-  .hero-inner { position: relative; }
-  h1 {
-    color: var(--bright); font-weight: 600;
-    font-size: clamp(2.6rem, 7vw, 5.25rem);
-    line-height: 1.02; letter-spacing: -0.045em;
-    max-width: 14ch; margin: 0 0 1.75rem;
-  }
-  .lede { font-size: clamp(1.1rem, 2vw, 1.3rem); max-width: 36rem; margin: 0 0 2.5rem; color: var(--text); }
-  .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; }
-  .btn { display: inline-block; text-decoration: none; font-weight: 500; padding: 0.8rem 1.25rem; border-radius: 8px; font-size: 1rem; }
-  .btn-primary { background: var(--bright); color: var(--night); }
-  .btn-primary:hover { background: var(--star); }
-  .btn-ghost { color: var(--bright); border: 1px solid var(--line); }
-  .btn-ghost:hover { border-color: var(--dim); }
+  --step-monument: 15vw;
+  --step-display: clamp(40px, 4.8vw, 69px);
+  --step-head: clamp(26px, 2.4vw, 35px);
+  --step-lead: clamp(19px, 1.6vw, 24px);
+  --step-body: 17px;
+  --step-small: 14px;
 
-  /* Sections */
-  section.block { border-top: 1px solid var(--line); padding: clamp(4rem, 9vw, 6.5rem) 0; }
-  .head { display: grid; grid-template-columns: 1fr; gap: 1rem; margin-bottom: 3rem; }
-  @media (min-width: 56rem) { .head { grid-template-columns: 1fr 1fr; align-items: end; } }
-  h2 { color: var(--bright); font-weight: 600; font-size: clamp(1.9rem, 4vw, 2.75rem); line-height: 1.1; letter-spacing: -0.035em; margin: 0; max-width: 18ch; }
-  .head p { margin: 0; max-width: 32rem; }
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.76, 0, 0.24, 1);
+  --t-hover: 180ms;
+  color-scheme: dark;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--night); color: var(--ink); font-family: "Geist", "Helvetica Neue", Arial, sans-serif; font-size: var(--step-body); line-height: 1.55; -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--star); outline-offset: 4px; border-radius: 2px; }
+img { display: block; max-width: 100%; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gutter); padding-inline: var(--margin); }
+main { position: relative; z-index: 1; background: var(--night); }
 
-  /* Services */
-  .services { display: grid; grid-template-columns: 1fr; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
-  @media (min-width: 56rem) { .services { grid-template-columns: repeat(3, 1fr); } }
-  .svc { padding: 2rem; background: var(--deep); }
-  .svc + .svc { border-top: 1px solid var(--line); }
-  @media (min-width: 56rem) { .svc + .svc { border-top: 0; border-left: 1px solid var(--line); } }
-  .svc h3 { color: var(--bright); font-weight: 600; font-size: 1.2rem; letter-spacing: -0.015em; margin: 0 0 0.75rem; }
-  .svc p { margin: 0 0 1.25rem; }
-  .svc ul { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
-  .svc li { padding: 0.6rem 0; border-bottom: 1px solid var(--line); font-size: 0.95rem; color: var(--bright); }
+/* ---------- Bar ---------- */
+.bar { position: fixed; inset: 0 0 auto; z-index: 10; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 16px var(--margin); transition: transform 420ms var(--ease-out), background-color 300ms ease; }
+.bar.is-solid { background: var(--night); }
+.bar.is-hidden { transform: translateY(-100%); }
+.bar__mark { display: flex; align-items: center; gap: 12px; text-decoration: none; font-weight: 600; font-size: var(--step-small); }
+.bar__mark img { width: 32px; height: 32px; border-radius: 7px; }
+.bar__links { display: flex; align-items: center; gap: 28px; font-size: var(--step-small); }
+.bar__links a:not(.button) { text-decoration: none; color: var(--soft); padding: 12px 0; transition: color var(--t-hover) ease; }
+.bar__links a:not(.button):hover { color: var(--ink); }
+.button { display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; background: var(--star); color: var(--night); font-weight: 500; font-size: var(--step-body); text-decoration: none; transition: background-color var(--t-hover) ease, transform 140ms var(--ease-out); }
+.button:hover { background: var(--ink); }
+.button:active { transform: translateY(1px) scale(0.99); }
+.bar .button { min-height: 44px; padding: 0 18px; font-size: var(--step-small); }
 
-  /* Approach: a genuine sequence, so it's numbered */
-  .steps { display: grid; grid-template-columns: 1fr; gap: 0; counter-reset: step; margin: 0; padding: 0; list-style: none; }
-  @media (min-width: 56rem) { .steps { grid-template-columns: repeat(4, 1fr); } }
-  .steps li { counter-increment: step; padding: 1.5rem 1.5rem 1.5rem 0; border-top: 1px solid var(--dim); }
-  @media (min-width: 56rem) { .steps li + li { padding-left: 1.5rem; border-left: 1px solid var(--line); } }
-  .steps li::before { content: counter(step); display: block; color: var(--star); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.75rem; }
-  .steps h3 { color: var(--bright); font-weight: 600; font-size: 1.1rem; margin: 0 0 0.5rem; letter-spacing: -0.01em; }
-  .steps p { margin: 0; font-size: 0.98rem; }
+/* ---------- Hero: looking up to the zenith ---------- */
+.hero { position: relative; min-height: 100svh; display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows: 1fr auto; overflow: hidden; background: var(--night); }
+.hero__photo { position: absolute; inset: 0; margin: 0; overflow: hidden; }
+.hero__drift { position: absolute; left: 0; right: 0; top: -8%; height: 116%; will-change: transform; }
+.hero__photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
+.hero__scrim { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(11,21,32,0.7) 0%, rgba(11,21,32,0.15) 32%, rgba(11,21,32,0.1) 55%, #0B1520 96%); } /* taste-skill-ignore: neutral scrim under text on a photograph */
+.hero__top { position: relative; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gutter); padding: calc(96px + 6svh) var(--margin) 0; align-content: start; }
+.hero__copy { grid-column: 1 / 6; }
+.hero__claim { margin: 0 0 20px; font-size: var(--step-head); line-height: 1.12; letter-spacing: -0.03em; font-weight: 500; max-width: 16ch; }
+.hero__lede { margin: 0 0 28px; color: var(--soft); max-width: 42ch; }
+.hero__name { position: relative; margin: 0; padding: 0 var(--margin) 0.06em; font-weight: 600; font-size: var(--step-monument); line-height: 1; letter-spacing: -0.055em; white-space: nowrap; padding-bottom: 0.14em; }
+.hero__name .w { display: inline-block; }
+.hero__name .w1 { color: var(--ink); }
+.hero__name .w2 { color: var(--dim); }
+.ch { display: inline-block; }
+.dotless { position: relative; display: inline-block; line-height: 1; }
+.dotless::after { content: ""; position: absolute; left: 50%; bottom: 0.9em; width: 0.15em; height: 0.15em; margin-left: -0.075em; border-radius: 50%; background: var(--star); }
 
-  /* About */
-  .about { display: grid; grid-template-columns: 1fr; gap: 2.5rem; align-items: start; }
-  @media (min-width: 56rem) { .about { grid-template-columns: 20rem 1fr; gap: 4rem; } }
-  .portrait { position: relative; aspect-ratio: 4 / 5; border-radius: 14px; overflow: hidden; background: var(--deep); border: 1px solid var(--line); max-width: 20rem; }
-  .portrait img { width: 100%; height: 100%; object-fit: cover; display: block; filter: grayscale(0.15); }
-  .portrait .initials { position: absolute; inset: 0; display: grid; place-items: center; color: var(--dim); font-size: 3rem; font-weight: 600; letter-spacing: -0.04em; }
-  .bio h2 { margin-bottom: 0.4rem; }
-  .role { color: var(--star); margin: 0 0 1.5rem; font-weight: 500; }
-  .bio p { max-width: 40rem; margin: 0 0 1.1rem; }
-  .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 1rem; margin: 2rem 0 0; padding: 0; list-style: none; }
-  .facts li { border-top: 1px solid var(--line); padding-top: 0.9rem; font-size: 0.95rem; }
-  .facts strong { display: block; color: var(--bright); font-weight: 600; font-size: 1.05rem; margin-bottom: 0.15rem; }
+/* ---------- Services: one band, three columns ---------- */
+.services { padding-block: calc(var(--section) * 0.7) var(--section); }
+.head h2 { grid-column: 1 / 7; margin: 0; font-size: var(--step-display); font-weight: 500; letter-spacing: -0.045em; line-height: 1; }
+.head p { grid-column: 8 / 13; align-self: end; margin: 0; font-size: var(--step-lead); line-height: 1.38; color: var(--soft); }
+.band { position: relative; margin: clamp(56px, 6vw, 96px) var(--margin) 0; aspect-ratio: 21 / 9; overflow: hidden; background: var(--deep); }
+.band img { position: absolute; left: 0; top: -12%; width: 100%; height: 124%; object-fit: cover; will-change: transform; }
+.svc3 { margin-top: clamp(48px, 5vw, 72px); row-gap: 48px; }
+.svc { grid-column: span 4; }
+.svc h3 { margin: 0 0 14px; font-size: var(--step-head); font-weight: 500; letter-spacing: -0.03em; line-height: 1.1; }
+.svc__desc { margin: 0 0 24px; font-size: var(--step-lead); line-height: 1.38; max-width: 26ch; }
+.svc ul { list-style: none; margin: 0; padding: 0; color: var(--soft); }
+.svc li { padding: 4px 0; }
 
-  /* Contact */
-  .contact { text-align: left; }
-  .contact h2 { max-width: 20ch; margin-bottom: 1.25rem; }
-  .contact p { max-width: 34rem; margin: 0 0 2rem; }
+/* ---------- How it works: the stair, then four steps rising ---------- */
+.how { background: var(--night); padding-bottom: var(--section); }
+.how__hero { position: relative; height: 72svh; min-height: 480px; overflow: hidden; }
+.how__hero img { position: absolute; left: 0; top: -12%; width: 100%; height: 124%; object-fit: cover; object-position: 60% 50%; will-change: transform; }
+.how__scrim { position: absolute; inset: 0; background: linear-gradient(to top, #0B1520 4%, rgba(11,21,32,0.35) 55%, rgba(11,21,32,0.1) 100%); } /* taste-skill-ignore: neutral scrim under text on a photograph */
+.how__head { position: absolute; left: 0; right: 0; bottom: clamp(32px, 5vw, 64px); }
+.rise { list-style: none; margin: clamp(64px, 7vw, 104px) 0 0; padding: 0 var(--margin); display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: var(--gutter); }
+.rise li { display: flex; flex-direction: column; }
+.rise__sky { position: relative; height: 150px; }
+.rise__dot { position: absolute; left: 0; bottom: calc(var(--lift) * 40px); width: 14px; height: 14px; border-radius: 50%; background: var(--dim); }
+.rise li:last-child .rise__dot { width: 22px; height: 22px; background: var(--star); }
+.rise h3 { margin: 28px 0 12px; font-size: var(--step-head); font-weight: 500; letter-spacing: -0.03em; line-height: 1.1; }
+.rise li:last-child h3 { color: var(--star); }
+.rise p { margin: 0; color: var(--soft); max-width: 28ch; }
 
-  footer { border-top: 1px solid var(--line); padding: 2rem 0 3rem; font-size: 0.9rem; color: var(--dim); }
-  footer .wrap { display: flex; flex-wrap: wrap; gap: 0.5rem 2.5rem; justify-content: space-between; }
-  footer p { margin: 0; }
+/* ---------- About ---------- */
+.about { background: var(--deep); padding-block: var(--section); }
+.about__side { grid-column: 1 / 4; position: sticky; top: 96px; align-self: start; }
+.portrait { margin: 0; aspect-ratio: 4 / 5; overflow: hidden; background: var(--night); }
+.portrait img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 25%; filter: grayscale(0.3) contrast(1.03) brightness(0.95); }
+.facts { margin: 0; display: grid; gap: 18px; }
+.facts dt { color: var(--soft); font-size: var(--step-small); }
+.facts dd { margin: 2px 0 0; }
+.about__main { grid-column: 5 / 12; }
+.about__main h2 { margin: 0 0 6px; font-size: var(--step-display); font-weight: 500; letter-spacing: -0.045em; line-height: 1; }
+.about__role { margin: 0 0 40px; color: var(--star); }
+.about__lead { margin: 0 0 24px; font-size: var(--step-lead); line-height: 1.4; }
+.about__more { margin: 0; max-width: 60ch; }
+.record { grid-column: 5 / 12; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px 64px; margin-top: 96px; }
+.record h3 { margin: 0 0 12px; font-size: var(--step-body); font-weight: 500; }
+.record ul { list-style: none; margin: 0; padding: 0; }
+.record li { display: flex; justify-content: space-between; gap: 16px; padding-block: 6px; }
+.record li span:last-child { color: var(--soft); text-align: right; }
 
-  /* One orchestrated moment: the star settles just past the zenith */
-  @media (prefers-reduced-motion: no-preference) {
-    .sky .orbit { animation: rise 2.2s cubic-bezier(.2,.7,.2,1) both; }
-    @keyframes rise { from { transform: translateY(150px); opacity: 0; } 35% { opacity: 1; } to { transform: translateY(0); opacity: 1; } }
-  }
+/* ---------- Contact ---------- */
+.contact { background: var(--paper); color: var(--night); padding: var(--section) var(--margin) clamp(48px, 6vw, 80px); }
+.contact h2 { margin: 0; font-size: var(--step-lead); font-weight: 500; letter-spacing: -0.015em; }
+.contact__note { margin: 6px 0 clamp(56px, 8vw, 120px); color: var(--paper-soft); max-width: 44ch; }
+.mail { display: block; color: var(--night); text-decoration: none; font-weight: 500; font-size: calc((100vw - 2 * var(--margin)) / 10.7); line-height: 0.95; letter-spacing: -0.055em; }
+.mail .line { display: block; overflow: hidden; padding-bottom: 0.08em; }
+.mail .line > span { position: relative; display: inline-block; }
+.mail .line > span::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0.02em; height: 4px; background: var(--star-light); transform: scaleX(0); transform-origin: left; transition: transform 600ms var(--ease-out); }
+.mail:hover .line > span::after { transform: none; }
+.contact__links { display: flex; gap: 28px; margin-top: clamp(40px, 5vw, 64px); font-size: var(--step-small); }
+.contact__links a { color: var(--night); text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 0.3em; padding: 12px 0; transition: text-decoration-color var(--t-hover) ease; }
+.contact__links a:hover { text-decoration-color: currentColor; }
+
+/* ---------- Footer: uncovered as the page lifts away ---------- */
+.foot { position: sticky; bottom: 0; z-index: 0; background: var(--night); color: var(--ink); padding: 56px var(--margin) 24px; }
+.foot__cols { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px var(--gutter); padding-bottom: clamp(72px, 10vw, 140px); font-size: var(--step-small); }
+.foot__cols p { margin: 0; color: var(--soft); line-height: 1.7; }
+.foot__cols b { display: block; font-weight: 500; color: var(--ink); }
+.foot__cols a { color: var(--soft); text-decoration: none; transition: color var(--t-hover) ease; }
+.foot__cols a:hover { color: var(--ink); }
+.foot__mark { width: 100%; height: auto; color: var(--ink); }
+.foot__mark circle { fill: var(--star); }
+.foot__legal { display: flex; justify-content: space-between; gap: 16px; margin-top: 20px; font-size: var(--step-small); color: var(--dim); }
+
+/* ---------- Tablet and phone ---------- */
+@media (max-width: 1000px) {
+  .hero__copy { grid-column: 1 / 9; }
+  .head h2 { grid-column: 1 / -1; margin-bottom: 24px; }
+  .head p { grid-column: 1 / 10; }
+  .svc { grid-column: span 6; }
+  .svc:last-child { grid-column: 1 / 7; }
+  .rise { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 56px; }
+  .about__side { grid-column: 1 / 5; }
+  .about__main, .record { grid-column: 6 / 13; }
+}
+@media (max-width: 900px) { .bar__links a:not(.button) { display: none; } }
+@media (max-width: 760px) {
+  .bar__mark span { display: none; }
+  .hero { min-height: 92svh; }
+  .hero__photo img { object-position: 62% 30%; }
+  .hero__top { display: block; padding-top: 104px; }
+  .hero__claim { font-size: 30px; }
+  .hero__name { font-size: 24vw; line-height: 1.04; white-space: normal; padding-bottom: 8px; }
+  .hero__name .w { display: block; }
+  .head p { grid-column: 1 / -1; }
+  .band { aspect-ratio: 4 / 3; }
+  .svc, .svc:last-child { grid-column: 1 / -1; }
+  .how__hero { height: 60svh; min-height: 380px; }
+  .rise { grid-template-columns: minmax(0, 1fr); row-gap: 40px; }
+  .rise li { display: grid; grid-template-columns: 40px minmax(0, 1fr); column-gap: 16px; }
+  .rise__sky { height: auto; grid-row: span 2; }
+  .rise__dot, .rise li:last-child .rise__dot { position: static; display: block; margin-top: 10px; }
+  .rise h3 { margin-top: 0; }
+  .about__side, .about__main, .record { grid-column: 1 / 13; }
+  .about__side { position: static; max-width: 240px; }
+  .about__main { margin-top: 40px; }
+  .record { grid-template-columns: 1fr; margin-top: 64px; }
+  .foot { position: relative; }
+  .foot__cols { grid-template-columns: 1fr 1fr; }
+  .foot__legal { flex-direction: column; }
+}
+
+/* ---------- Motion ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  /* Load: the photo settles and its lights come on; the name arrives letter by letter; the dot rises last. */
+  .hero__photo img { animation: settle 2600ms var(--ease-expo) both; }
+  .hero__name .ch { opacity: 0; transform: translateY(0.45em); animation: rise 1100ms var(--ease-expo) forwards; animation-delay: calc(200ms + var(--c) * 45ms); }
+  .dotless::after { opacity: 0; transform: translateY(0.7em); animation: dot-rise 1800ms var(--ease-expo) 1100ms forwards; }
+  .hero [data-load] { opacity: 0; transform: translateY(16px); animation: rise 800ms var(--ease-out) forwards; animation-delay: var(--d); }
+  .bar { animation: fade 900ms ease 300ms both; }
+
+  /* Scroll entrances, once. */
+  .js [data-reveal] { opacity: 0; transform: translateY(28px); transition: opacity 800ms var(--ease-out), transform 1000ms var(--ease-expo); transition-delay: calc(var(--n, 0) * 90ms); }
+  .js [data-reveal].is-in { opacity: 1; transform: none; }
+  .js .band img { clip-path: inset(0 0 100% 0); transition: clip-path 1300ms var(--ease-in-out); }
+  .js .band.is-in img { clip-path: inset(0); }
+  .js .portrait img { clip-path: inset(100% 0 0 0); transform: scale(1.12); transition: clip-path 1200ms var(--ease-in-out), transform 1800ms var(--ease-expo); }
+  .js .portrait.is-in img { clip-path: inset(0); transform: none; }
+  .js .mail .line > span { transform: translateY(105%); transition: transform 1100ms var(--ease-expo); }
+  .js .mail .line:nth-child(2) > span { transition-delay: 110ms; }
+  .js .mail.is-in .line > span { transform: none; }
+
+  /* How we work: the four dots climb in turn, the last one to the top; each step lights as its dot arrives. */
+  .rise__dot { animation: climb 9s var(--ease-expo) infinite both; animation-delay: calc(var(--n, 0) * 350ms); }
+  .rise li:last-child .rise__dot { animation-name: climb-last; }
+  .rise h3 { animation: light 9s ease infinite both; animation-delay: calc(var(--n, 0) * 350ms + 300ms); }
+  .rise li:last-child h3 { animation-name: light-last; }
+  @media (max-width: 760px) { .rise__dot, .rise li:last-child .rise__dot { animation-name: pop; } }
+}
+@keyframes rise { to { opacity: 1; transform: none; } }
+@keyframes fade { from { opacity: 0; } }
+@keyframes settle { from { transform: scale(1.12); filter: brightness(0.55); } to { transform: none; filter: none; } }
+@keyframes dot-rise { 40% { opacity: 1; } to { opacity: 1; transform: none; } }
+@keyframes climb { 0% { opacity: 0; transform: translateY(calc(var(--lift) * 40px + 30px)); } 14% { opacity: 1; } 30%, 88% { opacity: 1; transform: none; } 100% { opacity: 0; transform: none; } }
+@keyframes climb-last { 0% { opacity: 0; transform: translateY(150px) scale(0.6); } 14% { opacity: 1; } 34% { transform: translateY(-6px) scale(1.08); } 40%, 88% { opacity: 1; transform: none; } 100% { opacity: 0; transform: none; } }
+@keyframes pop { 0% { opacity: 0; transform: scale(0.6); } 20%, 88% { opacity: 1; transform: none; } 100% { opacity: 0; } }
+@keyframes light { 0%, 18% { color: var(--soft); } 30%, 88% { color: var(--ink); } 100% { color: var(--soft); } }
+@keyframes light-last { 0%, 25% { color: var(--soft); } 40%, 88% { color: var(--star); } 100% { color: var(--soft); } }
 </style>
 </head>
 <body>
-  <nav class="nav" aria-label="Main">
-    <div class="wrap">
-      <a class="mark" href="#top" aria-label="Beyond Zenith home"><svg class="wm" role="img" aria-label="Beyond Zenith" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6780 1150"><g fill="#EEF3F7" transform="translate(20,960) scale(1,-1)"><path transform="translate(0.0,0)" d="M80 710H346Q478 710 544.5 663.0Q611 616 611 518Q611 454 573.5 414.0Q536 374 468 367Q550 360 595.5 314.5Q641 269 641 195Q641 98 574.5 49.0Q508 0 382 0H80ZM508 209Q508 258 473.0 284.0Q438 310 376 310H210V110H376Q438 110 473.0 135.5Q508 161 508 209ZM478 506Q478 600 342 600H210V412H342Q406 412 442.0 436.5Q478 461 478 506Z"/><path transform="translate(675.0,0)" d="M41 267Q41 350 73.0 413.5Q105 477 163.5 511.5Q222 546 300 546Q376 546 433.5 512.0Q491 478 522.5 413.5Q554 349 554 260V231H174Q178 162 212.0 126.0Q246 90 304 90Q346 90 375.0 109.5Q404 129 415 164L546 156Q524 78 459.5 33.0Q395 -12 303 -12Q224 -12 164.5 22.5Q105 57 73.0 120.0Q41 183 41 267ZM300 445Q248 445 214.5 412.0Q181 379 174 317H421Q417 381 385.0 413.0Q353 445 300 445Z"/><path transform="translate(1250.0,0)" d="M108 -51H176Q202 -51 214.5 -43.0Q227 -35 235 -16L249 21H212L22 534H154L289 141L416 534H549L340 -56Q323 -106 290.0 -128.0Q257 -150 199 -150H108Z"/><path transform="translate(1800.0,0)" d="M41 267Q41 351 73.5 414.0Q106 477 165.5 511.5Q225 546 304 546Q382 546 441.5 511.5Q501 477 533.5 414.0Q566 351 566 267Q566 183 533.5 120.0Q501 57 441.5 22.5Q382 -12 304 -12Q225 -12 165.5 22.5Q106 57 73.5 120.0Q41 183 41 267ZM434 267Q434 350 399.5 396.0Q365 442 304 442Q242 442 208.0 396.0Q174 350 174 267Q174 184 208.0 138.0Q242 92 304 92Q366 92 400.0 138.0Q434 184 434 267Z"/><path transform="translate(2387.0,0)" d="M70 534H186L189 442Q209 495 251.0 520.5Q293 546 349 546Q436 546 483.5 490.5Q531 435 531 343V0H403V302Q403 372 381.5 407.0Q360 442 310 442Q258 442 228.0 405.5Q198 369 198 302V0H70Z"/><path transform="translate(2968.0,0)" d="M41 267Q41 352 68.5 415.0Q96 478 146.0 512.0Q196 546 263 546Q318 546 360.5 522.5Q403 499 425 458V710H553V0H432L429 79Q406 36 362.0 12.0Q318 -12 263 -12Q195 -12 145.0 22.0Q95 56 68.0 119.0Q41 182 41 267ZM425 267Q425 352 393.0 397.0Q361 442 301 442Q242 442 208.0 395.0Q174 348 174 267Q174 187 208.5 139.5Q243 92 301 92Q360 92 392.5 137.5Q425 183 425 267Z"/><path transform="translate(3787.0,0)" d="M28 112 380 597H43V710H539V598L182 113H551V0H28Z"/><path transform="translate(4345.0,0)" d="M41 267Q41 350 73.0 413.5Q105 477 163.5 511.5Q222 546 300 546Q376 546 433.5 512.0Q491 478 522.5 413.5Q554 349 554 260V231H174Q178 162 212.0 126.0Q246 90 304 90Q346 90 375.0 109.5Q404 129 415 164L546 156Q524 78 459.5 33.0Q395 -12 303 -12Q224 -12 164.5 22.5Q105 57 73.0 120.0Q41 183 41 267ZM300 445Q248 445 214.5 412.0Q181 379 174 317H421Q417 381 385.0 413.0Q353 445 300 445Z"/><path transform="translate(4920.0,0)" d="M70 534H186L189 442Q209 495 251.0 520.5Q293 546 349 546Q436 546 483.5 490.5Q531 435 531 343V0H403V302Q403 372 381.5 407.0Q360 442 310 442Q258 442 228.0 405.5Q198 369 198 302V0H70Z"/><path transform="translate(5501.0,0)" d="M70 534H198V0H70Z"/><path transform="translate(5750.0,0)" d="M129 153V435H45V534H129V659H257V534H398V435H257V165Q257 128 272.5 113.5Q288 99 323 99H398V0H284Q204 0 166.5 37.0Q129 74 129 153Z"/><path transform="translate(6159.0,0)" d="M70 710H198V462Q218 504 258.0 525.0Q298 546 350 546Q436 546 483.5 490.5Q531 435 531 343V0H403V312Q403 378 380.5 410.0Q358 442 312 442Q259 442 228.5 407.5Q198 373 198 309V0H70Z"/></g><circle cx="5655.0" cy="130.0" r="64.0" fill="#F2B544"/></svg></a>
-      <div class="links">
-        <a href="#services">Services</a>
-        <a href="#approach">Approach</a>
-        <a href="#about">About</a>
-        <a class="cta" href="#contact">Contact</a>
+
+<nav class="bar" aria-label="Main">
+  <a class="bar__mark" href="#top"><img src="favicon.svg" alt="" width="32" height="32"><span>Beyond Zenith</span></a>
+  <div class="bar__links">
+    <a href="#services">Services</a>
+    <a href="#how">How we work</a>
+    <a href="#about">About</a>
+    <a class="button" href="#contact">Contact</a>
+  </div>
+</nav>
+
+<main>
+  <header class="hero" id="top">
+    <figure class="hero__photo" aria-hidden="true"><div class="hero__drift" data-parallax="0.18"><img src="art/hero-zenith.jpg" alt="" width="1536" height="1024" fetchpriority="high"></div><div class="hero__scrim"></div></figure>
+    <div class="hero__top">
+      <div class="hero__copy">
+        <p class="hero__claim" data-load style="--d:500ms">Software you own, from a team that stays.</p>
+        <p class="hero__lede" data-load style="--d:620ms">We build and run software for Australian businesses: delivery teams, data and integration platforms, and technical advisory. The code and data are yours, and we’re still here after go-live. Based in Melbourne.</p>
+        <a class="button" data-load style="--d:740ms" href="mailto:anastas@beyondzenith.com.au?subject=Enquiry%20from%20beyondzenith.com.au&amp;body=Hi%20Anastas%2C%0A%0AWe%27re%20working%20on%20">Start a conversation</a>
       </div>
     </div>
-  </nav>
+    <h1 class="hero__name" aria-label="Beyond Zenith"><span class="w w1" aria-hidden="true"><span class="ch" style="--c:0">B</span><span class="ch" style="--c:1">e</span><span class="ch" style="--c:2">y</span><span class="ch" style="--c:3">o</span><span class="ch" style="--c:4">n</span><span class="ch" style="--c:5">d</span></span> <span class="w w2" aria-hidden="true"><span class="ch" style="--c:7">Z</span><span class="ch" style="--c:8">e</span><span class="ch" style="--c:9">n</span><span class="ch" style="--c:10"><span class="dotless">ı</span></span><span class="ch" style="--c:11">t</span><span class="ch" style="--c:12">h</span></span></h1>
+  </header>
 
-  <main id="top">
-    <header class="hero">
-      <svg class="sky" viewBox="0 0 1200 660" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
-        <line class="meridian" x1="820" y1="560" x2="1200" y2="560" stroke-width="1.25"/>
-        <g class="orbit"><circle class="halo" cx="1010" cy="470" r="30"/><circle class="star" cx="1010" cy="470" r="8"/></g>
-      </svg>
-      <div class="wrap hero-inner">
-        <h1>Software you own, from a team that stays.</h1>
-        <p class="lede">We build and run software for Australian businesses: delivery teams, data and integration platforms, and practical AI. The code and data are yours, and we’re still here after go-live. Based in Melbourne.</p>
-        <div class="actions">
-          <a class="btn btn-primary" href="mailto:anastas@beyondzenith.com.au?subject=Enquiry%20from%20beyondzenith.com.au">Start a conversation</a>
-          <a class="btn btn-ghost" href="#services">See what we do</a>
-        </div>
+  <section class="services" id="services" aria-labelledby="services-h">
+    <div class="grid head">
+      <h2 id="services-h" data-reveal>Three ways we work with you</h2>
+      <p data-reveal style="--n:1">Every engagement is led by someone senior who stays on it from the first workshop to the last release.</p>
+    </div>
+    <figure class="band" data-reveal-band><img src="art/band-facade.jpg" alt="A glass facade at dusk with one lit window" width="1536" height="658" data-parallax="0.12"></figure>
+    <div class="grid svc3">
+      <article class="svc" data-reveal style="--n:0">
+        <h3>Delivery teams</h3>
+        <p class="svc__desc">A dedicated team that builds and maintains your product, scaled up or down as the work changes.</p>
+        <ul><li>Local leadership, global talent</li><li>Capped monthly budget, no lock-in</li><li>Demos tied to every invoice</li></ul>
+      </article>
+      <article class="svc" data-reveal style="--n:1">
+        <h3>Data and integration platforms</h3>
+        <p class="svc__desc">We connect the systems you already run so your data sits in one place you own and can use.</p>
+        <ul><li>AWS-based, built as code</li><li>One view across every system</li><li>Ready for AI from day one</li></ul>
+      </article>
+      <article class="svc" data-reveal style="--n:2">
+        <h3>Technical advisory</h3>
+        <p class="svc__desc">Architecture, delivery planning and an honest second opinion before you commit to a large build.</p>
+        <ul><li>Fixed-price discovery</li><li>A written plan you keep</li><li>Fee credited if we build it</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="how" id="how" aria-labelledby="how-h">
+    <div class="how__hero">
+      <img src="art/how-stairs.jpg" alt="A concrete staircase at dusk rising towards one warm light" width="1536" height="1024" loading="lazy" data-parallax="0.15">
+      <div class="how__scrim"></div>
+      <div class="grid head how__head">
+        <h2 id="how-h" data-reveal>How an engagement runs</h2>
+        <p data-reveal style="--n:1">Short cycles, visible progress, and nothing you can’t see or take with you.</p>
       </div>
-    </header>
+    </div>
+    <ol class="rise">
+      <li style="--n:0"><div class="rise__sky" aria-hidden="true"><span class="rise__dot" style="--lift:0"></span></div><h3>First, we listen.</h3><p>Workshops to map your systems, data and the problem worth solving first.</p></li>
+      <li style="--n:1"><div class="rise__sky" aria-hidden="true"><span class="rise__dot" style="--lift:1"></span></div><h3>Then we cost it.</h3><p>A costed plan with monthly milestones, so you know what you’re approving.</p></li>
+      <li style="--n:2"><div class="rise__sky" aria-hidden="true"><span class="rise__dot" style="--lift:2"></span></div><h3>Each month, a demo.</h3><p>Working software every month, shown in a demo before you’re invoiced.</p></li>
+      <li style="--n:3"><div class="rise__sky" aria-hidden="true"><span class="rise__dot" style="--lift:3"></span></div><h3>Then we stay.</h3><p>Support, monitoring and improvements, with the code and data always yours.</p></li>
+    </ol>
+  </section>
 
-    <section class="block" id="services">
-      <div class="wrap">
-        <div class="head">
-          <h2>Three ways we work with you</h2>
-          <p>Every engagement is led by someone senior who stays on it from the first workshop to the last release.</p>
-        </div>
-        <div class="services">
-          <article class="svc">
-            <h3>Delivery teams</h3>
-            <p>A dedicated team that builds and maintains your product, scaled up or down as the work changes.</p>
-            <ul><li>Australian lead, offshore engineers</li><li>Monthly billing, no lock-in</li><li>Demos tied to every invoice</li></ul>
-          </article>
-          <article class="svc">
-            <h3>Data and integration platforms</h3>
-            <p>We connect the systems you already run so your data sits in one place you own and can use.</p>
-            <ul><li>AWS-based, built as code</li><li>One view across every system</li><li>Ready for AI from day one</li></ul>
-          </article>
-          <article class="svc">
-            <h3>Technical advisory</h3>
-            <p>Architecture, delivery planning and an honest second opinion before you commit to a large build.</p>
-            <ul><li>Fixed-price discovery</li><li>A written plan you keep</li><li>Fee credited if we build it</li></ul>
-          </article>
-        </div>
+  <section class="about" id="about" aria-labelledby="about-h">
+    <div class="grid">
+      <div class="about__side">
+        <figure class="portrait"><img src="anastas.jpg" alt="Anastas Manojlovski" width="640" height="800"></figure>
       </div>
-    </section>
-
-    <section class="block" id="approach">
-      <div class="wrap">
-        <div class="head">
-          <h2>How an engagement runs</h2>
-          <p>Short cycles, visible progress, and nothing you can’t see or take with you.</p>
-        </div>
-        <ol class="steps">
-          <li><h3>Discover</h3><p>Workshops to map your systems, data and the problem worth solving first.</p></li>
-          <li><h3>Plan</h3><p>A costed plan with monthly milestones, so you know what you’re approving.</p></li>
-          <li><h3>Build</h3><p>Working software every month, shown in a demo before you’re invoiced.</p></li>
-          <li><h3>Run</h3><p>Support, monitoring and improvements, with the code and data always yours.</p></li>
-        </ol>
+      <div class="about__main">
+        <h2 id="about-h" data-reveal>Anastas Manojlovski</h2>
+        <p class="about__role" data-reveal>Founder and principal</p>
+        <p class="about__lead" data-reveal>I’ve spent my career between engineering and the people who buy it. For nine years at Whispir I led solution architecture across Australia and New Zealand, working with emergency services, health departments and councils on systems that had to work on the worst day of the year.</p>
+        <p class="about__more" data-reveal>Since 2024 I’ve built and led offshore engineering teams delivering cloud, data and AI platforms for Australian businesses, and run partner programmes with AWS, Anthropic and OpenAI. Beyond Zenith is where I bring that together: a small, senior-led team that delivers, and stays accountable after go-live.</p>
       </div>
-    </section>
-
-    <section class="block" id="about">
-      <div class="wrap about">
-        <div class="portrait">
-          <span class="initials" aria-hidden="true">AM</span>
-          <img src="anastas.jpg" alt="Anastas Manojlovski" width="640" height="800" loading="lazy" onerror="this.remove()">
+      <div class="record">
+        <div data-reveal>
+          <h3>Record</h3>
+          <ul>
+            <li><span>Engineers led</span><span>25+</span></li>
+            <li><span>Delivery teams across</span><span>Australia, Asia</span></li>
+            <li><span>Partner programmes run</span><span>AWS, Anthropic, OpenAI</span></li>
+            <li><span>Platforms delivered</span><span>Cloud, data, AI</span></li>
+          </ul>
         </div>
-        <div class="bio">
-          <h2>Anastas Manojlovski</h2>
-          <p class="role">Founder and principal</p>
-          <p>I’ve spent my career between engineering and the people who buy it. For nine years at Whispir I led solution architecture across Australia and New Zealand, working with emergency services, health departments and councils on systems that had to work on the worst day of the year.</p>
-          <p>Since 2024 I’ve built and led offshore engineering teams delivering cloud, data and AI platforms for Australian businesses, and run partner programmes with AWS, Anthropic and OpenAI. Beyond Zenith is where I bring that together: a small, senior-led team that delivers, and stays accountable after go-live.</p>
-          <ul class="facts">
-            <li><strong>National COVID-19 messaging</strong>Ran delivery for statewide health, police and ambulance communications in 2020.</li>
-            <li><strong>25+ engineers</strong>Led delivery teams across Australia and Asia.</li>
-            <li><strong>AWS, Anthropic, OpenAI</strong>Built and ran partner programmes with all three.</li>
+        <div data-reveal style="--n:1">
+          <h3>Sectors</h3>
+          <ul>
+            <li><span>Government agencies</span><span>Since 2015</span></li>
+            <li><span>Health departments</span><span>Since 2015</span></li>
+            <li><span>Local councils</span><span>Since 2015</span></li>
+            <li><span>Insurance</span><span>Since 2024</span></li>
+            <li><span>Financial services</span><span>Since 2024</span></li>
+            <li><span>Freight and logistics</span><span>Since 2024</span></li>
           </ul>
         </div>
       </div>
-    </section>
-
-    <section class="block contact" id="contact">
-      <div class="wrap">
-        <h2>Tell us what you’re working on.</h2>
-        <p>A short email is enough. We’ll come back with questions, or a time to talk.</p>
-        <div class="actions">
-          <a class="btn btn-primary" href="mailto:anastas@beyondzenith.com.au?subject=Enquiry%20from%20beyondzenith.com.au">anastas@beyondzenith.com.au</a>
-          <a class="btn btn-ghost" href="https://www.linkedin.com/in/anastasm" rel="noopener me">LinkedIn</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="wrap">
-      <p>Beyond Zenith Software Pty Ltd</p>
-      <p>ABN 54 654 970 091</p>
-      <p>Melbourne, Australia</p>
     </div>
-  </footer>
+  </section>
+
+  <section class="contact" id="contact" aria-labelledby="contact-h">
+    <h2 id="contact-h">Tell us what you’re working on.</h2>
+    <p class="contact__note">A short email is enough. We’ll come back with questions, or a time to talk.</p>
+    <a class="mail" href="mailto:anastas@beyondzenith.com.au?subject=Enquiry%20from%20beyondzenith.com.au"><span class="line"><span>anastas@</span></span><span class="line"><span>beyondzenith.com.au</span></span></a>
+    <div class="contact__links">
+      <a href="https://www.linkedin.com/in/anastasm" rel="noopener">LinkedIn</a>
+      <a href="#top">Back to top</a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="foot__cols">
+    <p><b>Beyond Zenith Software Pty Ltd</b>ABN 54 654 970 091<br>Melbourne, Australia</p>
+    <p><b>Pages</b><a href="#services">Services</a><br><a href="#how">How we work</a><br><a href="#about">About</a></p>
+    <p><b>Elsewhere</b><a href="https://www.linkedin.com/in/anastasm" rel="noopener">LinkedIn</a></p>
+    <p><b>Contact</b><a href="#contact">Start a conversation</a></p>
+  </div>
+  <svg class="foot__mark" role="img" aria-label="Beyond Zenith" viewBox="0 0 6780 1150" xmlns="http://www.w3.org/2000/svg"><g fill="currentColor" transform="translate(20,960) scale(1,-1)"><path transform="translate(0.0,0)" d="M80 710H346Q478 710 544.5 663.0Q611 616 611 518Q611 454 573.5 414.0Q536 374 468 367Q550 360 595.5 314.5Q641 269 641 195Q641 98 574.5 49.0Q508 0 382 0H80ZM508 209Q508 258 473.0 284.0Q438 310 376 310H210V110H376Q438 110 473.0 135.5Q508 161 508 209ZM478 506Q478 600 342 600H210V412H342Q406 412 442.0 436.5Q478 461 478 506Z"/><path transform="translate(675.0,0)" d="M41 267Q41 350 73.0 413.5Q105 477 163.5 511.5Q222 546 300 546Q376 546 433.5 512.0Q491 478 522.5 413.5Q554 349 554 260V231H174Q178 162 212.0 126.0Q246 90 304 90Q346 90 375.0 109.5Q404 129 415 164L546 156Q524 78 459.5 33.0Q395 -12 303 -12Q224 -12 164.5 22.5Q105 57 73.0 120.0Q41 183 41 267ZM300 445Q248 445 214.5 412.0Q181 379 174 317H421Q417 381 385.0 413.0Q353 445 300 445Z"/><path transform="translate(1250.0,0)" d="M108 -51H176Q202 -51 214.5 -43.0Q227 -35 235 -16L249 21H212L22 534H154L289 141L416 534H549L340 -56Q323 -106 290.0 -128.0Q257 -150 199 -150H108Z"/><path transform="translate(1800.0,0)" d="M41 267Q41 351 73.5 414.0Q106 477 165.5 511.5Q225 546 304 546Q382 546 441.5 511.5Q501 477 533.5 414.0Q566 351 566 267Q566 183 533.5 120.0Q501 57 441.5 22.5Q382 -12 304 -12Q225 -12 165.5 22.5Q106 57 73.5 120.0Q41 183 41 267ZM434 267Q434 350 399.5 396.0Q365 442 304 442Q242 442 208.0 396.0Q174 350 174 267Q174 184 208.0 138.0Q242 92 304 92Q366 92 400.0 138.0Q434 184 434 267Z"/><path transform="translate(2387.0,0)" d="M70 534H186L189 442Q209 495 251.0 520.5Q293 546 349 546Q436 546 483.5 490.5Q531 435 531 343V0H403V302Q403 372 381.5 407.0Q360 442 310 442Q258 442 228.0 405.5Q198 369 198 302V0H70Z"/><path transform="translate(2968.0,0)" d="M41 267Q41 352 68.5 415.0Q96 478 146.0 512.0Q196 546 263 546Q318 546 360.5 522.5Q403 499 425 458V710H553V0H432L429 79Q406 36 362.0 12.0Q318 -12 263 -12Q195 -12 145.0 22.0Q95 56 68.0 119.0Q41 182 41 267ZM425 267Q425 352 393.0 397.0Q361 442 301 442Q242 442 208.0 395.0Q174 348 174 267Q174 187 208.5 139.5Q243 92 301 92Q360 92 392.5 137.5Q425 183 425 267Z"/><path transform="translate(3787.0,0)" d="M28 112 380 597H43V710H539V598L182 113H551V0H28Z"/><path transform="translate(4345.0,0)" d="M41 267Q41 350 73.0 413.5Q105 477 163.5 511.5Q222 546 300 546Q376 546 433.5 512.0Q491 478 522.5 413.5Q554 349 554 260V231H174Q178 162 212.0 126.0Q246 90 304 90Q346 90 375.0 109.5Q404 129 415 164L546 156Q524 78 459.5 33.0Q395 -12 303 -12Q224 -12 164.5 22.5Q105 57 73.0 120.0Q41 183 41 267ZM300 445Q248 445 214.5 412.0Q181 379 174 317H421Q417 381 385.0 413.0Q353 445 300 445Z"/><path transform="translate(4920.0,0)" d="M70 534H186L189 442Q209 495 251.0 520.5Q293 546 349 546Q436 546 483.5 490.5Q531 435 531 343V0H403V302Q403 372 381.5 407.0Q360 442 310 442Q258 442 228.0 405.5Q198 369 198 302V0H70Z"/><path transform="translate(5501.0,0)" d="M70 534H198V0H70Z"/><path transform="translate(5750.0,0)" d="M129 153V435H45V534H129V659H257V534H398V435H257V165Q257 128 272.5 113.5Q288 99 323 99H398V0H284Q204 0 166.5 37.0Q129 74 129 153Z"/><path transform="translate(6159.0,0)" d="M70 710H198V462Q218 504 258.0 525.0Q298 546 350 546Q436 546 483.5 490.5Q531 435 531 343V0H403V312Q403 378 380.5 410.0Q358 442 312 442Q259 442 228.5 407.5Q198 373 198 309V0H70Z"/></g><circle cx="5655.0" cy="130.0" r="64.0"/></svg>
+  <div class="foot__legal"><span>© 2026 Beyond Zenith Software Pty Ltd</span><span>Built in Melbourne</span></div>
+</footer>
+
+<script>
+(() => {
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Scroll entrances, once.
+  const io = new IntersectionObserver((entries) => {
+    for (const e of entries) if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); }
+  }, { rootMargin: '0px 0px -10% 0px', threshold: 0.08 });
+  document.querySelectorAll('[data-reveal], [data-reveal-band], .portrait, .mail').forEach((el) => io.observe(el));
+
+  // The bar: transparent over the hero, solid after it, out of the way while reading down.
+  const bar = document.querySelector('.bar');
+  const hero = document.querySelector('.hero');
+  let lastY = window.scrollY;
+
+  // Parallax: pictures drift a little slower than the page.
+  const drift = [...document.querySelectorAll('[data-parallax]')];
+  let ticking = false;
+  const frame = () => {
+    ticking = false;
+    const y = window.scrollY, vh = window.innerHeight;
+    if (bar) {
+      bar.classList.toggle('is-solid', y > hero.offsetHeight - 80);
+      bar.classList.toggle('is-hidden', y > lastY && y > 400);
+      lastY = y;
+    }
+    if (reduce) return;
+    for (const img of drift) {
+      const box = img.parentElement.getBoundingClientRect();
+      if (box.bottom < -100 || box.top > vh + 100) continue;
+      const centre = box.top + box.height / 2 - vh / 2;
+      img.style.transform = `translate3d(0, ${(-centre * parseFloat(img.dataset.parallax)).toFixed(1)}px, 0)`;
+    }
+  };
+  const onScroll = () => { if (!ticking) { ticking = true; requestAnimationFrame(frame); } };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  frame();
+})();
+</script>
 </body>
 </html>
