@@ -169,6 +169,26 @@ main { position: relative; z-index: 1; background: var(--night); }
 .contact__links { display: flex; gap: 28px; margin-top: clamp(40px, 5vw, 64px); font-size: var(--step-small); }
 .contact__links a { color: var(--night); text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 0.3em; padding: 12px 0; transition: text-decoration-color var(--t-hover) ease; }
 .contact__links a:hover { text-decoration-color: currentColor; }
+.form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px var(--gutter); max-width: 880px; margin: 0 0 clamp(72px, 9vw, 128px); }
+.field { display: flex; flex-direction: column; gap: 6px; }
+.field--wide { grid-column: 1 / -1; }
+.field label { font-size: var(--step-small); color: var(--paper-soft); }
+.field label span { color: var(--paper-soft); opacity: 0.8; }
+.field input, .field textarea { font: inherit; color: var(--night); background: transparent; border: 0; border-bottom: 1px solid rgba(11,21,32,0.35); border-radius: 0; padding: 10px 0; transition: border-color var(--t-hover) ease; }
+.field textarea { min-height: 132px; resize: vertical; }
+.field input:hover, .field textarea:hover { border-bottom-color: rgba(11,21,32,0.6); }
+.field input:focus, .field textarea:focus { outline: none; border-bottom: 2px solid var(--night); padding-bottom: 9px; }
+.form__foot { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 16px 28px; }
+.form__foot p { margin: 0; font-size: var(--step-small); color: var(--paper-soft); max-width: 48ch; }
+.contact :focus-visible { outline-color: var(--night); }
+.contact .button:hover { background: var(--night); color: var(--ink); }
+button.button { border: 0; border-radius: 0; font-family: inherit; cursor: pointer; }
+.button[disabled] { opacity: 0.6; cursor: progress; }
+.form__status { grid-column: 1 / -1; margin: 0; font-size: var(--step-lead); line-height: 1.38; }
+.form__status a { text-underline-offset: 0.2em; }
+.form__hp { position: absolute; left: -9999px; }
+.form [hidden] { display: none !important; }
+.contact__or { margin: 0 0 16px; font-size: var(--step-small); color: var(--paper-soft); }
 
 /* ---------- Footer: uncovered as the page lifts away ---------- */
 .foot { position: sticky; bottom: 0; z-index: 0; background: var(--night); color: var(--ink); padding: 56px var(--margin) 24px; }
@@ -195,6 +215,7 @@ main { position: relative; z-index: 1; background: var(--night); }
 @media (max-width: 900px) { .bar__links a:not(.button) { display: none; } }
 @media (max-width: 760px) {
   .bar__mark span { display: none; }
+  .form { grid-template-columns: minmax(0, 1fr); }
   .hero { min-height: 92svh; }
   .hero__photo img { object-position: 62% 30%; }
   .hero__top { display: block; padding-top: 104px; }
@@ -362,7 +383,21 @@ main { position: relative; z-index: 1; background: var(--night); }
 
   <section class="contact" id="contact" aria-labelledby="contact-h">
     <h2 id="contact-h">Tell us what you’re working on.</h2>
-    <p class="contact__note">A short email is enough. We’ll come back with questions, or a time to talk.</p>
+    <p class="contact__note">A few lines are enough. We’ll come back with questions, or a time to talk.</p>
+    <form class="form" name="contact" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="company-website">
+      <input type="hidden" name="form-name" value="contact">
+      <p class="form__hp" aria-hidden="true"><label>Leave this empty <input name="company-website" tabindex="-1" autocomplete="off"></label></p>
+      <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" type="text" autocomplete="name" required maxlength="120"></div>
+      <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" required maxlength="200"></div>
+      <div class="field field--wide"><label for="f-company">Company <span>(optional)</span></label><input id="f-company" name="company" type="text" autocomplete="organization" maxlength="160"></div>
+      <div class="field field--wide"><label for="f-message">What are you working on?</label><textarea id="f-message" name="message" required maxlength="5000"></textarea></div>
+      <div class="form__foot">
+        <button class="button" type="submit">Send message</button>
+        <p>We use your details only to reply to you.</p>
+      </div>
+      <p class="form__status" role="status" aria-live="polite" hidden></p>
+    </form>
+    <p class="contact__or">Or email us directly</p>
     <a class="mail" href="mailto:anastas@beyondzenith.com.au?subject=Enquiry%20from%20beyondzenith.com.au"><span class="line"><span>anastas@</span></span><span class="line"><span>beyondzenith.com.au</span></span></a>
     <div class="contact__links">
       <a href="https://www.linkedin.com/in/anastasm" rel="noopener">LinkedIn</a>
@@ -420,6 +455,28 @@ main { position: relative; z-index: 1; background: var(--night); }
   window.addEventListener('scroll', onScroll, { passive: true });
   window.addEventListener('resize', onScroll);
   frame();
+
+  // Contact form: send in the page, keep the visitor where they are.
+  const form = document.querySelector('form[name="contact"]');
+  if (form && window.fetch) {
+    const status = form.querySelector('.form__status');
+    const send = form.querySelector('button[type="submit"]');
+    const show = (html) => { status.innerHTML = html; status.hidden = false; };
+    form.addEventListener('submit', async (ev) => {
+      ev.preventDefault();
+      send.disabled = true; send.textContent = 'Sending…';
+      try {
+        const res = await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams(new FormData(form)).toString() });
+        if (!res.ok) throw new Error(res.status);
+        [...form.children].forEach((el) => { if (el !== status) el.hidden = true; });
+        show('Thanks. We have your message and will reply soon.');
+        status.setAttribute('tabindex', '-1'); status.focus();
+      } catch (err) {
+        send.disabled = false; send.textContent = 'Send message';
+        show('The message did not send. Please try again, or email <a href="mailto:anastas@beyondzenith.com.au">anastas@beyondzenith.com.au</a>.');
+      }
+    });
+  }
 })();
 </script>
 </body>
