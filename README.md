@@ -4,6 +4,7 @@ Static website for Beyond Zenith Software Pty Ltd. No build step.
 
 - `index.html`: the whole site
 - `404.html`: page Netlify shows for an unknown URL
+- `thanks.html`: page shown after the contact form is sent without JavaScript. The form uses Netlify Forms (form name `contact`).
 - `favicon.svg`: site icon
 - `anastas.jpg`: portrait for the About section (640 × 800, 4:5)
 - `art/`: photographs for the hero, Services and How we work sections (1536 px wide)
