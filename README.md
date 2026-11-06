@@ -3,9 +3,13 @@
 Static website for Beyond Zenith Software Pty Ltd. No build step.
 
 - `index.html`: the whole site
+- `404.html`: page Netlify shows for an unknown URL
 - `favicon.svg`: site icon
-- `anastas.jpg`: portrait for the About section (4:5)
+- `anastas.jpg`: portrait for the About section (640 × 800, 4:5)
 - `brand/mark-signature.png`: logo used by the email signature, must stay at this path
+- `brand/og-image.png`: image that shows when a link to the site is shared (1200 × 630)
+- `robots.txt`, `sitemap.xml`: for search engines. Update `lastmod` in the sitemap when the content changes.
+- `netlify.toml`: security headers, image caching, and the `www` to apex redirect
 
 Deploys automatically to Netlify on every push to `main`.
 
