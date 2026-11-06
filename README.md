@@ -14,7 +14,7 @@ Static website for Beyond Zenith Software Pty Ltd. No build step.
 - `brand/mark-signature.png`: logo used by the email signature, must stay at this path
 - `brand/og-image.jpg`: image that shows when a link to the site is shared (1200 × 630)
 - `robots.txt`, `sitemap.xml`: for search engines. Update `lastmod` in the sitemap when the content changes.
-- `netlify.toml`: security headers (including a Content Security Policy), caching, and the `www` to apex redirect. The policy blocks scripts and styles from other sites, and inline scripts other than the one in the `index.html` head. If you add a script or an outside service, update the policy.
+- `netlify.toml`: security headers (including a Content Security Policy), caching, and the `www` to apex redirect. The policy blocks scripts and styles from other sites, and all inline scripts. If you add a script or an outside service, update the policy.
 
 Deploys automatically to Netlify on every push to `main`.
 

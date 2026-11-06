@@ -1,11 +1,19 @@
 (() => {
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  // Scroll entrances, once.
-  const io = new IntersectionObserver((entries) => {
-    for (const e of entries) if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); }
-  }, { rootMargin: '0px 0px -10% 0px', threshold: 0.08 });
-  document.querySelectorAll('[data-reveal], [data-reveal-band], .portrait, .mail').forEach((el) => io.observe(el));
+  // Scroll entrances, once. The 'js' class hides the content until it comes into view, so add it
+  // only here, where the observer can show it again. If this script does not run, all content shows.
+  if ('IntersectionObserver' in window) {
+    document.documentElement.classList.add('js');
+    let answered = false;
+    const io = new IntersectionObserver((entries) => {
+      answered = true;
+      for (const e of entries) if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); }
+    }, { rootMargin: '0px 0px -10% 0px', threshold: 0.08 });
+    document.querySelectorAll('[data-reveal], [data-reveal-band], .portrait, .mail, .rise').forEach((el) => io.observe(el));
+    // The observer always answers once soon after it starts. If it does not, show everything.
+    setTimeout(() => { if (!answered) document.documentElement.classList.remove('js'); }, 2000);
+  }
 
   // The bar: transparent over the hero, solid after it, out of the way while reading down.
   const bar = document.querySelector('.bar');
