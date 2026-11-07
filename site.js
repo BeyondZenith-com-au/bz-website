@@ -27,8 +27,8 @@
     ticking = false;
     const y = window.scrollY, vh = window.innerHeight;
     if (bar) {
-      bar.classList.toggle('is-solid', y > hero.offsetHeight - 80);
-      bar.classList.toggle('is-hidden', y > lastY && y > 400);
+      bar.classList.toggle('is-solid', !hero || y > hero.offsetHeight - 80);
+      bar.classList.toggle('is-hidden', !bar.classList.contains('is-open') && y > lastY && y > 400);
       lastY = y;
     }
     if (reduce) return;
@@ -44,6 +44,29 @@
   window.addEventListener('scroll', onScroll, { passive: true });
   window.addEventListener('resize', onScroll);
   frame();
+
+  // Menu on narrow screens: a button opens the full-screen menu. Without this script the button
+  // stays hidden (it shows only under the 'has-menu' class) and the Contact button remains.
+  const menuButton = document.querySelector('.bar__menu');
+  const menu = document.getElementById('menu');
+  if (bar && menuButton && menu) {
+    document.documentElement.classList.add('has-menu');
+    const setMenu = (open) => {
+      menuButton.setAttribute('aria-expanded', String(open));
+      menuButton.textContent = open ? 'Close' : 'Menu';
+      menu.hidden = !open;
+      bar.classList.toggle('is-open', open);
+      bar.classList.remove('is-hidden');
+      document.body.style.overflow = open ? 'hidden' : '';
+      if (open) menu.querySelector('a').focus();
+    };
+    menuButton.addEventListener('click', () => setMenu(menu.hidden));
+    menu.addEventListener('click', (ev) => { if (ev.target.closest('a')) setMenu(false); });
+    document.addEventListener('keydown', (ev) => {
+      if (ev.key === 'Escape' && !menu.hidden) { setMenu(false); menuButton.focus(); }
+    });
+    window.matchMedia('(min-width: 901px)').addEventListener('change', (ev) => { if (ev.matches && !menu.hidden) setMenu(false); });
+  }
 
   // Contact form: send in the page, keep the visitor where they are.
   const form = document.querySelector('form[name="contact"]');
