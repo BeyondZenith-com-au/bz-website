@@ -88,6 +88,8 @@ main:focus { outline: none; }
 .points { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px var(--gutter); }
 .points h3 { margin: 0 0 8px; font-size: var(--step-body); font-weight: 500; }
 .points p { margin: 0; color: var(--soft); }
+.more { display: block; width: fit-content; margin-top: 4px; padding: 12px 0; color: var(--ink); text-decoration-color: var(--dim); text-underline-offset: 0.3em; transition: color var(--t-hover) ease; }
+.more:hover { color: var(--star); text-decoration-color: var(--star); }
 .steps { list-style: none; margin: 0; padding: 0; counter-reset: step; }
 .steps li { counter-increment: step; display: grid; grid-template-columns: 48px minmax(0, 1fr); padding: 0 0 24px; }
 .steps li::before { content: counter(step); color: var(--star); font-weight: 500; }
