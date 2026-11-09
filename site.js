@@ -1,5 +1,7 @@
 (() => {
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // A looping band video plays only when the visitor allows motion. Otherwise the poster frame shows.
+  if (reduce) document.querySelectorAll('video[data-motion]').forEach((v) => { v.removeAttribute('autoplay'); v.pause(); });
 
   // Scroll entrances, once. The 'js' class hides the content until it comes into view, so add it
   // only here, where the observer can show it again. If this script does not run, all content shows.
