@@ -20,6 +20,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" as="font" href="/fonts/geist-latin.woff2" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/css/page.css">
+<link rel="stylesheet" href="/css/nav.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -71,7 +72,8 @@
 <nav class="bar" aria-label="Main">
   <a class="bar__mark" href="/"><img src="/favicon.svg" alt="" width="32" height="32"><span>Beyond Zenith</span></a>
   <div class="bar__links">
-    <a href="/#services" aria-current="true">Services</a>
+    <div class="drop drop--wide" data-drop><button class="drop__btn is-current" type="button" aria-expanded="false" aria-controls="drop-services">Services</button><div class="drop__panel drop__panel--two" id="drop-services"><div><p class="drop__head">AI</p><ul><li><a href="/services/ai-consulting/"><b>AI consulting</b><span>From first idea to production</span></a></li><li><a href="/services/claude-readiness-review/"><b>Claude readiness review</b><span>Check a prototype before go-live</span></a></li></ul></div><div><p class="drop__head">Software</p><ul><li><a href="/services/technical-advisory/" aria-current="page"><b>Technical advisory</b><span>A costed plan before you build</span></a></li><li><a href="/services/data-platforms/"><b>Data and integration platforms</b><span>Your data in one place</span></a></li><li><a href="/services/delivery-teams/"><b>Delivery teams</b><span>A team that builds and maintains your product</span></a></li></ul></div></div></div>
+    <div class="drop" data-drop><button class="drop__btn" type="button" aria-expanded="false" aria-controls="drop-industries">Industries</button><div class="drop__panel drop__panel--one" id="drop-industries"><div><ul><li><a href="/industries/insurance/"><b>Insurance</b><span>Client data for brokers</span></a></li><li><a href="/industries/freight-and-logistics/"><b>Freight and logistics</b><span>Platforms that run every day</span></a></li></ul></div></div></div>
     <a href="/#how">How we work</a>
     <a href="/#about">About</a>
     <button class="bar__menu" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
@@ -80,7 +82,8 @@
 </nav>
 <div class="menu" id="menu" hidden>
   <ul>
-    <li><a href="/#services">Services</a><ul><li><a href="/services/delivery-teams/">Delivery teams</a></li><li><a href="/services/data-platforms/">Data and integration platforms</a></li><li><a href="/services/technical-advisory/" aria-current="page">Technical advisory</a></li><li><a href="/services/ai-consulting/">AI consulting</a></li><li><a href="/services/claude-readiness-review/">Claude readiness review</a></li></ul></li>
+    <li><a href="/#services">Services</a><ul><li><a href="/services/ai-consulting/">AI consulting</a></li><li><a href="/services/claude-readiness-review/">Claude readiness review</a></li><li><a href="/services/technical-advisory/" aria-current="page">Technical advisory</a></li><li><a href="/services/data-platforms/">Data and integration platforms</a></li><li><a href="/services/delivery-teams/">Delivery teams</a></li></ul></li>
+    <li><span class="menu__label">Industries</span><ul><li><a href="/industries/insurance/">Insurance</a></li><li><a href="/industries/freight-and-logistics/">Freight and logistics</a></li></ul></li>
     <li><a href="/#how">How we work</a></li>
     <li><a href="/#about">About</a></li>
     <li><a href="/#contact">Contact</a></li>
