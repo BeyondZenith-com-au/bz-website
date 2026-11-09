@@ -12,7 +12,7 @@ Static website for Beyond Zenith Software Pty Ltd. No build step.
 - `favicon.svg`: site icon
 - `anastas.jpg`, `anastas.webp`: portrait for the About section (640 × 800, 4:5)
 - `art/`: photographs for the hero, Services and How we work sections (1536 px wide). Each photo has a `.webp` copy that browsers load first. If you replace a photo, replace both files.
-- `art/claude-readiness.mp4`, `art/claude-readiness.jpg`: the looping band video on the Claude readiness review page (no sound), and its poster frame. `art/insurance.*` and `art/freight.*` are the same for the two industry pages. `site.js` pauses each one when the visitor asks for reduced motion.
+- `art/claude-readiness.mp4`, `art/claude-readiness.jpg`: the looping band video on the Claude readiness review page (no sound), and its poster frame. `art/insurance.*`, `art/freight.*` and `art/ai-consulting.*` are the same for the industry pages and the AI consulting page. `site.js` pauses each one when the visitor asks for reduced motion.
 - `fonts/`: Geist font, hosted here so that visitors do not connect to Google. Licence in `fonts/OFL.txt`.
 - `brand/mark-signature.png`: logo used by the email signature, must stay at this path
 - `brand/og-image.jpg`: image that shows when a link to the site is shared (1200 × 630)
