@@ -155,10 +155,14 @@ main { position: relative; z-index: 1; background: var(--night); }
 .bar__mark { display: flex; align-items: center; gap: 12px; text-decoration: none; font-weight: 600; font-size: var(--step-small); }
 .bar__mark img { width: 32px; height: 32px; border-radius: 7px; }
 .bar__links { display: flex; align-items: center; gap: 28px; font-size: var(--step-small); }
-.bar__links a:not(.button) { text-decoration: none; color: var(--soft); padding: 12px 0; transition: color var(--t-hover) ease; }
+.bar__links a:not(.button) { text-decoration: none; color: var(--soft); padding: 12px 0; transition: color var(--t-hover) ease, background-size 300ms var(--ease-out); }
+/* Text links: a 1px underline draws from the left on hover. */
+.bar__links a:not(.button), .foot__cols a, .foot__legal a, .contact__links a { background: linear-gradient(currentColor, currentColor) left calc(100% - 8px) / 0 1px no-repeat; }
+.foot__cols a, .foot__legal a { background-position: left bottom; transition: color var(--t-hover) ease, background-size 300ms var(--ease-out); }
+.bar__links a:not(.button):hover, .foot__cols a:hover, .foot__legal a:hover, .contact__links a:hover { background-size: 100% 1px; }
 .bar__links a:not(.button):hover { color: var(--ink); }
 .button { display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; background: var(--star); color: var(--night); font-weight: 500; font-size: var(--step-body); text-decoration: none; transition: background-color var(--t-hover) ease, transform 140ms var(--ease-out); }
-.button:hover { background: var(--ink); }
+.button:hover { background: var(--ink); transform: translateY(-1px); }
 .button:active { transform: translateY(1px) scale(0.99); }
 .bar .button { min-height: 44px; padding: 0 18px; font-size: var(--step-small); }
 .bar.is-open { background: var(--night); transform: none; }
@@ -195,7 +199,7 @@ main:focus { outline: none; }
 .dotless::after { content: ""; position: absolute; left: 50%; bottom: 0.9em; width: 0.15em; height: 0.15em; margin-left: -0.075em; border-radius: 50%; background: var(--star); }
 
 /* ---------- Services: one band, three columns ---------- */
-.services { padding-block: calc(var(--section) * 0.7) var(--section); }
+.services { padding-block: var(--section); }
 .head h2 { grid-column: 1 / 7; margin: 0; font-size: var(--step-display); font-weight: 500; letter-spacing: -0.045em; line-height: 1; }
 .head p { grid-column: 8 / 13; align-self: end; margin: 0; font-size: var(--step-lead); line-height: 1.38; color: var(--soft); }
 .band { position: relative; margin: clamp(56px, 6vw, 96px) var(--margin) 0; aspect-ratio: 21 / 9; overflow: hidden; background: var(--deep); }
@@ -206,11 +210,11 @@ main:focus { outline: none; }
 .svc__desc { margin: 0 0 24px; font-size: var(--step-lead); line-height: 1.38; max-width: 26ch; }
 .svc ul { list-style: none; margin: 0; padding: 0; color: var(--soft); }
 .svc li { padding: 4px 0; }
-.svc__more { display: inline-block; margin-top: 20px; padding: 8px 0; color: var(--ink); text-decoration: underline; text-decoration-color: var(--dim); text-underline-offset: 0.3em; transition: text-decoration-color var(--t-hover) ease, color var(--t-hover) ease; }
-.svc__more:hover { color: var(--star); text-decoration-color: currentColor; }
+.svc__more { display: inline-block; margin-top: 20px; padding: 8px 0; color: var(--ink); text-decoration: underline; text-decoration-color: var(--dim); text-underline-offset: 0.3em; transition: text-decoration-color var(--t-hover) ease, color var(--t-hover) ease, text-underline-offset var(--t-hover) var(--ease-out); }
+.svc__more:hover { color: var(--star); text-decoration-color: currentColor; text-underline-offset: 0.42em; }
 
 /* ---------- How it works: the stair, then four steps rising ---------- */
-.how { background: var(--night); padding-bottom: var(--section); }
+.how { background: var(--night); padding-bottom: calc(var(--section) * 0.7); }
 .how__hero { position: relative; height: 72svh; min-height: 480px; overflow: hidden; }
 .how__hero img { position: absolute; left: 0; top: -12%; width: 100%; height: 124%; object-fit: cover; object-position: 60% 50%; will-change: transform; }
 .how__scrim { position: absolute; inset: 0; background: linear-gradient(to top, #0B1520 4%, rgba(11,21,32,0.35) 55%, rgba(11,21,32,0.1) 100%); } /* taste-skill-ignore: neutral scrim under text on a photograph */
@@ -225,10 +229,10 @@ main:focus { outline: none; }
 .rise p { margin: 0; color: var(--soft); max-width: 28ch; }
 
 /* ---------- About ---------- */
-.about { background: var(--deep); padding-block: var(--section); }
+.about { background: var(--deep); padding-block: calc(var(--section) * 0.7) var(--section); }
 .about__side { grid-column: 1 / 4; position: sticky; top: 96px; align-self: start; }
 .portrait { margin: 0; aspect-ratio: 4 / 5; overflow: hidden; background: var(--night); }
-.portrait img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 25%; filter: grayscale(0.3) contrast(1.03) brightness(0.95); }
+.portrait img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 25%; filter: grayscale(0.55) contrast(1.04) brightness(0.84); }
 .facts { margin: 0; display: grid; gap: 18px; }
 .facts dt { color: var(--soft); font-size: var(--step-small); }
 .facts dd { margin: 2px 0 0; }
@@ -253,8 +257,7 @@ main:focus { outline: none; }
 .mail .line > span::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0.02em; height: 4px; background: var(--star-light); transform: scaleX(0); transform-origin: left; transition: transform 600ms var(--ease-out); }
 .mail:hover .line > span::after { transform: none; }
 .contact__links { display: flex; gap: 28px; margin-top: clamp(40px, 5vw, 64px); font-size: var(--step-small); }
-.contact__links a { color: var(--night); text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 0.3em; padding: 12px 0; transition: text-decoration-color var(--t-hover) ease; }
-.contact__links a:hover { text-decoration-color: currentColor; }
+.contact__links a { color: var(--night); text-decoration: none; transition: background-size 300ms var(--ease-out); text-underline-offset: 0.3em; padding: 12px 0; transition: text-decoration-color var(--t-hover) ease; }
 .form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px var(--gutter); max-width: 880px; margin: 0 0 clamp(72px, 9vw, 128px); }
 .field { display: flex; flex-direction: column; gap: 6px; }
 .field--wide { grid-column: 1 / -1; }
@@ -272,7 +275,7 @@ button.button { border: 0; border-radius: 0; font-family: inherit; cursor: point
 .button[disabled] { opacity: 0.6; cursor: progress; }
 .form__status { grid-column: 1 / -1; margin: 0; font-size: var(--step-lead); line-height: 1.38; }
 .form__status a { text-underline-offset: 0.2em; }
-.form__hp { position: absolute; left: -9999px; }
+.form__hp { display: none; }
 .form [hidden] { display: none !important; }
 .contact__or { margin: 0 0 16px; font-size: var(--step-small); color: var(--paper-soft); }
 
@@ -329,6 +332,10 @@ button.button { border: 0; border-radius: 0; font-family: inherit; cursor: point
 }
 
 /* ---------- Motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .button:hover, .button:active { transform: none; }
+  .bar__links a, .foot__cols a, .foot__legal a, .contact__links a, .svc__more { transition: none; }
+}
 @media (prefers-reduced-motion: no-preference) {
   /* Load: the photo settles and its lights come on; the name arrives letter by letter; the dot rises last. */
   .hero__photo img { animation: settle 2600ms var(--ease-expo) both; }
@@ -437,7 +444,7 @@ button.button { border: 0; border-radius: 0; font-family: inherit; cursor: point
       <picture><source srcset="art/how-stairs.webp" type="image/webp"><img src="art/how-stairs.jpg" alt="A concrete staircase at dusk rising towards one warm light" width="1536" height="1024" loading="lazy" data-parallax="0.15"></picture>
       <div class="how__scrim"></div>
       <div class="grid head how__head">
-        <h2 id="how-h" data-reveal>How an engagement runs</h2>
+        <h2 id="how-h" data-reveal>How we work</h2>
         <p data-reveal style="--n:1">Short cycles, visible progress, and nothing you can’t see or take with you.</p>
       </div>
     </div>
