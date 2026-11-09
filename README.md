@@ -5,6 +5,7 @@ Static website for Beyond Zenith Software Pty Ltd. No build step.
 - `index.html`: the whole site
 - `site.js`: scroll effects and the contact form script
 - `services/<name>/index.html`: one page for each service (delivery teams, data platforms, technical advisory, Claude readiness review). They use `css/page.css`. Add each new page to `sitemap.xml`.
+- `industries/<name>/index.html`: one page for each industry (insurance, freight and logistics). Clients are described, not named. Linked from the footer Pages column.
 - `privacy.html`: privacy policy, linked from the footer and the contact form
 - `404.html`: page Netlify shows for an unknown URL
 - `thanks.html`: page shown after the contact form is sent without JavaScript. The form uses Netlify Forms (form name `contact`).
