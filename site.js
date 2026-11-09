@@ -1,5 +1,7 @@
 (() => {
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // A looping band video plays only when the visitor allows motion. Otherwise the poster frame shows.
+  if (reduce) document.querySelectorAll('video[data-motion]').forEach((v) => { v.removeAttribute('autoplay'); v.pause(); });
 
   // Scroll entrances, once. The 'js' class hides the content until it comes into view, so add it
   // only here, where the observer can show it again. If this script does not run, all content shows.
@@ -66,6 +68,30 @@
       if (ev.key === 'Escape' && !menu.hidden) { setMenu(false); menuButton.focus(); }
     });
     window.matchMedia('(min-width: 901px)').addEventListener('change', (ev) => { if (ev.matches && !menu.hidden) setMenu(false); });
+  }
+
+  // Header dropdowns: open on click or Enter (hover opens them through CSS), close on Escape,
+  // on a click outside, or when focus leaves the dropdown.
+  const drops = Array.from(document.querySelectorAll('[data-drop]'));
+  if (drops.length) {
+    document.documentElement.classList.add('has-drop');
+    const setDrop = (d, open) => {
+      d.classList.toggle('is-open', open);
+      d.querySelector('.drop__btn').setAttribute('aria-expanded', String(open));
+    };
+    drops.forEach((d) => {
+      const btn = d.querySelector('.drop__btn');
+      btn.addEventListener('click', () => {
+        const open = !d.classList.contains('is-open');
+        drops.forEach((x) => setDrop(x, false));
+        setDrop(d, open);
+      });
+      d.addEventListener('keydown', (ev) => {
+        if (ev.key === 'Escape' && d.classList.contains('is-open')) { setDrop(d, false); btn.focus(); }
+      });
+      d.addEventListener('focusout', (ev) => { if (!d.contains(ev.relatedTarget)) setDrop(d, false); });
+    });
+    document.addEventListener('click', (ev) => { drops.forEach((d) => { if (!d.contains(ev.target)) setDrop(d, false); }); });
   }
 
   // Contact form: send in the page, keep the visitor where they are.

@@ -157,9 +157,9 @@ main { position: relative; z-index: 1; background: var(--night); }
 .bar__links { display: flex; align-items: center; gap: 28px; font-size: var(--step-small); }
 .bar__links a:not(.button) { text-decoration: none; color: var(--soft); padding: 12px 0; transition: color var(--t-hover) ease, background-size 300ms var(--ease-out); }
 /* Text links: a 1px underline draws from the left on hover. */
-.bar__links a:not(.button), .foot__cols a, .foot__legal a, .contact__links a { background: linear-gradient(currentColor, currentColor) left calc(100% - 8px) / 0 1px no-repeat; }
+.bar__links > a:not(.button), .foot__cols a, .foot__legal a, .contact__links a { background: linear-gradient(currentColor, currentColor) left calc(100% - 8px) / 0 1px no-repeat; }
 .foot__cols a, .foot__legal a { background-position: left bottom; transition: color var(--t-hover) ease, background-size 300ms var(--ease-out); }
-.bar__links a:not(.button):hover, .foot__cols a:hover, .foot__legal a:hover, .contact__links a:hover { background-size: 100% 1px; }
+.bar__links > a:not(.button):hover, .foot__cols a:hover, .foot__legal a:hover, .contact__links a:hover { background-size: 100% 1px; }
 .bar__links a:not(.button):hover { color: var(--ink); }
 .button { display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; background: var(--star); color: var(--night); font-weight: 500; font-size: var(--step-body); text-decoration: none; transition: background-color var(--t-hover) ease, transform 140ms var(--ease-out); }
 .button:hover { background: var(--ink); transform: translateY(-1px); }
@@ -375,6 +375,7 @@ button.button { border: 0; border-radius: 0; font-family: inherit; cursor: point
 @keyframes light { from { color: var(--soft); } to { color: var(--ink); } }
 @keyframes light-last { from { color: var(--soft); } to { color: var(--star); } }
 </style>
+<link rel="stylesheet" href="/css/nav.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -382,7 +383,8 @@ button.button { border: 0; border-radius: 0; font-family: inherit; cursor: point
 <nav class="bar" aria-label="Main">
   <a class="bar__mark" href="#top"><img src="favicon.svg" alt="" width="32" height="32"><span>Beyond Zenith</span></a>
   <div class="bar__links">
-    <a href="#services">Services</a>
+    <div class="drop drop--wide" data-drop><button class="drop__btn" type="button" aria-expanded="false" aria-controls="drop-services">Services</button><div class="drop__panel drop__panel--two" id="drop-services"><div><p class="drop__head">AI</p><ul><li><a href="/services/ai-consulting/"><b>AI consulting</b><span>From first idea to production</span></a></li><li><a href="/services/claude-readiness-review/"><b>Claude readiness review</b><span>Check a prototype before go-live</span></a></li></ul></div><div><p class="drop__head">Software</p><ul><li><a href="/services/technical-advisory/"><b>Technical advisory</b><span>A costed plan before you build</span></a></li><li><a href="/services/data-platforms/"><b>Data and integration platforms</b><span>Your data in one place</span></a></li><li><a href="/services/delivery-teams/"><b>Delivery teams</b><span>A team that builds and maintains your product</span></a></li></ul></div></div></div>
+    <div class="drop" data-drop><button class="drop__btn" type="button" aria-expanded="false" aria-controls="drop-industries">Industries</button><div class="drop__panel drop__panel--one" id="drop-industries"><div><ul><li><a href="/industries/insurance/"><b>Insurance</b><span>Client data for brokers</span></a></li><li><a href="/industries/freight-and-logistics/"><b>Freight and logistics</b><span>Platforms that run every day</span></a></li></ul></div></div></div>
     <a href="#how">How we work</a>
     <a href="#about">About</a>
     <button class="bar__menu" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
@@ -391,7 +393,8 @@ button.button { border: 0; border-radius: 0; font-family: inherit; cursor: point
 </nav>
 <div class="menu" id="menu" hidden>
   <ul>
-    <li><a href="#services">Services</a><ul><li><a href="/services/delivery-teams/">Delivery teams</a></li><li><a href="/services/data-platforms/">Data and integration platforms</a></li><li><a href="/services/technical-advisory/">Technical advisory</a></li></ul></li>
+    <li><a href="#services">Services</a><ul><li><a href="/services/ai-consulting/">AI consulting</a></li><li><a href="/services/claude-readiness-review/">Claude readiness review</a></li><li><a href="/services/technical-advisory/">Technical advisory</a></li><li><a href="/services/data-platforms/">Data and integration platforms</a></li><li><a href="/services/delivery-teams/">Delivery teams</a></li></ul></li>
+    <li><span class="menu__label">Industries</span><ul><li><a href="/industries/insurance/">Insurance</a></li><li><a href="/industries/freight-and-logistics/">Freight and logistics</a></li></ul></li>
     <li><a href="#how">How we work</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -520,8 +523,8 @@ button.button { border: 0; border-radius: 0; font-family: inherit; cursor: point
 <footer class="foot">
   <div class="foot__cols">
     <p><b>Beyond Zenith Software Pty Ltd</b>ABN 54 654 970 091<br>Melbourne, Australia</p>
-    <p><b>Services</b><a href="/services/delivery-teams/">Delivery teams</a><br><a href="/services/data-platforms/">Data and integration platforms</a><br><a href="/services/technical-advisory/">Technical advisory</a></p>
-    <p><b>Pages</b><a href="#how">How we work</a><br><a href="#about">About</a><br><a href="https://www.linkedin.com/in/anastasm" rel="noopener">LinkedIn</a></p>
+    <p><b>Services</b><a href="/services/delivery-teams/">Delivery teams</a><br><a href="/services/data-platforms/">Data and integration platforms</a><br><a href="/services/technical-advisory/">Technical advisory</a><br><a href="/services/ai-consulting/">AI consulting</a><br><a href="/services/claude-readiness-review/">Claude readiness review</a></p>
+    <p><b>Pages</b><a href="#how">How we work</a><br><a href="#about">About</a><br><a href="/industries/insurance/">Insurance</a><br><a href="/industries/freight-and-logistics/">Freight and logistics</a><br><a href="https://www.linkedin.com/in/anastasm" rel="noopener">LinkedIn</a></p>
     <p><b>Contact</b><a href="#contact">Start a conversation</a></p>
   </div>
   <svg class="foot__mark" role="img" aria-label="Beyond Zenith" viewBox="0 0 6780 1150" xmlns="http://www.w3.org/2000/svg"><g fill="currentColor" transform="translate(20,960) scale(1,-1)"><path transform="translate(0.0,0)" d="M80 710H346Q478 710 544.5 663.0Q611 616 611 518Q611 454 573.5 414.0Q536 374 468 367Q550 360 595.5 314.5Q641 269 641 195Q641 98 574.5 49.0Q508 0 382 0H80ZM508 209Q508 258 473.0 284.0Q438 310 376 310H210V110H376Q438 110 473.0 135.5Q508 161 508 209ZM478 506Q478 600 342 600H210V412H342Q406 412 442.0 436.5Q478 461 478 506Z"/><path transform="translate(675.0,0)" d="M41 267Q41 350 73.0 413.5Q105 477 163.5 511.5Q222 546 300 546Q376 546 433.5 512.0Q491 478 522.5 413.5Q554 349 554 260V231H174Q178 162 212.0 126.0Q246 90 304 90Q346 90 375.0 109.5Q404 129 415 164L546 156Q524 78 459.5 33.0Q395 -12 303 -12Q224 -12 164.5 22.5Q105 57 73.0 120.0Q41 183 41 267ZM300 445Q248 445 214.5 412.0Q181 379 174 317H421Q417 381 385.0 413.0Q353 445 300 445Z"/><path transform="translate(1250.0,0)" d="M108 -51H176Q202 -51 214.5 -43.0Q227 -35 235 -16L249 21H212L22 534H154L289 141L416 534H549L340 -56Q323 -106 290.0 -128.0Q257 -150 199 -150H108Z"/><path transform="translate(1800.0,0)" d="M41 267Q41 351 73.5 414.0Q106 477 165.5 511.5Q225 546 304 546Q382 546 441.5 511.5Q501 477 533.5 414.0Q566 351 566 267Q566 183 533.5 120.0Q501 57 441.5 22.5Q382 -12 304 -12Q225 -12 165.5 22.5Q106 57 73.5 120.0Q41 183 41 267ZM434 267Q434 350 399.5 396.0Q365 442 304 442Q242 442 208.0 396.0Q174 350 174 267Q174 184 208.0 138.0Q242 92 304 92Q366 92 400.0 138.0Q434 184 434 267Z"/><path transform="translate(2387.0,0)" d="M70 534H186L189 442Q209 495 251.0 520.5Q293 546 349 546Q436 546 483.5 490.5Q531 435 531 343V0H403V302Q403 372 381.5 407.0Q360 442 310 442Q258 442 228.0 405.5Q198 369 198 302V0H70Z"/><path transform="translate(2968.0,0)" d="M41 267Q41 352 68.5 415.0Q96 478 146.0 512.0Q196 546 263 546Q318 546 360.5 522.5Q403 499 425 458V710H553V0H432L429 79Q406 36 362.0 12.0Q318 -12 263 -12Q195 -12 145.0 22.0Q95 56 68.0 119.0Q41 182 41 267ZM425 267Q425 352 393.0 397.0Q361 442 301 442Q242 442 208.0 395.0Q174 348 174 267Q174 187 208.5 139.5Q243 92 301 92Q360 92 392.5 137.5Q425 183 425 267Z"/><path transform="translate(3787.0,0)" d="M28 112 380 597H43V710H539V598L182 113H551V0H28Z"/><path transform="translate(4345.0,0)" d="M41 267Q41 350 73.0 413.5Q105 477 163.5 511.5Q222 546 300 546Q376 546 433.5 512.0Q491 478 522.5 413.5Q554 349 554 260V231H174Q178 162 212.0 126.0Q246 90 304 90Q346 90 375.0 109.5Q404 129 415 164L546 156Q524 78 459.5 33.0Q395 -12 303 -12Q224 -12 164.5 22.5Q105 57 73.0 120.0Q41 183 41 267ZM300 445Q248 445 214.5 412.0Q181 379 174 317H421Q417 381 385.0 413.0Q353 445 300 445Z"/><path transform="translate(4920.0,0)" d="M70 534H186L189 442Q209 495 251.0 520.5Q293 546 349 546Q436 546 483.5 490.5Q531 435 531 343V0H403V302Q403 372 381.5 407.0Q360 442 310 442Q258 442 228.0 405.5Q198 369 198 302V0H70Z"/><path transform="translate(5501.0,0)" d="M70 534H198V0H70Z"/><path transform="translate(5750.0,0)" d="M129 153V435H45V534H129V659H257V534H398V435H257V165Q257 128 272.5 113.5Q288 99 323 99H398V0H284Q204 0 166.5 37.0Q129 74 129 153Z"/><path transform="translate(6159.0,0)" d="M70 710H198V462Q218 504 258.0 525.0Q298 546 350 546Q436 546 483.5 490.5Q531 435 531 343V0H403V312Q403 378 380.5 410.0Q358 442 312 442Q259 442 228.5 407.5Q198 373 198 309V0H70Z"/></g><circle cx="5655.0" cy="130.0" r="64.0"/></svg>
