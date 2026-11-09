@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Beyond Zenith Software, Melbourne</title>
-<meta name="description" content="Software you own, from a team that stays. Beyond Zenith Software builds and runs software for Australian businesses: delivery teams, data and integration platforms, and technical advisory. Melbourne, Australia.">
+<meta name="description" content="Software you own, from a team that stays. Beyond Zenith Software builds and runs software and AI for Australian businesses: AI consulting, delivery teams, data and integration platforms, and technical advisory. Melbourne, Australia.">
 <meta name="theme-color" content="#0B1520">
 <link rel="canonical" href="https://beyondzenith.com.au/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -13,7 +13,7 @@
 <meta property="og:locale" content="en_AU">
 <meta property="og:url" content="https://beyondzenith.com.au/">
 <meta property="og:title" content="Beyond Zenith Software, Melbourne">
-<meta property="og:description" content="Software you own, from a team that stays. Delivery teams, data and integration platforms, and technical advisory for Australian businesses.">
+<meta property="og:description" content="Software you own, from a team that stays. AI consulting, delivery teams, data and integration platforms, and technical advisory for Australian businesses.">
 <meta property="og:image" content="https://beyondzenith.com.au/brand/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -48,7 +48,7 @@
       ],
       "@id": "https://beyondzenith.com.au/#organization",
       "image": "https://beyondzenith.com.au/brand/og-image.jpg",
-      "description": "Software delivery teams, data and integration platforms, and technical advisory for Australian businesses.",
+      "description": "AI consulting, software delivery teams, data and integration platforms, and technical advisory for Australian businesses.",
       "areaServed": {
         "@type": "Country",
         "name": "Australia"
@@ -65,6 +65,22 @@
         "@type": "OfferCatalog",
         "name": "Services",
         "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI consulting",
+              "url": "https://beyondzenith.com.au/services/ai-consulting/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Claude readiness review",
+              "url": "https://beyondzenith.com.au/services/claude-readiness-review/"
+            }
+          },
           {
             "@type": "Offer",
             "itemOffered": {
@@ -205,7 +221,7 @@ main:focus { outline: none; }
 .band { position: relative; margin: clamp(56px, 6vw, 96px) var(--margin) 0; aspect-ratio: 21 / 9; overflow: hidden; background: var(--deep); }
 .band img { position: absolute; left: 0; top: -12%; width: 100%; height: 124%; object-fit: cover; will-change: transform; }
 .svc3 { margin-top: clamp(48px, 5vw, 72px); row-gap: 48px; }
-.svc { grid-column: span 4; }
+.svc { grid-column: span 3; }
 .svc h3 { margin: 0 0 14px; font-size: var(--step-head); font-weight: 500; letter-spacing: -0.03em; line-height: 1.1; }
 .svc__desc { margin: 0 0 24px; font-size: var(--step-lead); line-height: 1.38; max-width: 26ch; }
 .svc ul { list-style: none; margin: 0; padding: 0; color: var(--soft); }
@@ -246,6 +262,8 @@ main:focus { outline: none; }
 .record ul { list-style: none; margin: 0; padding: 0; }
 .record li { display: flex; justify-content: space-between; gap: 16px; padding-block: 6px; }
 .record li span:last-child { color: var(--soft); text-align: right; }
+.record__link { color: var(--ink); text-decoration: underline; text-decoration-color: var(--dim); text-underline-offset: 0.3em; transition: color var(--t-hover) ease, text-decoration-color var(--t-hover) ease; }
+.record__link:hover { color: var(--star); text-decoration-color: currentColor; }
 
 /* ---------- Contact ---------- */
 .contact { background: var(--paper); color: var(--night); padding: var(--section) var(--margin) clamp(48px, 6vw, 80px); }
@@ -298,7 +316,6 @@ button.button { border: 0; border-radius: 0; font-family: inherit; cursor: point
   .head h2 { grid-column: 1 / -1; margin-bottom: 24px; }
   .head p { grid-column: 1 / 10; }
   .svc { grid-column: span 6; }
-  .svc:last-child { grid-column: 1 / 7; }
   .rise { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 56px; }
   .about__side { grid-column: 1 / 5; }
   .about__main, .record { grid-column: 6 / 13; }
@@ -407,7 +424,7 @@ button.button { border: 0; border-radius: 0; font-family: inherit; cursor: point
     <div class="hero__top">
       <div class="hero__copy">
         <h1 class="hero__claim" data-load style="--d:500ms">Software you own, from a team that stays.</h1>
-        <p class="hero__lede" data-load style="--d:620ms">We build and run software for Australian businesses: delivery teams, data and integration platforms, and technical advisory. The code and data are yours, and we’re still here after go-live. Based in Melbourne.</p>
+        <p class="hero__lede" data-load style="--d:620ms">We build and run software and AI for Australian businesses: AI consulting, delivery teams, data and integration platforms, and technical advisory. The code and data are yours, and we’re still here after go-live. Based in Melbourne.</p>
         <a class="button" data-load style="--d:740ms" href="mailto:hello@beyondzenith.com.au?subject=Enquiry%20from%20beyondzenith.com.au&amp;body=Hi%2C%0A%0AWe%27re%20working%20on%20">Start a conversation</a>
       </div>
     </div>
@@ -416,24 +433,30 @@ button.button { border: 0; border-radius: 0; font-family: inherit; cursor: point
 
   <section class="services" id="services" aria-labelledby="services-h">
     <div class="grid head">
-      <h2 id="services-h" data-reveal>Three ways we work with you</h2>
+      <h2 id="services-h" data-reveal>Four ways we work with you</h2>
       <p data-reveal style="--n:1">Every engagement is led by someone senior who stays on it from the first workshop to the last release.</p>
     </div>
     <figure class="band" data-reveal-band><picture><source srcset="art/band-facade.webp" type="image/webp"><img src="art/band-facade.jpg" alt="A glass facade at dusk with one lit window" width="1536" height="658" data-parallax="0.12" loading="lazy" decoding="async"></picture></figure>
     <div class="grid svc3">
       <article class="svc" data-reveal style="--n:0">
+        <h3>AI consulting</h3>
+        <p class="svc__desc">From the first idea to AI in production, tested on your own data.</p>
+        <ul><li>Readiness review before go-live</li><li>Accuracy measured on your data</li><li>The best model for the job</li></ul>
+        <a class="svc__more" href="/services/ai-consulting/">More about AI consulting</a>
+      </article>
+      <article class="svc" data-reveal style="--n:1">
         <h3>Delivery teams</h3>
         <p class="svc__desc">A dedicated team that builds and maintains your product, scaled up or down as the work changes.</p>
         <ul><li>Local leadership, global talent</li><li>Capped monthly budget, no lock-in</li><li>Demos tied to every invoice</li></ul>
         <a class="svc__more" href="/services/delivery-teams/">More about delivery teams</a>
       </article>
-      <article class="svc" data-reveal style="--n:1">
+      <article class="svc" data-reveal style="--n:2">
         <h3>Data and integration platforms</h3>
         <p class="svc__desc">We connect the systems you already run so your data sits in one place you own and can use.</p>
         <ul><li>AWS-based, built as code</li><li>One view across every system</li><li>Ready for AI from day one</li></ul>
         <a class="svc__more" href="/services/data-platforms/">More about data and integration platforms</a>
       </article>
-      <article class="svc" data-reveal style="--n:2">
+      <article class="svc" data-reveal style="--n:3">
         <h3>Technical advisory</h3>
         <p class="svc__desc">Architecture, delivery planning and an honest second opinion before you commit to a large build.</p>
         <ul><li>Fixed-price discovery</li><li>A written plan you keep</li><li>Fee credited if we build it</li></ul>
@@ -486,9 +509,9 @@ button.button { border: 0; border-radius: 0; font-family: inherit; cursor: point
             <li><span>Government agencies</span><span>Since 2015</span></li>
             <li><span>Health departments</span><span>Since 2015</span></li>
             <li><span>Local councils</span><span>Since 2015</span></li>
-            <li><span>Insurance</span><span>Since 2024</span></li>
+            <li><span><a class="record__link" href="/industries/insurance/">Insurance</a></span><span>Since 2024</span></li>
             <li><span>Financial services</span><span>Since 2024</span></li>
-            <li><span>Freight and logistics</span><span>Since 2024</span></li>
+            <li><span><a class="record__link" href="/industries/freight-and-logistics/">Freight and logistics</a></span><span>Since 2024</span></li>
           </ul>
         </div>
       </div>
