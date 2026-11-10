@@ -94,6 +94,43 @@
     document.addEventListener('click', (ev) => { drops.forEach((d) => { if (!d.contains(ev.target)) setDrop(d, false); }); });
   }
 
+  // Copy buttons on prompt blocks. Without this script the button stays hidden and the
+  // prompt stays visible and selectable.
+  document.querySelectorAll('.prompt').forEach((box) => {
+    const btn = box.querySelector('.prompt__copy');
+    const text = box.querySelector('.prompt__text');
+    const live = box.querySelector('[role="status"]');
+    if (!btn || !text) return;
+    btn.hidden = false;
+    let timer;
+    const copied = () => {
+      btn.textContent = 'Copied';
+      btn.setAttribute('aria-label', 'Prompt copied');
+      if (live) live.textContent = 'Prompt copied to the clipboard.';
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        btn.textContent = 'Copy';
+        btn.setAttribute('aria-label', 'Copy the prompt');
+        if (live) live.textContent = '';
+      }, 2000);
+    };
+    const fallback = () => {
+      const range = document.createRange();
+      range.selectNodeContents(text);
+      const sel = window.getSelection();
+      sel.removeAllRanges(); sel.addRange(range);
+      let ok = false;
+      try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+      if (ok) { sel.removeAllRanges(); copied(); }
+      else if (live) live.textContent = 'Press Control C or Command C to copy the selected prompt.';
+    };
+    btn.addEventListener('click', () => {
+      const value = text.textContent;
+      if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(value).then(copied, fallback);
+      else fallback();
+    });
+  });
+
   // Contact form: send in the page, keep the visitor where they are.
   const form = document.querySelector('form[name="contact"]');
   if (form && window.fetch) {

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shipping with AI: code is cheap, outcomes aren’t · Beyond Zenith</title>
+<meta name="description" content="Notes from the Shipping with AI talk at Nintex, Melbourne: four questions to take back to your team, the “deeper, not bigger” prompt, writing the spec first, and sorting the data out before the AI.">
+<meta name="theme-color" content="#0B1520">
+<link rel="canonical" href="https://beyondzenith.com.au/shipping-with-ai/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Beyond Zenith Software">
+<meta property="og:locale" content="en_AU">
+<meta property="og:url" content="https://beyondzenith.com.au/shipping-with-ai/">
+<meta property="og:title" content="Shipping with AI: code is cheap, outcomes aren’t · Beyond Zenith">
+<meta property="og:description" content="Notes from the Shipping with AI talk at Nintex, Melbourne: four questions to take back to your team, the “deeper, not bigger” prompt, writing the spec first, and sorting the data out before the AI.">
+<meta property="og:image" content="https://beyondzenith.com.au/brand/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="font" href="/fonts/geist-latin.woff2" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/page.css">
+<link rel="stylesheet" href="/css/nav.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://beyondzenith.com.au/shipping-with-ai/#webpage",
+      "url": "https://beyondzenith.com.au/shipping-with-ai/",
+      "name": "Shipping with AI: code is cheap, outcomes aren’t",
+      "description": "Notes from the Shipping with AI talk at Nintex, Melbourne: four questions to take back to your team, the “deeper, not bigger” prompt, writing the spec first, and sorting the data out before the AI.",
+      "inLanguage": "en-AU",
+      "isPartOf": {
+        "@id": "https://beyondzenith.com.au/#website"
+      },
+      "publisher": {
+        "@id": "https://beyondzenith.com.au/#organization"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Anastas Manojlovski",
+        "sameAs": "https://www.linkedin.com/in/anastasm"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://beyondzenith.com.au/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Shipping with AI",
+          "item": "https://beyondzenith.com.au/shipping-with-ai/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<nav class="bar" aria-label="Main">
+  <a class="bar__mark" href="/"><img src="/favicon.svg" alt="" width="32" height="32"><span>Beyond Zenith</span></a>
+  <div class="bar__links">
+    <div class="drop drop--wide" data-drop><button class="drop__btn" type="button" aria-expanded="false" aria-controls="drop-services">Services</button><div class="drop__panel drop__panel--two" id="drop-services"><div><p class="drop__head">AI</p><ul><li><a href="/services/ai-consulting/"><b>AI consulting</b><span>From first idea to production</span></a></li><li><a href="/services/claude-readiness-review/"><b>Claude readiness review</b><span>Check a prototype before go-live</span></a></li></ul></div><div><p class="drop__head">Software</p><ul><li><a href="/services/technical-advisory/"><b>Technical advisory</b><span>A costed plan before you build</span></a></li><li><a href="/services/data-platforms/"><b>Data and integration platforms</b><span>Your data in one place</span></a></li><li><a href="/services/delivery-teams/"><b>Delivery teams</b><span>A team that builds and maintains your product</span></a></li></ul></div></div></div>
+    <div class="drop" data-drop><button class="drop__btn" type="button" aria-expanded="false" aria-controls="drop-industries">Industries</button><div class="drop__panel drop__panel--one" id="drop-industries"><div><ul><li><a href="/industries/insurance/"><b>Insurance</b><span>Client data for brokers</span></a></li><li><a href="/industries/freight-and-logistics/"><b>Freight and logistics</b><span>Platforms that run every day</span></a></li></ul></div></div></div>
+    <a href="/#how">How we work</a>
+    <a href="/#about">About</a>
+    <a href="/faq/">FAQ</a>
+    <button class="bar__menu" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    <a class="button" href="/#contact">Contact</a>
+  </div>
+</nav>
+<div class="menu" id="menu" hidden>
+  <ul>
+    <li><a href="/#services">Services</a><ul><li><a href="/services/ai-consulting/">AI consulting</a></li><li><a href="/services/claude-readiness-review/">Claude readiness review</a></li><li><a href="/services/technical-advisory/">Technical advisory</a></li><li><a href="/services/data-platforms/">Data and integration platforms</a></li><li><a href="/services/delivery-teams/">Delivery teams</a></li></ul></li>
+    <li><span class="menu__label">Industries</span><ul><li><a href="/industries/insurance/">Insurance</a></li><li><a href="/industries/freight-and-logistics/">Freight and logistics</a></li></ul></li>
+    <li><a href="/#how">How we work</a></li>
+    <li><a href="/#about">About</a></li>
+    <li><a href="/faq/">FAQ</a></li>
+    <li><a href="/#contact">Contact</a></li>
+  </ul>
+</div>
+
+<main id="main" tabindex="-1">
+  <header class="s-head">
+    <div class="grid">
+      <p class="crumbs"><a href="/">Home</a> / <span aria-current="page">Shipping with AI</span></p>
+      <h1>Shipping with AI: code is cheap, outcomes aren’t</h1>
+      <p class="lede">Thanks for coming to Shipping with AI at Nintex. Here’s the stuff from my talk, so you don’t need a photo of every slide.</p>
+    </div>
+    <figure class="s-band"><video src="/art/shipping-with-ai.mp4" poster="/art/shipping-with-ai.jpg" width="1280" height="720" autoplay muted loop playsinline preload="metadata" data-motion aria-label="Code snippets drop fast into a messy pile. Beside it, an outcome card ticks off business number agreed, data sorted out, spec reviewed and tested on real data, then gets a Shipped stamp."></video></figure>
+  </header>
+
+  <section class="s-sec" aria-labelledby="questions-h">
+    <div class="grid">
+      <h2 id="questions-h">Four questions to take back to your team</h2>
+      <div class="s-body"><ol class="steps"><li><h3>What business number will judge this work, and who agreed to it?</h3><p>Test it on real data, not a demo.</p></li><li><h3>What has to be true about your data and your controls before this goes to production?</h3></li><li><h3>Is your customer paying for hours, or for the result?</h3></li><li><h3>Where did AI change how the work gets done, not just how fast?</h3><p>A bot that answers handbook questions might cut tickets. If no workflow changes, park it.</p></li></ol>
+<p>If you can’t answer one of these, that’s your next piece of work. It’s probably not a prompt.</p></div>
+    </div>
+  </section>
+  <section class="s-sec" aria-labelledby="prompt-h">
+    <div class="grid">
+      <h2 id="prompt-h">The “deeper, not bigger” prompt</h2>
+      <div class="s-body"><p class="soft">This idea comes from Felix Rieseberg’s post, <a class="link" href="https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/" rel="noopener">How to be more ambitious: A tutorial for humans with models</a>. Read the original. It’s worth it.</p>
+<p class="soft">The idea is simple. Don’t ask AI for a bigger version of your task. Ask it for a deeper one. Here’s my version of the prompt:</p>
+<figure class="prompt"><figcaption class="prompt__bar"><span>Prompt</span><button class="prompt__copy" type="button" aria-label="Copy the prompt" hidden>Copy</button></figcaption><pre class="prompt__text" id="deeper-prompt" tabindex="0"><code>Don't make this task bigger. Make it deeper. Before you start, answer these four questions:
+1. What would a real expert in this field do here that I haven't asked for?
+2. What raw data or source material would they start from, instead of a summary?
+3. What methods and tools would they use?
+4. How would we know the result is right, without taking your word for it? Name a test, a check or a source.
+Then rewrite my request so it asks for exactly that. Show me the rewrite before you start.</code></pre><span class="sr-only" role="status" aria-live="polite"></span></figure>
+<p>The last question matters most. Don’t let the AI mark its own homework.</p></div>
+    </div>
+  </section>
+  <section class="s-sec" aria-labelledby="spec-h">
+    <div class="grid">
+      <h2 id="spec-h">Write the spec first</h2>
+      <div class="s-body"><p>AI writes code fast. So the expensive mistake isn’t slow code any more. It’s fast code for the wrong thing.</p>
+<p class="soft">Spec-driven development changes the order. You write the spec first: what the feature must do, who it’s for, and how you’ll know it works. A person reviews the spec before any code exists. Then the agent plans the work and writes the code against the spec.</p>
+<p class="soft">If the business outcome isn’t in the spec, the AI won’t build towards it.</p>
+<p class="soft">Tools worth a look: <a class="link" href="https://github.com/github/spec-kit" rel="noopener">Spec Kit</a> and <a class="link" href="https://github.com/Fission-AI/OpenSpec" rel="noopener">OpenSpec</a>.</p></div>
+    </div>
+  </section>
+  <section class="s-sec" aria-labelledby="data-h">
+    <div class="grid">
+      <h2 id="data-h">Sort the data out before the AI</h2>
+      <div class="s-body"><p>If your data’s a mess, AI gives you confident answers from bad records.</p>
+<p class="soft">A medallion setup is a simple way to think about it. Bronze is the raw data as it lands. Silver is cleaned up and matched. Gold is what the business actually uses. <a class="link" href="https://www.databricks.com/blog/what-is-medallion-architecture" rel="noopener">Databricks explains it well</a>.</p></div>
+    </div>
+  </section>
+
+  <section class="s-contact" aria-labelledby="contact-h">
+    <h2 id="contact-h">Let’s talk</h2>
+    <p>Want to talk about shipping AI in your business? Get in touch.</p>
+    <div class="actions"><a class="button" href="/#contact">Start a conversation</a><a class="link" href="mailto:hello@beyondzenith.com.au?subject=Shipping%20with%20AI">hello@beyondzenith.com.au</a></div>
+    <p class="s-contact__follow">Follow <a class="link" href="https://www.linkedin.com/in/anastasm" rel="noopener">me</a> and <a class="link" href="https://www.linkedin.com/company/beyond-zenith" rel="noopener">Beyond Zenith</a> on LinkedIn.</p>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="foot__cols">
+    <p><b>Beyond Zenith Software Pty Ltd</b>ABN 54 654 970 091<br>Melbourne, Australia</p>
+    <p><b>Services</b><a href="/services/delivery-teams/">Delivery teams</a><br><a href="/services/data-platforms/">Data and integration platforms</a><br><a href="/services/technical-advisory/">Technical advisory</a><br><a href="/services/ai-consulting/">AI consulting</a><br><a href="/services/claude-readiness-review/">Claude readiness review</a></p>
+    <p><b>Pages</b><a href="/#how">How we work</a><br><a href="/#about">About</a><br><a href="/faq/">FAQ</a><br><a href="/industries/insurance/">Insurance</a><br><a href="/industries/freight-and-logistics/">Freight and logistics</a><br><a href="/privacy.html">Privacy</a></p>
+    <p><b>Contact</b><a href="/#contact">Start a conversation</a><br><a href="https://www.linkedin.com/in/anastasm" rel="noopener">LinkedIn</a></p>
+  </div>
+  <div class="foot__legal"><span>© 2026 Beyond Zenith Software Pty Ltd</span><span><a href="/privacy.html">Privacy</a> · Built in Melbourne</span></div>
+</footer>
+<script src="/site.js" defer></script>
+</body>
+</html>
