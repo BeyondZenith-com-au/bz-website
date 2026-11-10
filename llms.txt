@@ -1,0 +1,32 @@
+# Beyond Zenith Software
+
+> Beyond Zenith Software Pty Ltd (ABN 54 654 970 091) is a software and AI consultancy in Melbourne, Australia. We build and run software, data platforms and AI for start-ups, scale-ups and mid-sized businesses across Australia and New Zealand, mostly in regulated industries such as insurance, financial services, payments, freight and logistics, government and health. Clients own all code and intellectual property when the invoices are paid.
+
+Key facts:
+
+- Founder and principal: Anastas Manojlovski. Nine years leading solution architecture across Australia and New Zealand at Whispir. Has led engineering teams that deliver cloud, data and AI platforms for Australian businesses since 2021.
+- Team: a small core team in Melbourne with onshore and offshore engineers. Roles include software developers, DevOps engineers, technical leads, solution architects, data engineers, data scientists, QA engineers, UI/UX designers, project managers and a virtual CTO. Delivery teams usually have 3 to 10 people.
+- Pricing: fixed-price projects, monthly retainers or a mix. The smallest engagements start from $5,000 AUD (excluding GST).
+- Warranty: 30 or 90 days on delivered work, depending on the project, plus optional ongoing support.
+- AI: works with any major AI platform, and usually recommends Anthropic's Claude or OpenAI's models. When data must stay in Australia, uses Claude through Amazon Bedrock in the AWS Sydney and Melbourne regions, in the client's own AWS account.
+- Cloud and data: AWS first, also Microsoft Azure, Google Cloud, Databricks and Snowflake.
+- Contact: hello@beyondzenith.com.au
+
+## Services
+
+- [AI consulting](https://beyondzenith.com.au/services/ai-consulting/): choose the first AI use case worth building, check a prototype before go-live, and get your data ready.
+- [Claude readiness review](https://beyondzenith.com.au/services/claude-readiness-review/): a review of a Claude prototype for accuracy, security, cost and compliance, with a written fix plan.
+- [Delivery teams](https://beyondzenith.com.au/services/delivery-teams/): a dedicated team that builds and maintains your product, led by a senior lead in Australia.
+- [Data and integration platforms](https://beyondzenith.com.au/services/data-platforms/): connect the systems you already run, so your data is in one place that you own.
+- [Technical advisory](https://beyondzenith.com.au/services/technical-advisory/): architecture, delivery planning and a second opinion before a large build. A fixed review, advice from 1 day per month, or a part-time virtual CTO.
+
+## Industries
+
+- [Insurance](https://beyondzenith.com.au/industries/insurance/)
+- [Freight and logistics](https://beyondzenith.com.au/industries/freight-and-logistics/)
+
+## More
+
+- [Frequently asked questions](https://beyondzenith.com.au/faq/): team, location, prices, IP, warranty, AI models, data residency and security.
+- [Home page](https://beyondzenith.com.au/)
+- [Privacy policy](https://beyondzenith.com.au/privacy.html)

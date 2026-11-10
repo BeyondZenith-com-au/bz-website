@@ -111,7 +111,7 @@
         status.setAttribute('tabindex', '-1'); status.focus();
       } catch (err) {
         send.disabled = false; send.textContent = 'Send message';
-        show('The message did not send. Please try again, or email <a href="mailto:anastas@beyondzenith.com.au">anastas@beyondzenith.com.au</a>.');
+        show('The message did not send. Please try again, or email <a href="mailto:hello@beyondzenith.com.au">hello@beyondzenith.com.au</a>.');
       }
     });
   }
