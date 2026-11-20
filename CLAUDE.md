@@ -43,6 +43,8 @@ repo. This file is how they stay in step. Read `README.md` for the file layout.
   (`--step-display`, `--step-head`, `--step-lead`), not with fixed sizes.
 - Square corners everywhere. No gradients, no shadows, no cards or borders to group content. Use space
   and type size. Exception: a `line` rule above each section on inner pages.
+- The footer holds facts only: company name, ABN, city, links, the year. No sign-off lines.
+- The home Contact heading uses `--step-display` (Anastas approved, 20 Nov 2026), like the other section headings.
 - No icons, arrows or chevrons. Write the word ("Menu", "Contact").
 - Motion is slow and settles, one time only. Respect `prefers-reduced-motion`.
 - **Reuse the existing classes.** Inner pages: `s-head`, `crumbs`, `lede`, `byline`, `actions`, `s-band`,
