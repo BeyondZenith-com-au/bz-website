@@ -8,7 +8,7 @@ Key facts:
 - Team: a small core team in Melbourne with onshore and offshore engineers. Roles include software developers, DevOps engineers, technical leads, solution architects, data engineers, data scientists, QA engineers, UI/UX designers, project managers and a virtual CTO. Delivery teams usually have 3 to 10 people.
 - Pricing: fixed-price projects, monthly retainers or a mix. The smallest engagements start from $5,000 AUD (excluding GST).
 - Warranty: 30 or 90 days on delivered work, depending on the project, plus optional ongoing support.
-- AI: works with any major AI platform, and usually recommends Anthropic's Claude or OpenAI's models. When data must stay in Australia, uses Claude through Amazon Bedrock in the AWS Sydney and Melbourne regions, in the client's own AWS account.
+- AI: works with any major AI platform, and usually recommends Anthropic's Claude or OpenAI's models. When data must stay in Australia, uses Claude through Amazon Bedrock in the client's own AWS account, with the Australian routing option, which sends requests only between AWS regions in Australia. Amazon Bedrock does not share prompts or outputs with Anthropic.
 - Cloud and data: AWS first, also Microsoft Azure, Google Cloud, Databricks and Snowflake.
 - Contact: hello@beyondzenith.com.au
 
@@ -24,6 +24,14 @@ Key facts:
 
 - [Insurance](https://beyondzenith.com.au/industries/insurance/)
 - [Freight and logistics](https://beyondzenith.com.au/industries/freight-and-logistics/)
+
+## Insights
+
+- [Articles and talks](https://beyondzenith.com.au/insights/)
+- [Lean AI governance: a practical framework for Australian financial services](https://beyondzenith.com.au/insights/ai-governance-australia/): A lean, practical AI governance framework for mid-sized Australian financial services businesses: seven areas, from accountability and approved tools to testing, training and supplier checks. Built for APRA, ASIC and Privacy Act obligations.
+- [Claude for business: what to check before your prototype goes live](https://beyondzenith.com.au/insights/claude-for-business-before-go-live/): A Claude prototype is quick to build. Before staff or customers depend on it, check the platform, your data, accuracy, security, compliance, cost and support. A practical guide for Australian businesses.
+- [Spec-driven development: write the spec before the AI writes the code](https://beyondzenith.com.au/insights/spec-driven-development/): AI writes code fast, so the expensive mistake is fast code for the wrong thing. How spec-driven development works, the tools (Spec Kit, OpenSpec, Kiro), its limits, and how to put the business outcome in the spec.
+- [Shipping with AI: code is cheap, outcomes aren't](https://beyondzenith.com.au/insights/shipping-with-ai/): notes from a talk at the Shipping with AI meetup at Nintex, Melbourne, on 11 November 2026.
 
 ## More
 

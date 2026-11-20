@@ -8,7 +8,7 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
-    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'self'; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' https://analytics.ahrefs.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://analytics.ahrefs.com; form-action 'self'; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"
 
 # Images and icons change rarely; cache them for a day and allow stale reuse.
 [[headers]]
@@ -35,5 +35,18 @@
 [[redirects]]
   from = "https://www.beyondzenith.com.au/*"
   to = "https://beyondzenith.com.au/:splat"
+  status = 301
+  force = true
+
+# The talk page moved under /insights/. The QR code on the talk slides points to the old address.
+[[redirects]]
+  from = "/shipping-with-ai"
+  to = "/insights/shipping-with-ai/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/shipping-with-ai/*"
+  to = "/insights/shipping-with-ai/"
   status = 301
   force = true
