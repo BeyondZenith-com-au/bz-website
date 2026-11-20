@@ -7,29 +7,33 @@ repo. This file is how they stay in step. Read `README.md` for the file layout.
 
 | What | Where | Rule |
 |---|---|---|
-| The code | This repo, `main` on GitHub. Local clone: `~/bz-preview` | The only copy. Do not edit any other copy (the old one in `~/Claude/beyond zenith/site/` is retired). |
+| The code | This repo on GitHub. Claude Code runs in the cloud and clones it from GitHub. Claude (app) works in Anastas's local clone `~/bz-preview` | GitHub is the meeting point. Work is not shared until it is pushed. |
 | Design rules and tokens | Beyond Zenith design system (claude.ai artifact `fec264f6-45b0-47d6-b31c-8e5518adf4fb`). Copy in this repo: `design/tokens.css` | The design system wins. If the site and the system disagree, ask Anastas. Do not change the system from here. |
-| Photos | `~/Claude/images/` (Anastas's own generated photos) | Use these. Do not generate new art or use stock photos. |
-| Work status | `~/Claude/05 - Operations/Beyond Zenith.md` (Brand and website) | Write one line there after each job: branch, commit, what changed, what is open. |
+| Photos | Anastas's photo library on his Mac (`~/Claude/images/`). Only Claude (app) can reach it | Claude (app) chooses, crops and commits photos into `art/`. Claude Code uses only photos already in `art/`. If a page needs a new photo, stop and say so in the PR. Do not generate art or use stock photos. |
+| Work status | The pull request description (both tools). Claude (app) also keeps a line in Anastas's vault | Say in the PR what changed, what is open and what needs a visual review. |
 
 ## Who does what
 
-- **Claude (app):** design and copy decisions, image choice and grading, design-system checks, SEO
-  and content review, visual review of the Netlify deploy preview. It edits files and commits on a
-  branch. It cannot push.
-- **Claude Code:** push, pull request, merge; changes across many pages; running the checks below.
-- **Anastas:** approves copy, merges to `main` (merge = live: Netlify deploys every push to `main`).
+- **Claude (app):** design and copy decisions, photos (choose, crop, grade, commit to `art/`),
+  design-system changes, SEO and content review, visual review of the Netlify deploy preview. It
+  commits in `~/bz-preview` but cannot push: Anastas pushes its branches.
+- **Claude Code (cloud):** code changes across many pages, new pages from an agreed brief, fixes from
+  review comments, the checks below, pushing branches and opening pull requests.
+- **Anastas:** approves copy, pushes Claude (app)'s branches, merges to `main` (merge = live:
+  Netlify deploys every push to `main`).
 
 ## Keeping in sync (both tools, every time)
 
-1. Start: `git status` must be clean. Then `git fetch` and `git pull` (or check out the job's branch).
-   If there are uncommitted changes you did not make, stop and ask.
+1. Start from the latest GitHub state: `git fetch`, then check out `main` or the job's branch and
+   `git pull`. If there are uncommitted changes you did not make, stop and ask.
 2. One branch for each job (`fix/…`, `content/…`, `design/…`). Only one tool works on a branch at a time.
 3. Never commit to `main` directly. Never force-push.
 4. End: commit with a clear message that says what changed and why. Do not leave changes uncommitted.
-5. Handoff: Claude commits → Claude Code (or Anastas) pushes and opens the PR → Claude reviews the
-   Netlify preview → Anastas merges.
-6. Update the status line in the vault (see above).
+5. Handoff: the tool that made the branch pushes it (Claude (app): Anastas pushes) → a PR → Claude
+   (app) reviews the Netlify deploy preview and writes its review in the PR or the chat → Claude Code
+   fixes → Anastas merges. Delete the branch after the merge.
+6. Never let both tools change the same branch at the same time. To continue the other tool's
+   branch, pull it first.
 7. Design system changed? Copy the new values into `design/tokens.css` and say in the commit which
    version you copied.
 
