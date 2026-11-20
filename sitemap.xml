@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://beyondzenith.com.au/faq/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-20</lastmod>
   </url>
   <url>
     <loc>https://beyondzenith.com.au/insights/shipping-with-ai/</loc>
@@ -46,6 +46,18 @@
   </url>
   <url>
     <loc>https://beyondzenith.com.au/insights/</loc>
+    <lastmod>2026-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://beyondzenith.com.au/insights/ai-governance-australia/</loc>
+    <lastmod>2026-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://beyondzenith.com.au/insights/claude-for-business-before-go-live/</loc>
+    <lastmod>2026-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://beyondzenith.com.au/insights/spec-driven-development/</loc>
     <lastmod>2026-11-20</lastmod>
   </url>
 </urlset>
