@@ -1,0 +1,116 @@
+/* Beyond Zenith design tokens.
+   Source: the Beyond Zenith design system (claude.ai artifact fec264f6-45b0-47d6-b31c-8e5518adf4fb,
+   project/tokens.json, version 1795139411-a022). Copied on 20 Nov 2026. Do not edit by hand:
+   change the design system, then copy again (see CLAUDE.md, "Keeping in sync").
+
+   The site pages do not load this file yet. index.html and css/page.css keep their own :root.
+   Use these values in new CSS. Where the site's value differs (marked "site:" below), keep the
+   site value until Anastas approves the change. */
+
+:root {
+  /* ---------- Core colours ---------- */
+  --night: #0b1520;
+  --deep: #0f1c29;
+  --deep-hover: #142536;
+  --ink: #eef3f7;
+  --soft: #a9b8c7;
+  --dim: #71879d;            /* site: #6F849A (4.47:1 on deep) */
+  --star: #f2b544;
+  --star-light: #946210;     /* site: #A86F12 */
+  --paper: #eef3f7;
+  --paper-soft: #3e4f61;     /* site: #4A5D70 */
+  --line: rgba(111, 132, 154, 0.28);
+  --field-line: rgba(11, 21, 32, 0.5);        /* site: night at 35% */
+  --field-line-hover: rgba(11, 21, 32, 0.6);
+  --focus: var(--star);
+  --focus-on-paper: var(--night);
+
+  /* ---------- Type ---------- */
+  --font: "Geist", "Helvetica Neue", Arial, sans-serif;
+  --step-monument: 15vw;
+  --step-display: clamp(40px, 4.8vw, 69px);  /* weight 400, -0.045em, line height 1 (site: 500) */
+  --step-head: clamp(26px, 2.4vw, 35px);     /* weight 400, -0.03em, line height 1.1 (site: 500) */
+  --step-lead: clamp(19px, 1.6vw, 24px);     /* line height 1.38 */
+  --step-body: 17px;                         /* line height 1.55 */
+  --step-small: 14px;                        /* line height 1.55 */
+
+  /* ---------- Layout ---------- */
+  --margin: clamp(20px, 2.4vw, 36px);
+  --gutter: clamp(16px, 2vw, 32px);
+  --section: clamp(96px, 10vw, 150px);       /* home page */
+  --section-page: clamp(72px, 8vw, 128px);   /* inner pages (css/page.css calls this --section) */
+
+  /* ---------- Spacing scale (new work uses only these) ---------- */
+  --space-4: 4px;  --space-8: 8px;  --space-12: 12px; --space-16: 16px; --space-24: 24px;
+  --space-32: 32px; --space-48: 48px; --space-64: 64px; --space-96: 96px;
+
+  /* ---------- Parts ---------- */
+  --button-height: 48px;
+  --button-height-bar: 44px;   /* also the minimum touch target */
+  --button-pad: 22px;
+  --button-pad-bar: 18px;
+  --link-pad: 12px;            /* vertical padding of text links */
+  --field-pad: 10px;
+  --focus-width: 2px;
+  --focus-offset: 4px;
+  --bar-pad: 16px;
+  --nav-gap: 28px;
+  --step-lift: 40px;
+  --dot: 14px;
+  --dot-last: 22px;
+  --rise-load: 16px;
+  --rise-reveal: 28px;
+
+  /* ---------- Radius ---------- */
+  --radius-none: 0;
+  --radius-focus: 2px;
+  --radius-mark: 7px;
+  --radius-dot: 50%;
+
+  /* ---------- Motion ---------- */
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);     /* entrances */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);     /* small moves and fades */
+  --ease-in-out: cubic-bezier(0.76, 0, 0.24, 1);  /* photo wipes */
+  --t-hover: 180ms;
+
+  /* ---------- Breakpoints (for reference; CSS variables do not work in media queries) ----------
+     bp-tablet 1000px, bp-menu 900px, bp-phone 760px */
+}
+
+/* ---------- Role tokens: dark theme (the current website) ---------- */
+:root, [data-theme="dark"] {
+  --surface: var(--night);
+  --surface-raised: var(--deep);
+  --surface-inverse: var(--paper);
+  --text: var(--ink);
+  --text-muted: var(--soft);
+  --text-subtle: var(--dim);
+  --accent: var(--star);
+  --action: var(--star);
+  --on-action: var(--night);
+  --action-hover: var(--ink);
+  --focus-ring: var(--star);
+  --control-line: var(--dim);
+  --text-inverse: var(--night);
+  --text-inverse-muted: var(--paper-soft);
+  --accent-inverse: var(--star-light);
+}
+
+/* ---------- Role tokens: light theme (documents, proposals, new products) ---------- */
+[data-theme="light"] {
+  --surface: var(--paper);
+  --surface-raised: #ffffff;
+  --surface-inverse: var(--night);
+  --text: var(--night);
+  --text-muted: var(--paper-soft);
+  --text-subtle: #5b6d80;
+  --accent: var(--star-light);
+  --action: var(--night);
+  --on-action: var(--paper);
+  --action-hover: var(--star-light);
+  --focus-ring: var(--night);
+  --control-line: var(--field-line);
+  --text-inverse: var(--ink);
+  --text-inverse-muted: var(--soft);
+  --accent-inverse: var(--star);
+}

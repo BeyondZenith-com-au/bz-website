@@ -207,3 +207,16 @@ main:focus { outline: none; }
 .author .link { padding: 0; }
 @media (max-width: 760px) { .author { flex-direction: column; } .prose table { font-size: 13px; } }
 @media (prefers-reduced-motion: reduce) { .prose a { transition: none; } }
+
+/* ---------- Articles: band image above the text ---------- */
+.prose--banded { border-top: 0; padding-top: 0; }
+
+/* ---------- Insights list: thumbnails ---------- */
+.posts__img { display: block; width: 100%; height: auto; aspect-ratio: 21 / 9; object-fit: cover; margin: 0 0 20px; background: var(--deep); transition: opacity var(--t-hover) ease; }
+.posts a:hover .posts__img { opacity: 0.85; }
+
+/* ---------- Touch targets on phones (WCAG 2.2, 2.5.8) ---------- */
+@media (max-width: 760px) {
+  .foot__cols a, .foot__legal a, .crumbs a { display: inline-block; padding-block: 3px; }
+}
+@media (prefers-reduced-motion: reduce) { .posts__img { transition: none; } }
