@@ -37,3 +37,16 @@
   to = "https://beyondzenith.com.au/:splat"
   status = 301
   force = true
+
+# The talk page moved under /insights/. The QR code on the talk slides points to the old address.
+[[redirects]]
+  from = "/shipping-with-ai"
+  to = "/insights/shipping-with-ai/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/shipping-with-ai/*"
+  to = "/insights/shipping-with-ai/"
+  status = 301
+  force = true

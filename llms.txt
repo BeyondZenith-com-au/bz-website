@@ -25,6 +25,11 @@ Key facts:
 - [Insurance](https://beyondzenith.com.au/industries/insurance/)
 - [Freight and logistics](https://beyondzenith.com.au/industries/freight-and-logistics/)
 
+## Insights
+
+- [Articles and talks](https://beyondzenith.com.au/insights/)
+- [Shipping with AI: code is cheap, outcomes aren't](https://beyondzenith.com.au/insights/shipping-with-ai/): notes from a talk at the Shipping with AI meetup at Nintex, Melbourne, on 11 November 2026.
+
 ## More
 
 - [Frequently asked questions](https://beyondzenith.com.au/faq/): team, location, prices, IP, warranty, AI models, data residency and security.
