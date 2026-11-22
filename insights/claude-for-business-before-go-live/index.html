@@ -116,16 +116,31 @@
     <figure class="s-band"><picture><source type="image/webp" srcset="/art/claude-before-go-live-1260.webp 1260w, /art/claude-before-go-live.webp 1696w" sizes="(max-width: 760px) 180vw, 100vw"><img src="/art/claude-before-go-live.jpg" srcset="/art/claude-before-go-live-1260.jpg 1260w, /art/claude-before-go-live.jpg 1696w" sizes="(max-width: 760px) 180vw, 100vw" width="1696" height="727" alt="Two buildings at dusk with one light between them" fetchpriority="high"></picture></figure>
   </header>
 
+  <div class="article grid">
+    <nav class="toc" aria-labelledby="toc-h">
+      <p class="toc__label" id="toc-h">Contents</p>
+      <ol>
+      <li><a href="#use-the-right-plan-or-platform">1. Use the right plan or platform</a></li>
+      <li><a href="#why-we-recommend-amazon-bedrock">2. Why we recommend Amazon Bedrock</a></li>
+      <li><a href="#know-where-your-data-goes">3. Know where your data goes</a></li>
+      <li><a href="#measure-accuracy-on-your-own-data">4. Measure accuracy on your own data</a></li>
+      <li><a href="#security-more-than-a-password">5. Security: more than a password</a></li>
+      <li><a href="#compliance-map-it-before-the-auditor">6. Compliance: map it before the auditor asks</a></li>
+      <li><a href="#running-cost">7. Running cost</a></li>
+      <li><a href="#support-after-go-live">8. Support after go-live</a></li>
+      <li><a href="#get-a-second-opinion-before-go">Get a second opinion before go-live</a></li>
+      </ol>
+    </nav>
   <article class="prose prose--banded">
 <p>Here is what we check before a Claude project goes live. Almost none of it is about the prompt.</p>
-<h2>1. Use the right plan or platform</h2>
+<h2 id="use-the-right-plan-or-platform">1. Use the right plan or platform</h2>
 <p>Is there a business account for Claude? Yes. There are two ways to use Claude at work, and they suit different jobs.</p>
 <ul>
 <li><strong>For your staff to use Claude directly</strong>, Anthropic offers Team (for teams of 2 to 150 people) and Enterprise plans. On both, Anthropic's pricing page says there is "no model training on your content by default".</li>
 <li><strong>For Claude inside your own product or systems</strong>, you call Claude through an API: the Claude API from Anthropic, or a cloud platform such as Amazon Bedrock.</li>
 </ul>
 <p>A prototype often starts on a personal account. Move it to a business plan or your own cloud account before real data goes in.</p>
-<h2>2. Why we recommend Amazon Bedrock</h2>
+<h2 id="why-we-recommend-amazon-bedrock">2. Why we recommend Amazon Bedrock</h2>
 <p>We are an AWS-first company. For most businesses that build Claude into their own systems, we recommend Amazon Bedrock. Here is why.</p>
 <ul>
 <li><strong>It runs in your own AWS account.</strong> Your AI sits next to your data and your systems, under the same account structure, billing and controls that your team already manages.</li>
@@ -136,7 +151,7 @@
 <li><strong>You are not locked to one model.</strong> Bedrock offers models from several providers, so you can compare and change models without a new contract.</li>
 </ul>
 <p><strong>Other cloud providers also offer Claude and other strong models,</strong> for example Google Cloud and Microsoft Azure. If your business is already committed to one of them, that can be the right choice. We are happy to talk through the options with you.</p>
-<h2>3. Know where your data goes</h2>
+<h2 id="know-where-your-data-goes">3. Know where your data goes</h2>
 <p>For many Australian businesses, this is the first question from the board or the risk team.</p>
 <p>On Amazon Bedrock, you choose how requests are routed. AWS documents three options:</p>
 <ul>
@@ -146,10 +161,10 @@
 </ul>
 <p>If your data must stay in Australia, use the Australian option. Then confirm where it routes. AWS itself warns: "Don't rely on the geographic prefix in an inference profile ID alone to determine where requests can be routed."</p>
 <p>Also check the data retention settings. Some of the newest Claude models on Bedrock need a mode where AWS can keep prompts and outputs "for up to 30 days" for human review. Check this for the model you choose.</p>
-<h2>4. Measure accuracy on your own data</h2>
+<h2 id="measure-accuracy-on-your-own-data">4. Measure accuracy on your own data</h2>
 <p>A demo shows that Claude can get the answer right. Production needs to know how often it does.</p>
 <p>Collect real examples from your business, with the answers a person would accept. Run them before go-live, and again every time the prompt, the data or the model changes. Write down the result. "It looked good in testing" is not a number.</p>
-<h2>5. Security: more than a password</h2>
+<h2 id="security-more-than-a-password">5. Security: more than a password</h2>
 <p>AI adds new ways for things to go wrong. Before go-live, check that:</p>
 <ul>
 <li><strong>The AI can reach only what the job needs.</strong> If it can read your whole SharePoint or send email, ask why.</li>
@@ -159,7 +174,7 @@
 <li><strong>Someone has tried to break it</strong> before your customers do.</li>
 </ul>
 <p><em>How we help:</em> we review the design, test it against common AI attacks, and give you a prioritised list of fixes.</p>
-<h2>6. Compliance: map it before the auditor asks</h2>
+<h2 id="compliance-map-it-before-the-auditor">6. Compliance: map it before the auditor asks</h2>
 <p>AI does not replace the rules that you already follow. It adds new places where you must show that you follow them. Map the project against:</p>
 <ul>
 <li>the Privacy Act, for any personal information that the AI reads, stores or produces</li>
@@ -168,9 +183,9 @@
 <li>your own policies on records, data retention and customer communication.</li>
 </ul>
 <p><em>How we help:</em> we map your AI project to your obligations and identify the gaps. Then you can show your board, and your auditor, how the risks are managed. If you need the bigger picture, read <a href="/insights/ai-governance-australia/">AI governance for Australian mid-sized businesses</a>.</p>
-<h2>7. Running cost</h2>
+<h2 id="running-cost">7. Running cost</h2>
 <p>Cost depends on the model, the length of each request and how many requests you get. A larger model is not always better value. Test with realistic volumes and compare a smaller model before you choose. Then set budgets and alerts, so a busy month does not surprise you.</p>
-<h2>8. Support after go-live</h2>
+<h2 id="support-after-go-live">8. Support after go-live</h2>
 <p>AI models change fast. Anthropic released three new Claude models between 22 September and 7 October 2026. Plan for:</p>
 <ul>
 <li><strong>an owner</strong> who watches accuracy, approves changes and answers when it gets something wrong</li>
@@ -179,7 +194,7 @@
 <li><strong>a plan for incidents:</strong> how you turn the feature off, tell users and fix it.</li>
 </ul>
 <p><em>How we help:</em> we can run and support your AI features after go-live, or set up the monitoring and processes for your own team.</p>
-<h2>Get a second opinion before go-live</h2>
+<h2 id="get-a-second-opinion-before-go">Get a second opinion before go-live</h2>
 <p>Our <a href="/services/claude-readiness-review/">Claude readiness review</a> checks your prototype for accuracy, security, cost and compliance in two weeks, and gives you a written fix plan.</p>
 <p>Not sure which platform, or where to start? <a href="/#contact">Talk to us</a>. We'll give you a straight answer, even if the answer is "not yet".</p>
 <p class="prose__sources"><strong>Sources:</strong> Anthropic pricing (claude.com/pricing); AWS Bedrock User Guide: cross-Region inference, geographic cross-Region inference, data protection and data retention; Anthropic newsroom.</p>
@@ -188,6 +203,7 @@
       <div><p class="author__name">Anastas Manojlovski</p><p>Founder and principal, Beyond Zenith. Before Beyond Zenith, Anastas led solution architecture across Australia and New Zealand for nine years at Whispir. Since 2021, Anastas has built and led engineering teams that deliver cloud, data and AI platforms for Australian businesses.</p><p><a class="link" href="https://www.linkedin.com/in/anastasm" rel="noopener">Anastas on LinkedIn</a></p></div>
     </aside></div>
   </article>
+  </div>
 
   <section class="s-contact" aria-labelledby="contact-h">
     <h2 id="contact-h">Tell us what you’re working on.</h2>

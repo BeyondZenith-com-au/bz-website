@@ -116,12 +116,24 @@
     <figure class="s-band"><picture><source type="image/webp" srcset="/art/spec-driven-development-1260.webp 1260w, /art/spec-driven-development.webp 2048w" sizes="(max-width: 760px) 180vw, 100vw"><img src="/art/spec-driven-development.jpg" srcset="/art/spec-driven-development-1260.jpg 1260w, /art/spec-driven-development.jpg 2048w" sizes="(max-width: 760px) 180vw, 100vw" width="2048" height="878" alt="A lamp at the top of a sloped wall at dusk" fetchpriority="high" style="object-position: 6% 50%"></picture></figure>
   </header>
 
+  <div class="article grid">
+    <nav class="toc" aria-labelledby="toc-h">
+      <p class="toc__label" id="toc-h">Contents</p>
+      <ol>
+      <li><a href="#what-is-spec-driven-development">What is spec-driven development?</a></li>
+      <li><a href="#how-the-workflow-works">How the workflow works</a></li>
+      <li><a href="#tools-worth-a-look">Tools worth a look</a></li>
+      <li><a href="#the-limits">The limits</a></li>
+      <li><a href="#our-three-rules">Our three rules</a></li>
+      <li><a href="#what-are-the-advantages">What are the advantages?</a></li>
+      </ol>
+    </nav>
   <article class="prose prose--banded">
 <p>More and more developers are moving to spec-driven development to fix that. I talked about it at the <a href="/insights/shipping-with-ai/">Shipping with AI meetup</a> at Nintex. This is the longer version.</p>
-<h2>What is spec-driven development?</h2>
+<h2 id="what-is-spec-driven-development">What is spec-driven development?</h2>
 <p>GitHub puts it simply: "Instead of coding first and writing docs later, in spec-driven development, you start with a (you guessed it) spec."</p>
 <p>The spec says what the feature must do, who it is for, and how you will know it works. A person reviews it before any code exists. Then an AI coding agent, such as Claude Code, plans the work and writes the code against the spec. GitHub calls the spec "a contract for how your code should behave".</p>
-<h2>How the workflow works</h2>
+<h2 id="how-the-workflow-works">How the workflow works</h2>
 <ol>
 <li><strong>Draft the spec first.</strong> Write down the problem, the functional and non-functional requirements, the inputs and outputs, the constraints, and what is out of scope. Keep it in plain files in the repository, for example <code>requirements.md</code>, <code>design.md</code> and <code>tasks.md</code>.</li>
 <li><strong>Break the work into small tasks.</strong> Split each feature into small, ordered tasks that you can check one at a time. Thin vertical slices work best: each one delivers a small piece that works end to end. The agent builds one task at a time.</li>
@@ -129,13 +141,13 @@
 <li><strong>Review early, then verify.</strong> Move most of the human review to the start: approve the spec and the task plan before the agent writes code. Then check the code and the tests against the spec.</li>
 <li><strong>Keep improving the process.</strong> Spec-driven development is still new, and the tools change every month. Review how it works for your team regularly, and change it.</li>
 </ol>
-<h2>Tools worth a look</h2>
+<h2 id="tools-worth-a-look">Tools worth a look</h2>
 <ul>
 <li><strong><a href="https://github.com/github/spec-kit" rel="noopener">Spec Kit</a></strong> is GitHub's open-source toolkit. You run its steps as commands in your AI coding agent's chat, such as <code>/speckit-specify</code>, <code>/speckit-plan</code>, <code>/speckit-tasks</code> and <code>/speckit-implement</code>. A "constitution" holds the principles that every spec must follow.</li>
 <li><strong><a href="https://github.com/Fission-AI/OpenSpec" rel="noopener">OpenSpec</a></strong> describes itself as "fluid not rigid" and "built for brownfield not just greenfield". Each change gets a folder with a proposal, specs, a design and tasks. When the change is done, you archive it.</li>
 <li><strong><a href="https://kiro.dev/" rel="noopener">Kiro</a></strong> is an AI development tool from AWS. Its spec workflow goes from requirements to design to tasks, with one document for each step.</li>
 </ul>
-<h2>The limits</h2>
+<h2 id="the-limits">The limits</h2>
 <p>Spec-driven development is not a fix for everything. Birgitta Böckeler <a href="https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html" rel="noopener">tested Kiro, Spec Kit and Tessl on martinfowler.com</a> and found real problems:</p>
 <ul>
 <li>The agent did not always follow the spec: "I frequently saw the agent ultimately not follow all the instructions."</li>
@@ -143,11 +155,11 @@
 <li>Big up-front specs can turn into waterfall.</li>
 </ul>
 <p>She also describes three levels: spec-first (write the spec for the task), spec-anchored (keep the spec and update it as the feature changes), and spec-as-source (people edit only the spec, never the code). Most teams today are at the first level.</p>
-<h2>Our three rules</h2>
+<h2 id="our-three-rules">Our three rules</h2>
 <p><strong>Put the business outcome in the spec.</strong> "Add a claims triage screen" is a task. "Reply to every new claim within four hours, measured from the claim log" is an outcome. (This is an illustration.) The AI builds towards what the spec says, so put the outcome there.</p>
 <p><strong>Keep each spec small.</strong> One change, one spec. A spec that takes an hour to review will not get reviewed.</p>
 <p><strong>Turn acceptance criteria into tests.</strong> Write criteria that a test can check, for example "given …, when …, then …". Then a test checks the agent's work. Don't let the AI mark its own homework.</p>
-<h2>What are the advantages?</h2>
+<h2 id="what-are-the-advantages">What are the advantages?</h2>
 <ul>
 <li>People agree on what to build before the code exists, when changes are cheap.</li>
 <li>The agent works from a short, clear spec.</li>
@@ -161,6 +173,7 @@
       <div><p class="author__name">Anastas Manojlovski</p><p>Founder and principal, Beyond Zenith. Before Beyond Zenith, Anastas led solution architecture across Australia and New Zealand for nine years at Whispir. Since 2021, Anastas has built and led engineering teams that deliver cloud, data and AI platforms for Australian businesses.</p><p><a class="link" href="https://www.linkedin.com/in/anastasm" rel="noopener">Anastas on LinkedIn</a></p></div>
     </aside></div>
   </article>
+  </div>
 
   <section class="s-contact" aria-labelledby="contact-h">
     <h2 id="contact-h">Tell us what you’re working on.</h2>
