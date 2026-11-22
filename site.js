@@ -131,6 +131,29 @@
     });
   });
 
+  // Article contents: mark the section being read. The current section is the last heading
+  // that has passed a line 30% down the screen. Without this script the list still works as links.
+  const toc = document.querySelector('.toc');
+  if (toc) {
+    const links = [...toc.querySelectorAll('a[href^="#"]')];
+    const heads = links.map((a) => document.getElementById(a.getAttribute('href').slice(1)));
+    let current = null, queued = false;
+    const mark = () => {
+      queued = false;
+      const line = window.innerHeight * 0.3;
+      let i = -1;
+      heads.forEach((h, n) => { if (h && h.getBoundingClientRect().top <= line) i = n; });
+      const next = links[i] || null;
+      if (next === current) return;
+      if (current) current.removeAttribute('aria-current');
+      if (next) next.setAttribute('aria-current', 'location');
+      current = next;
+    };
+    window.addEventListener('scroll', () => { if (!queued) { queued = true; requestAnimationFrame(mark); } }, { passive: true });
+    window.addEventListener('resize', mark);
+    mark();
+  }
+
   // Contact form: send in the page, keep the visitor where they are.
   const form = document.querySelector('form[name="contact"]');
   if (form && window.fetch) {
