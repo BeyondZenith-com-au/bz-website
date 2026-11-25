@@ -237,3 +237,9 @@ main:focus { outline: none; }
   .foot__cols a, .foot__legal a, .crumbs a { display: inline-block; padding-block: 3px; }
 }
 @media (prefers-reduced-motion: reduce) { .posts__img { transition: none; } }
+
+/* ---------- Careers: plain lists in a section body ---------- */
+.s-body .list { margin: 0 0 16px; padding-left: 1.2em; color: var(--soft); max-width: 62ch; }
+.s-body .list li { margin: 0 0 8px; }
+.s-body .list li::marker { color: var(--dim); }
+.s-head .byline { margin: 0 0 28px; }
