@@ -79,6 +79,16 @@ repo. This file is how they stay in step. Read `README.md` for the file layout.
   `/services/ai-consulting/` and `/industries/freight-and-logistics/` (legal check), and the
   "Since 2021" dates on the home page and `/services/ai-consulting/`.
 
+## Fixed facts (same wording on the site, llms.txt, schema and every listing)
+
+- Founder: Anastas Manojlovski "has led solution architecture and engineering teams across Australia
+  and New Zealand since 2015" (nine years at Whispir, then Beyond Zenith from 2021).
+- Company: Beyond Zenith Software Pty Ltd, registered since November 2021, ABN 54 654 970 091
+  (schema `foundingDate` 2021-11-01).
+- "Since 2021" stays only for Beyond Zenith's own team delivery and the insurance, financial services
+  and freight sector dates. Do not change either year without Anastas. The master list is the vault
+  note `03 - Sales and Pipeline/Entity Facts.md`.
+
 ## Checks before every commit
 
 - Run the site locally (`python3 -m http.server`) and look at each changed page at 390 px and 1440 px.
