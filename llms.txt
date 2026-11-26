@@ -14,7 +14,7 @@ Key facts:
 
 ## Services
 
-- [AI consulting](https://beyondzenith.com.au/services/ai-consulting/): choose the first AI use case worth building, check a prototype before go-live, and get your data ready.
+- [AI consulting in Melbourne](https://beyondzenith.com.au/services/ai-consulting/): choose the first AI use case worth building, check a prototype before go-live, and get your data ready.
 - [Claude readiness review](https://beyondzenith.com.au/services/claude-readiness-review/): a review of a Claude prototype for accuracy, security, cost and compliance, with a written fix plan.
 - [Delivery teams](https://beyondzenith.com.au/services/delivery-teams/): a dedicated team that builds and maintains your product, led by a senior lead in Australia.
 - [Data and integration platforms](https://beyondzenith.com.au/services/data-platforms/): connect the systems you already run, so your data is in one place that you own.
