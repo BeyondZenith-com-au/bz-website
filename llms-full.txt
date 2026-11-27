@@ -5,10 +5,10 @@
 ---
 
 URL: https://beyondzenith.com.au/
-Title: Software and AI for brokers and freight · Beyond Zenith
+Title: Software, data and AI for regulated industries · Beyond Zenith
 
 # Software you own, from a team that stays.
-We build and run software, data and AI for Australian businesses. Most of our work is for insurance brokers and freight platforms. The code and data are yours, and we’re still here after go-live. Based in Melbourne.
+We build and run software, data and AI for Australian businesses in regulated industries: financial services, insurance, health, government, and freight and logistics. The code and data are yours, and we’re still here after go-live. Based in Melbourne.
 Start a conversation
 Beyond ZenithBeyond Zenıth
 ## Four ways we work with you
@@ -21,7 +21,7 @@ From the first idea to AI in production, tested on your own data.
 More about AI consulting
 ### Delivery teams
 A dedicated team that builds and maintains your product, scaled up or down as the work changes.
-- Local leadership, global talent
+- Australian-led, Australian business hours
 - Capped monthly budget, no lock-in
 - Demos tied to every invoice
 More about delivery teams
@@ -109,7 +109,7 @@ We can change this policy. When we do, we publish the new version on this page a
 ---
 
 URL: https://beyondzenith.com.au/services/delivery-teams/
-Title: Software delivery teams for Australian businesses · Beyond Zenith
+Title: Software delivery teams in Australia · Beyond Zenith
 
 Home / Services / Delivery teams
 # Software delivery teams for Australian businesses
@@ -296,6 +296,37 @@ People copy data from one system to another by hand, and reports from different 
 Insurers, auditors and enterprise clients ask how you protect client data. Some ask for certifications such as SOC 2.
 ### AI that needs clean data
 AI tools give poor answers when the client data under them is incomplete or in conflict.
+## What we build
+### One record for each client
+We match client records across your CRM, broking platform and policy systems, so each client has one record that every system can use.
+### A client portal on your broking system
+Clients see their policies, documents and renewal dates. We read the data from your broking system. You do not replace it.
+### Renewal and document workflows
+We read schedules, certificates and emails, and put the data where your team needs it. A person checks each result before it goes to a client.
+### AI on your own data
+Search and summaries over your client files, in your own cloud account. We measure accuracy on your own records before go-live.
+### Answers for security reviews
+Access control, audit logs and data location, written down so you can answer insurers, auditors and clients.
+## How a project runs
+### Discovery session
+We learn your systems, your data and the problem. You get a short plan and a fixed estimate.
+### Clickable prototype
+Within two weeks, you see the main screens and test them with your team.
+### First version
+In four to six weeks, we build the first version around your broking system.
+### Run and improve
+A team sized to your budget supports the system and adds features each month.
+## Questions brokers ask
+### Do we need to replace our broking system?
+Usually not. Most brokerages get more value when we build around the system they already use. We read its data, join it with your other systems, and add what is missing.
+### Where does our client data stay?
+In Australia. We build on Amazon Web Services in the Sydney Region. When your data must stay in your own AWS account, we build in that account.
+### Who does the work?
+Beyond Zenith is Australian-led, with developers working Australian business hours. One senior lead is your contact from the first workshop to the last release.
+### What does it cost?
+It depends on your systems, your data and how clear the requirements are. The discovery session gives you a fixed estimate before you commit to the build.
+### Can we keep client knowledge when a senior broker leaves?
+Yes, when the knowledge is in your files, emails and notes. We bring it into one client record that the next broker can search.
 ## Our work
 For an Australian insurance broker, we are building one source of truth for client identity.
 It matches client records across Salesforce and the broker’s other systems, so that each client has one record that every system can use. It is also the base for the broker’s AI work. For the same broker, we scoped what SOC 2 certification for one of its products would take.
@@ -324,6 +355,31 @@ Many platforms grew faster than their cloud security. Old settings and wide acce
 Each new customer needs rates, lanes and accounts set up, and people often do this by hand.
 ### Pricing and quoting
 Quotes depend on many rates and rules. AI can help, but only on a platform that is stable first.
+## What we build
+### A safe release process
+Each change gets a risk rating, a peer review and a test in a sandbox before it goes live.
+### Cloud security fixes
+We review your AWS set-up and fix the findings in order of risk.
+### Customer onboarding tools
+Rates, lanes and accounts loaded from your customers’ files, and checked by a person.
+### Quoting and rate data
+Your rate tables and rules in one place, ready for automation and AI.
+### Integrations
+Connections to carriers, customers and accounting systems.
+## How a project runs
+### Review
+We review the code, the cloud set-up and the release process, and rank the risks.
+### Stabilise
+We fix the highest risks first, so the platform keeps running.
+### Build
+A team sized to your budget adds the features on your roadmap each month.
+## Questions freight platforms ask
+### Can you take over a platform that another team built?
+Yes. We start with a review of the code, the cloud set-up and the release process. Then we fix the highest risks before we add features.
+### Who does the work?
+Beyond Zenith is Australian-led, with developers working Australian business hours. One senior lead is your contact for priorities and releases.
+### Do you work on AWS?
+Yes. We build and run platforms on Amazon Web Services, in the Sydney Region when your data must stay in Australia.
 ## Our work
 For an Australian freight technology platform, our delivery team maintains and develops the product each month.
 We put in a stricter release process: a risk rating for each change, peer review, AI code review, a test merge in a sandbox, and a final check by the tech lead. We also reviewed the platform’s AWS security, and we are fixing the findings in order of risk before the next work on onboarding and AI.
@@ -337,10 +393,10 @@ Start a conversationhello@beyondzenith.com.au
 ---
 
 URL: https://beyondzenith.com.au/services/ai-consulting/
-Title: AI consulting · Beyond Zenith
+Title: AI consulting in Melbourne · Beyond Zenith
 
 Home / Services / AI consulting
-# AI consulting that gets to production
+# AI consulting in Melbourne that gets to production
 Many AI pilots stop at the demo. We help you choose the right first use case, check that it works on your data, and put it into production.
 Start a conversationEmail hello@beyondzenith.com.au
 ## Where are you now?
@@ -362,6 +418,8 @@ When your data must stay in your own AWS account, we use Claude on Amazon Bedroc
 ## Our work
 For an Australian insurance broker, we are building one source of truth for client data.
 It joins client records across the broker’s systems, and it is the base for the broker’s AI work. More about our insurance work
+## AI consulting in Melbourne
+We are based in Melbourne. We meet you in person for the discovery session and the main reviews. We also work with teams across Australia, with developers working Australian business hours.
 ## Why Beyond Zenith
 Our founder, Anastas Manojlovski, has run partner programmes with AWS, Anthropic and OpenAI.
 Before Beyond Zenith, Anastas led solution architecture across Australia and New Zealand for nine years at Whispir. Since 2021, Anastas has built and led engineering teams that deliver cloud, data and AI platforms for Australian businesses.
@@ -426,7 +484,7 @@ Start a conversationhello@beyondzenith.com.au
 ---
 
 URL: https://beyondzenith.com.au/insights/shipping-with-ai/
-Title: Shipping with AI: code is cheap, outcomes aren’t · Beyond Zenith
+Title: Code is cheap, outcomes aren’t · Beyond Zenith
 
 Home / Insights / Shipping with AI
 # Shipping with AI: code is cheap, outcomes aren’t
@@ -468,6 +526,15 @@ Home / Insights
 # Articles and talks
 Notes from our talks, and articles on shipping software, data and AI that reach production.
 ## Latest
+Article · 26 November 2026
+### AI for claims and renewals in a brokerage: what to build first, and how to keep client data safe
+Three places to start (claims emails, renewals, certificates), what it costs, and five rules to keep client data safe, including the privacy policy change from 10 December 2026.
+Article · 26 November 2026
+### How to connect your broking system to Xero and your CRM
+Your broking system, CRM and Xero each hold part of the client. What each system should own, three ways to connect them, and what it costs.
+Article · 26 November 2026
+### Build, buy or connect: what a broker system costs in Australia
+Most brokerages do not need a new broking system. Three paths, indicative prices, what moves the price, and how to get a fixed estimate before you commit.
 Article · 20 November 2026
 ### Lean AI governance: a practical framework for Australian financial services
 A lean, practical AI governance framework for mid-sized Australian financial services businesses: seven areas, from accountability and approved tools to testing, training and supplier checks. Built for APRA, ASIC and Privacy Act obligations.
@@ -633,13 +700,212 @@ Start a conversationhello@beyondzenith.com.au
 
 ---
 
+URL: https://beyondzenith.com.au/insights/ai-claims-renewals-brokerage/
+Title: AI for claims and renewals in a brokerage · Beyond Zenith
+
+Home / Insights / AI for claims and renewals
+# AI for claims and renewals in a brokerage: what to build first, and how to keep client data safe
+Start with the work that reads and sorts. Let AI draft, let a person approve, and keep client data in Australia.
+By Anastas Manojlovski · 26 November 2026
+Short answer. Start with the work that reads and sorts: claims emails, renewal preparation and certificates of currency. Let AI draft and sort, and let a person approve. A first working flow can be tested within two weeks on test data. Keep client data in your own cloud account in Australia, and never put it into a public chatbot.
+## The question behind the question
+Brokers ask two questions together. “Can AI take over claims triage, renewals and certificates?” And straight after: “Is our client data safe if we do?” Both are right. The value is in the volume of emails and documents. The risk is the same client data.
+So the question is not “should we use AI?” It is “which job do we give it first, and what must stay with a person?”
+## Three places to start
+### 1. Claims emails and documents
+AI reads each new claim email and its attachments. It finds the client and the policy, takes out the key facts (date, type of loss, amount), files the email to the right client, and drafts an acknowledgement. A person checks and sends.
+- Cost: a clickable prototype is $5k–10k. A first version is usually $20k–45k. See what a broker system costs.
+- Good for: brokerages and broker networks with many claim emails each day, often into shared inboxes.
+- Watch for: the wrong client match. An email filed to the wrong client is a privacy breach. AI must never make the claim decision. When you act for your client, you are their advocate and the insurer decides. When you handle claims under an insurer’s authority, the decision is a regulated claims handling service, and a person must make it.
+### 2. Renewal preparation
+Before each renewal, AI collects the policy, past claims, notes and emails, and drafts a short summary with the questions to ask the client.
+- Cost: similar to claims, and lower if the claims flow already exists, because both use the same connection to your broking system.
+- Good for: brokers who spend the first hour of each renewal looking for information.
+- Watch for: old or missing data. The summary is only as good as your records. The broker still gives the advice.
+### 3. Certificates of currency and endorsements
+Clients ask for a certificate or a change, and get an answer from a portal without waiting for a person.
+- Cost: in the same range. It needs a reliable connection to your broking system. See how to connect your broking system.
+- Good for: brokerages with many small, repeat requests.
+- Watch for: the certificate must come from your broking system’s data, not from text that AI writes. AI helps with the request. The system produces the document.
+## Five rules to keep client data safe
+- No public chatbots. The OAIC recommends that organisations do not put personal information into publicly available AI tools. Use a business AI service that you control.
+- Your own cloud account, in Australia. For example, Claude on Amazon Bedrock with the Australian profile keeps requests in Sydney and Melbourne. Bedrock does not store your prompts or use them to train models. Some new models need data sharing with the model provider, so check that setting and turn it off.
+- A person approves anything that leaves the brokerage. AI drafts and sorts. A person sends to clients and insurers.
+- Log every AI action. Record what the AI read, what it suggested and who approved it. Insurers, auditors and clients now ask for this.
+- Update your privacy policy. From 10 December 2026, if a computer program makes or informs decisions that significantly affect people, your privacy policy must say so. Check with your adviser whether your AI flows are covered.
+## What moves the price
+- The number of inboxes and email types. One shared claims inbox is simpler than ten brokers’ personal inboxes.
+- Access to your broking system. AI needs client and policy data to match emails correctly.
+- The state of your records. Duplicate clients and missing policy numbers lower accuracy.
+- How much a person must check. More checks at the start, fewer once accuracy is measured.
+- Security and audit needs. Logs, access control and data location add work, and they are what makes the system safe to use.
+## How to get to a fixed answer
+- Discovery session. We look at your inboxes, your broking system and your records, and choose the first flow. You get a short plan and a fixed estimate.
+- Prototype on test data. Within two weeks, one flow works on test or anonymised data, so you see the result before real client data goes in. If you go ahead, the cost is credited against the build.
+- First version. We measure accuracy on your own records before go-live, and we show it in a demo before each invoice.
+## Questions brokers ask
+### Will AI decide our claims?
+No. AI sorts emails, takes out the facts and drafts replies. When you act for the client, you advocate and the insurer decides. When you handle claims under an insurer’s authority, a person in your team still makes each decision.
+### Can our team use ChatGPT for client emails?
+Not with client details in a public tool. The OAIC recommends against it. A business AI service in your own environment gives you the same help with control over the data.
+### Where does our client data go?
+It stays in your own cloud account in Australia. With Claude on Amazon Bedrock and the Australian profile, requests are processed in Sydney and Melbourne, and Bedrock does not store prompts or train on them.
+### Do we need to change our privacy policy?
+Possibly. From 10 December 2026, a privacy policy must describe computer programs that make or inform decisions that significantly affect people. Sorting emails is usually not that. Deciding priority or outcomes may be. Check with your adviser.
+### How accurate is it?
+We do not promise a number before we test it. We measure accuracy on your own records during the build, and you decide what a person must still check.
+Want to test one flow on your own inbox? Talk to us. See also the Claude readiness review and software and data for insurance brokers.
+Sources: OAIC, “Guidance on privacy and the use of commercially available AI products”; OAIC, “New resources on transparency for use of AI and automated decision-making”; NIBA, Insurance Brokers Code of Practice; ASIC, INFO 253 (claims handling and settling); AWS, cross-Region inference in Australia; AWS, “Data protection – Amazon Bedrock”; AWS Security Blog, zero data retention on Amazon Bedrock.
+Anastas Manojlovski
+Founder and principal, Beyond Zenith. Before Beyond Zenith, Anastas led solution architecture across Australia and New Zealand for nine years at Whispir. Since 2021, Anastas has built and led engineering teams that deliver cloud, data and AI platforms for Australian businesses.
+Anastas on LinkedIn
+## Tell us about your inbox.
+A few lines are enough. We’ll come back with questions, or a time to talk.
+Start a conversationhello@beyondzenith.com.au
+
+---
+
+URL: https://beyondzenith.com.au/insights/connect-broking-system-xero-crm/
+Title: Connect your broking system to Xero and your CRM · Beyond Zenith
+
+Home / Insights / Connect your broking system
+# How to connect your broking system to Xero and your CRM
+Your broking system, CRM and Xero each hold part of the client. What each system should own, and three ways to connect them.
+By Anastas Manojlovski · 26 November 2026
+Short answer. Keep your broking system as the source of truth for clients, policies and trust money. Send Xero one summary journal each day, and give your CRM a read copy of each client. A first version usually takes four to six weeks. The hard part is not Xero. It is how you get data out of your broking system.
+## The question behind the question
+Brokers describe it in the same words: a “spaghetti mess”. The broking system, the CRM, Xero, Outlook and the phone system each hold part of the client. Month-end journals go into Xero by hand. Collections and cash-flow forecasts are not automatic. Certificates of currency and endorsements wait for a person to copy data from one screen to another.
+So the question is not “can these systems talk?” Most can. The question is “what should each system own, and which connection is safe enough for client money?”
+## What stays where
+Decide this first. Most integration problems come from two systems that both think they own the same data.
+Data Owner (source of truth) Other systems get
+Clients and policies Broking system CRM: a read copy, updated daily or on change
+Trust money (premiums held for insurers) Broking system Xero: nothing, or one summary balance if your accountant wants it
+Commission, fees and GST Broking system Xero: one summary journal each day
+Operating costs, payroll, BAS Xero —
+Sales activity and follow-ups CRM Broking system: nothing, or a note on the client
+Emails and documents Broking system or your document store CRM: a link, not a copy
+Trust money stays in the broking system. Broking systems such as Steadfast INSIGHT and JAVLN Platform include trust accounting and bank reconciliation. Keep the trust ledger and the trust bank reconciliation there. If your accountant wants the trust balance in Xero for the balance sheet, send one summary journal to a trust bank account and a trust liability account, and do not reconcile trust in Xero. Check the design with your accountant or auditor, because client money has its own rules under Part 7.8 of the Corporations Act.
+## Three ways to connect
+### 1. A ready-made connector or automation tool
+For example a marketplace add-on, or a tool such as Zapier or Make.
+- Cost: a monthly subscription, plus a few days of set-up.
+- Good for: simple flows, such as a new client in the CRM creating a task.
+- Watch for: money flows, error handling and audit. If a step fails quietly, nobody sees it until month-end.
+### 2. Scheduled export and import
+The broking system exports a report each day. A small job reads the file, checks it and sends the result to Xero or the CRM.
+- Cost: a small build. Low running cost.
+- Good for: broking systems with no API, or an API that you cannot get access to.
+- Watch for: reports that change format after an upgrade. The job must check every file and stop when something looks wrong.
+### 3. Direct API integration
+A small integration service, in your own cloud account, reads from the broking system’s API and writes to Xero and the CRM.
+- Cost: see the table in what a broker system costs. A first version is usually in the $20k–45k range.
+- Good for: daily journals, client sync, collections and cash-flow reports, and anything you want to automate later with AI.
+- Watch for: API access. Ask your broking system vendor early what they allow, and what security checks they need.
+## What moves the effort
+- Access to the broking system. This differs a lot between systems. JAVLN publishes its API documentation on a public developer portal. Steadfast offers an INSIGHT API, and it is moving partners to an API marketplace with security checks. WinBEAT interfaces with most industry providers. Ask your vendor what applies to you.
+- Platform changes. INSIGHT is becoming Steadfast Apps. Steadfast says existing API integrations are not affected at this stage. Design the integration so that the connection to the broking system is one small part you can change.
+- Xero’s limits. Xero allows 60 API calls a minute and 5,000 a day for each organisation. Send summaries, not every transaction.
+- The state of your data. Duplicate clients and different spellings across systems must be matched first.
+- Who signs off. Every journal that reaches Xero needs an owner who checks it, at least for the first months.
+## How to get to a fixed answer
+- Discovery session. We map your systems, your data flows and who owns what. We check API access with your vendor. You get a short plan and a fixed estimate.
+- Clickable prototype or one working flow. Within two weeks, for example the daily journal into a test Xero organisation. If you go ahead, the cost is credited against the build.
+- First version. The agreed flows, with logs, alerts and a check before anything posts to Xero. We show it in a demo before each invoice.
+## Questions brokers ask
+### Can we connect Steadfast INSIGHT, WinBEAT or JAVLN to Xero?
+Usually yes, through the vendor’s API or a scheduled report. Each vendor controls access differently, so we confirm it in the discovery session before you commit.
+### Does our trust account move to Xero?
+No. Keep the trust ledger and the trust reconciliation in your broking system. Xero receives your commission, fees and GST as a summary journal, and, if your accountant wants it, the trust balance as one summary line.
+### What happens when INSIGHT becomes Steadfast Apps?
+Steadfast says existing API integrations are not affected at this stage. We keep the broking-system connection small and separate, so a change affects one part only.
+### Do we need to replace our CRM?
+Usually not. The CRM gets a read copy of each client from the broking system, so your team sees the same details everywhere.
+### Is Zapier or Make enough?
+For simple, low-risk flows, yes. For money and client data, use a connection that checks each step, logs it, and alerts a person when something fails.
+Want to see what your systems can share? Talk to us. See also what a broker system costs and data and integration platforms.
+Sources: Steadfast Technologies, “INSIGHT: Your Trusted Broking Platform”; Steadfast Technologies, “Steadfast Apps FAQs”; Ebix Australia, WinBEAT; JAVLN Developer Portal; JAVLN, “Trust accounting and financial management for insurance brokers”; Xero Developer, “Limits”; Corporations Act 2001, Part 7.8 (general reference).
+Anastas Manojlovski
+Founder and principal, Beyond Zenith. Before Beyond Zenith, Anastas led solution architecture across Australia and New Zealand for nine years at Whispir. Since 2021, Anastas has built and led engineering teams that deliver cloud, data and AI platforms for Australian businesses.
+Anastas on LinkedIn
+## Tell us about your systems.
+A few lines are enough. We’ll come back with questions, or a time to talk.
+Start a conversationhello@beyondzenith.com.au
+
+---
+
+URL: https://beyondzenith.com.au/insights/broker-system-cost-australia/
+Title: What a broker system costs in Australia · Beyond Zenith
+
+Home / Insights / Broker system cost
+# Build, buy or connect: what a broker system costs in Australia
+Most brokerages do not need a new broking system. They need the systems they have to work together. Here is what each path costs.
+By Anastas Manojlovski · 26 November 2026
+Short answer. Most owner-led brokerages do not need a new broking system. They need the systems they already have to work together. Connecting those systems usually costs $20k–45k for a first version, built in four to six weeks. A full custom build costs more and takes longer. Your final estimate comes after a discovery session.
+## The question behind the question
+When brokers ask us what a system costs, they usually describe the same problem. The broking system, the CRM, Xero and Outlook do not talk to each other. Staff type the same data twice. Month-end journals are done by hand. Certificates of currency and endorsements wait for a person.
+So the real question is not “what does software cost?” It is “which of three paths fixes this, and what does each one cost?”
+## Three paths
+### 1. Buy and configure
+You keep or change your broking system (for example WinBEAT or Steadfast Insight) and use its own features and add-ons.
+- Cost: a licence per user each month, plus set-up and data migration. Most vendors do not publish their prices, so ask for a quote that includes migration and training.
+- Good for: standard broking work, when the vendor’s workflow fits how you work.
+- Watch for: the gaps between systems stay. The licence cost grows with every new staff member.
+### 2. Connect and build around your broking system
+You keep your broking system. We connect it to your CRM, Xero and email, and build the missing parts on top: a client portal, renewal workflows, document handling, AI on your own data.
+- Cost: see the table below. This is where most of our broker work sits.
+- Good for: brokerages that are happy with their broking system, but lose time between systems.
+- Watch for: access to the broking system’s data. Some systems give a full API, some give exports only, and some limit access. We check this in the discovery session, before you commit.
+### 3. Full custom build
+You build your own system, or a large part of one, for example a claims platform.
+- Cost: see the table below. General Australian guides put large custom platforms at several hundred thousand dollars.
+- Good for: broker networks and firms whose workflow is their advantage, or who must stop depending on a third-party platform.
+- Watch for: you also own the support, the security and the updates. Budget for it every year.
+## What it costs with us
+Indicative prices, AUD ex-GST, November 2026. Your final estimate comes after a discovery session. We price the discovery session separately, and it is not included in these ranges.
+OptionTimeTeamIndicative cost
+Clickable prototypeUp to 2 weeks1 developer, 1 designer, tech lead review$5k–10k
+First version, built around your broking system4–6 weeks2 developers, part-time tech lead$20k–45k
+Larger integration or full build2–4 months2–3 developers, part-time tech lead$40k–150k
+Ongoing teamEach monthSized to your budgetFrom $5k a month
+We are Australian-led, with developers working Australian business hours.
+## What moves the price
+- Access to your data. A broking system with a good API costs less to connect than one that gives exports only.
+- The number of systems. Each extra system (CRM, accounting, email, insurer portals) adds work.
+- The state of your data. Duplicate clients and missing fields must be fixed before automation works.
+- Compliance and security. Audit logs, access control and where data is stored add work, and insurers and clients now ask about them.
+- How clear the requirements are. This is the biggest driver. Unclear requirements make every estimate wide.
+## How to turn a range into a fixed price
+- Discovery session. We learn your systems, your data and the problem. You get a short plan and a fixed estimate.
+- Clickable prototype. Within two weeks, you see the main screens and test them with your team. If you go ahead, the prototype cost is credited against the build.
+- First version. We build it around your broking system, and show it in a demo before each invoice.
+## Questions brokers ask
+### Do we need to replace our broking system?
+Usually not. Most brokerages get more value when we connect the system they already use and build what is missing around it.
+### Why is your range lower than the general guides?
+General guides price a full product from scratch with a local agency team. We usually build around your broking system, so there is less to build. Our team is Australian-led, with developers working Australian business hours.
+### What is not in the price?
+The discovery session, hosting and licences for other software, and support after go-live. We tell you each of these in the estimate.
+### How long until we see something?
+A clickable prototype within two weeks. A first version in four to six weeks.
+Want a fixed estimate for your brokerage? Talk to us. See also software and data for insurance brokers and data and integration platforms.
+Sources: Hatchet, “How much does custom software cost in Australia? (2026 guide)”; AW Labs, “How much does custom software cost in Australia? (2026 guide)”; Ebix Australia, WinBEAT.
+Anastas Manojlovski
+Founder and principal, Beyond Zenith. Before Beyond Zenith, Anastas led solution architecture across Australia and New Zealand for nine years at Whispir. Since 2021, Anastas has built and led engineering teams that deliver cloud, data and AI platforms for Australian businesses.
+Anastas on LinkedIn
+## Tell us about your systems.
+A few lines are enough. We’ll come back with questions, or a time to talk.
+Start a conversationhello@beyondzenith.com.au
+
+---
+
 URL: https://beyondzenith.com.au/insights/spec-driven-development/
 Title: Spec-driven development with AI · Beyond Zenith
 
 Home / Insights / Spec-driven development
 # Spec-driven development: write the spec before the AI writes the code
 AI writes code fast. So the expensive mistake isn't slow code any more. It's fast code for the wrong thing.
-By Anastas Manojlovski · 20 November 2026
+By Anastas Manojlovski · 20 November 2026 · Updated 26 November 2026
 More and more developers are moving to spec-driven development to fix that. I talked about it at the Shipping with AI meetup at Nintex. This is the longer version.
 ## What is spec-driven development?
 GitHub puts it simply: "Instead of coding first and writing docs later, in spec-driven development, you start with a (you guessed it) spec."
@@ -664,6 +930,8 @@ She also describes three levels: spec-first (write the spec for the task), spec-
 Put the business outcome in the spec. "Add a claims triage screen" is a task. "Reply to every new claim within four hours, measured from the claim log" is an outcome. (This is an illustration.) The AI builds towards what the spec says, so put the outcome there.
 Keep each spec small. One change, one spec. A spec that takes an hour to review will not get reviewed.
 Turn acceptance criteria into tests. Write criteria that a test can check, for example "given …, when …, then …". Then a test checks the agent's work. Don't let the AI mark its own homework.
+## Specs and client data
+Clients now ask how a supplier keeps their data safe while AI writes the code. Our answer starts with the spec. We build the first prototype on test data, so stakeholders can comment early and nothing real is at risk. The spec also says how the real system gets access to personal information: who can see it, where it is stored, and how each access is logged. We build that access process before any real client data goes in.
 ## What are the advantages?
 - People agree on what to build before the code exists, when changes are cheap.
 - The agent works from a short, clear spec.
