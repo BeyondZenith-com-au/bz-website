@@ -83,6 +83,7 @@ repo. This file is how they stay in step. Read `README.md` for the file layout.
 
 - Company: Beyond Zenith Software Pty Ltd, ABN 54 654 970 091, registered since November 2021
   (schema `foundingDate` 2021-11-01). Melbourne. hello@beyondzenith.com.au. https://beyondzenith.com.au/
+  Phone +61 400 922 464: in the schema `telephone` only, not shown on pages (decision 27 Nov 2026).
 - Listings describe the business, not the founder's career. Do not change these facts without
   Anastas. The master list is the vault note `03 - Sales and Pipeline/Entity Facts.md`.
 
