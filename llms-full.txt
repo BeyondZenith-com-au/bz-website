@@ -1,0 +1,1027 @@
+# Beyond Zenith Software: full text of beyondzenith.com.au
+
+> The main text of every page on the site, for AI tools. Short version: /llms.txt
+
+---
+
+URL: https://beyondzenith.com.au/
+Title: Software, data and AI for regulated industries · Beyond Zenith
+
+# Software you own, from a team that stays.
+We build and run software, data and AI for Australian businesses in regulated industries: financial services, insurance, health, government, and freight and logistics. The code and data are yours, and we’re still here after go-live. Based in Melbourne.
+Start a conversation
+Beyond ZenithBeyond Zenıth
+## Four ways we work with you
+Every engagement is led by someone senior who stays on it from the first workshop to the last release.
+### AI consulting
+From the first idea to AI in production, tested on your own data.
+- Readiness review before go-live
+- Accuracy measured on your data
+- The best model for the job
+More about AI consulting
+### Delivery teams
+A dedicated team that builds and maintains your product, scaled up or down as the work changes.
+- Australian-led, Australian business hours
+- Capped monthly budget, no lock-in
+- Demos tied to every invoice
+More about delivery teams
+### Data and integration platforms
+We connect the systems you already run so your data sits in one place you own and can use.
+- AWS-based, built as code
+- One view across every system
+- Ready for AI from day one
+More about data and integration platforms
+### Technical advisory
+Architecture, delivery planning and an honest second opinion before you commit to a large build.
+- Fixed-price discovery
+- A written plan you keep
+- Fee credited if we build it
+More about technical advisory
+Recent talk Shipping with AI, Nintex Melbourne, 11 November 2026. Read the talk notes
+Latest article Lean AI governance for Australian financial services. Read it
+## How we work
+Short cycles, visible progress, and nothing you can’t see or take with you.
+### First, we listen.
+Workshops to map your systems, data and the problem worth solving first.
+### Then we cost it.
+A costed plan with monthly milestones, so you know what you’re approving.
+### Each month, a demo.
+Working software every month, shown in a demo before you’re invoiced.
+### Then we stay.
+Support, monitoring and improvements, with the code and data always yours.
+## Anastas Manojlovski
+Founder and principal
+I’ve spent my career between engineering and the people who buy it. For nine years at Whispir I led solution architecture across Australia and New Zealand, working with emergency services, health departments and councils on systems that had to work on the worst day of the year.
+Since 2021 I’ve built and led offshore engineering teams delivering cloud, data and AI platforms for Australian businesses, and run partner programmes with AWS, Anthropic and OpenAI. Beyond Zenith is where I bring that together: a small, senior-led team that delivers, and stays accountable after go-live.
+### Record
+- Engineers led25+
+- Delivery teams acrossAustralia, Asia
+- Partner programmes runAWS, Anthropic, OpenAI
+- Platforms deliveredCloud, data, AI
+### Sectors
+- Government agenciesSince 2015
+- Health departmentsSince 2015
+- Local councilsSince 2015
+- InsuranceSince 2021
+- Financial servicesSince 2021
+- Freight and logisticsSince 2021
+## Tell us what you’re working on.
+A few lines are enough. We’ll come back with questions, or a time to talk.
+Or email us directly
+hello@beyondzenith.com.au LinkedIn Back to top
+
+---
+
+URL: https://beyondzenith.com.au/privacy
+Title: Privacy policy · Beyond Zenith
+
+Home / Privacy policy
+# Privacy policy
+Last updated 20 November 2026
+This policy tells you how Beyond Zenith Software Pty Ltd (ABN 54 654 970 091) (“we”, “us”) collects, uses and protects your personal information. We handle personal information in line with the Australian Privacy Principles in the Privacy Act 1988 (Cth).
+## What we collect
+- When you use the contact form: your name, your email address, your company name (if you give it), how you heard about us (if you tell us) and your message.
+- When you email us: your email address, your name and the content of your email.
+- When you visit the website: our hosting provider records technical data, such as your IP address, your browser type and the pages you open. This data helps to keep the website secure and working.
+- Website analytics: we use Ahrefs Web Analytics to count visits and see which pages are useful. It records the page you open, the website that sent you, your approximate location (country and city), your language, your screen size, and your browser and device type. It also counts clicks on links and form submissions. It uses your IP address to find your location, but it does not store the IP address. It does not use cookies, and it does not track you from one day to the next or across other websites. We see only totals, not individual visitors.
+We do not use cookies or advertising trackers on this website. The website loads its fonts and images from our own domain. The only script from a third party is the Ahrefs Web Analytics script.
+## How we use it
+We use your personal information to:
+- reply to your enquiry and discuss the work you describe
+- keep a record of our communication with you
+- obey the law.
+We do not sell your personal information. We do not add you to a marketing list unless you ask us to.
+## Who we share it with
+We use these service providers. They store or process data for us:
+- Netlify, Inc. (United States) hosts this website and receives the contact form.
+- Google LLC (Google Workspace) provides our email. Google can store data in the United States and in other countries.
+- Ahrefs Pte Ltd (Singapore) provides our website analytics. Ahrefs can store data in the United States.
+Thus, your personal information can go to and be stored in countries outside Australia. We use only providers that protect personal information with industry-standard security. We do not give your personal information to other organisations unless you agree or the law requires it.
+## How we protect it and how long we keep it
+We protect your personal information with password-protected accounts and encrypted connections. We keep it only for as long as we need it for the purposes above, or for as long as the law requires. Then we delete it.
+## Access and correction
+You can ask us for a copy of the personal information that we hold about you. You can also ask us to correct it or delete it. Send an email to hello@beyondzenith.com.au. We reply within 30 days.
+## Complaints
+If you think that we did not handle your personal information correctly, send an email to hello@beyondzenith.com.au. We will examine your complaint and reply within 30 days. If you are not satisfied with our reply, you can make a complaint to the Office of the Australian Information Commissioner at oaic.gov.au.
+## Changes to this policy
+We can change this policy. When we do, we publish the new version on this page and change the date at the top.
+
+---
+
+URL: https://beyondzenith.com.au/services/delivery-teams/
+Title: Software delivery teams in Australia · Beyond Zenith
+
+Home / Services / Delivery teams
+# Software delivery teams for Australian businesses
+A dedicated team that builds and maintains your product. A senior lead in Australia runs it, and you can make it larger or smaller as the work changes. You see working software before each invoice. Based in Melbourne.
+Start a conversationEmail hello@beyondzenith.com.au
+## What you get
+### One senior lead
+One senior person leads your engagement from the first workshop to the last release. That person is your contact for priorities, decisions and problems.
+### Local leadership, global talent
+Your lead is in Australia. The engineers come from our delivery teams across Australia and Asia, so you get the skills that the work needs.
+### A capped monthly budget
+You agree a monthly budget before the work starts. You always know the maximum cost of a month.
+### No lock-in
+Make the team larger or smaller as your work changes. You do not sign up for a long fixed contract.
+### A demo before every invoice
+Each month, we show you working software in a demo. Then we send the invoice for that month.
+### Code and data you own
+The code and the data are yours. Nothing is hidden from you, and you can take everything with you.
+## How it works
+### Discover
+Workshops to map your systems, your data and the problem that is worth solving first.
+### Plan
+A costed plan with monthly milestones, so you know what you approve.
+### Build
+Working software every month, shown in a demo before we send the invoice.
+### Run
+Support, monitoring and improvements after go-live. The code and data stay yours.
+## When a delivery team is a good fit
+You have a product to build or to keep improving, and you do not want to hire and manage a full engineering team yourself.
+A delivery team also suits a business with an existing product that needs more people for a period: a new feature set, a platform change, or work that your own team does not have time for.
+## Why Beyond Zenith
+Our founder, Anastas Manojlovski, has led delivery teams of more than 25 engineers across Australia and Asia.
+Before Beyond Zenith, Anastas led solution architecture across Australia and New Zealand for nine years at Whispir, on systems for emergency services, health departments and councils that had to work on the worst day of the year. Since 2021, Anastas has built and led engineering teams that deliver cloud, data and AI platforms for Australian businesses.
+## Other services
+- Data and integration platformsYour systems connected, your data in one place you own.
+- Technical advisoryArchitecture, a costed plan and a second opinion before you build.
+## Tell us what you’re working on.
+A few lines are enough. We’ll come back with questions, or a time to talk.
+Start a conversationhello@beyondzenith.com.au
+
+---
+
+URL: https://beyondzenith.com.au/services/data-platforms/
+Title: Data and integration platforms on AWS · Beyond Zenith
+
+Home / Services / Data and integration platforms
+# Data and integration platforms for Australian businesses
+We connect the systems you already run, so your data is in one place that you own and can use. The platform is built on AWS, as code, and is ready for AI from day one. Based in Melbourne.
+Start a conversationEmail hello@beyondzenith.com.au
+## What you get
+### Your systems connected
+We connect the systems that your business already uses, so data moves between them and people stop copying it by hand.
+### One view across every system
+Your data is in one place, so your reports and decisions use the same numbers.
+### Built on AWS, as code
+The platform runs on AWS, and every part of it is defined as code. You can see it, review it and build it again.
+### Yours to keep
+The platform, its code and your data are yours. Nothing is hidden from you, and you can take everything with you.
+### Ready for AI from day one
+Your data is clean and in one place, so you can use it with AI tools when you are ready.
+### Support after go-live
+We monitor the platform, fix problems and add improvements. We do not leave after the launch.
+## How it works
+### Discover
+Workshops to map your systems, your data and the problem that is worth solving first.
+### Plan
+A costed plan with monthly milestones, so you know what you approve.
+### Build
+Working software every month, shown in a demo before we send the invoice.
+### Run
+Support, monitoring and improvements after go-live. The code and data stay yours.
+## When a data platform is a good fit
+Your data is in many systems, and nobody can see all of it in one place.
+Typical signs: people export spreadsheets to combine data by hand, different reports give different numbers, or you want to use AI but your data is not ready for it.
+## Why Beyond Zenith
+Since 2021, our teams have delivered cloud, data and AI platforms for Australian businesses, in insurance, financial services, and freight and logistics.
+Our founder, Anastas Manojlovski, has run partner programmes with AWS, Anthropic and OpenAI, and led solution architecture across Australia and New Zealand for nine years at Whispir.
+## Other services
+- Delivery teamsA dedicated team that builds and maintains your product.
+- Technical advisoryArchitecture, a costed plan and a second opinion before you build.
+## Tell us what you’re working on.
+A few lines are enough. We’ll come back with questions, or a time to talk.
+Start a conversationhello@beyondzenith.com.au
+
+---
+
+URL: https://beyondzenith.com.au/services/technical-advisory/
+Title: Technical advisory and software architecture · Beyond Zenith
+
+Home / Services / Technical advisory
+# Technical advisory before you commit to a large build
+Architecture, delivery planning and an honest second opinion. Discovery has a fixed price, you keep the written plan, and if we then build it, we credit the fee. Based in Melbourne.
+Start a conversationEmail hello@beyondzenith.com.au
+## What you get
+### Fixed-price discovery
+You know the cost of the discovery before it starts.
+### A written plan you keep
+You get the architecture and a costed plan with monthly milestones in writing. The plan is yours, whoever builds it.
+### An honest second opinion
+We tell you what we think of a plan, an architecture or a build that is already in progress, including the parts that you may not want to hear.
+### Fee credited if we build it
+If you then choose us to build it, we credit the discovery fee against the build.
+## How it works
+### First conversation
+You tell us about the problem, the systems you have and the decision in front of you. We tell you if discovery is the right next step.
+### Discovery
+Workshops with your team to map your systems, your data and the problem that is worth solving first.
+### Written plan
+The architecture, the risks, and a costed plan with monthly milestones, in writing.
+### Your decision
+Use the plan with your own team, with another supplier, or with us. If you choose us, we credit the discovery fee.
+## When advisory is a good fit
+You are about to approve a large build and you want an independent view first.
+Advisory also helps when a project is late or over budget and you want to know why, or when you must choose between suppliers, platforms or architectures.
+## Why Beyond Zenith
+Our founder, Anastas Manojlovski, led solution architecture across Australia and New Zealand for nine years at Whispir.
+That work was with emergency services, health departments and councils, on systems that had to work on the worst day of the year. Since 2021, Anastas has built and led engineering teams that deliver cloud, data and AI platforms for Australian businesses.
+## Other services
+- Delivery teamsA dedicated team that builds and maintains your product.
+- Data and integration platformsYour systems connected, your data in one place you own.
+## Tell us what you’re working on.
+A few lines are enough. We’ll come back with questions, or a time to talk.
+Start a conversationhello@beyondzenith.com.au
+
+---
+
+URL: https://beyondzenith.com.au/services/claude-readiness-review/
+Title: Claude readiness review · Beyond Zenith
+
+Home / Services / Claude readiness review
+# A Claude readiness review before your prototype goes live
+Your Claude prototype works in a demo. In two weeks, we tell you if it is ready for production, and what to fix if it is not. You get a written report and a fix plan. If we then do the work within 60 days, we credit the fee in full.
+Start a conversationEmail hello@beyondzenith.com.au
+## What you get
+### A fixed price, in two weeks
+You know the cost before the review starts. The review takes two weeks.
+### Accuracy, measured on your data
+We make a test set from your own records and measure how often the output is correct. You get a number, not an opinion.
+### Security findings, each with a fix
+We examine access control, data retention, prompt injection and where your data goes. Each finding has a rating and a fix.
+### The running cost
+We calculate the cost of each request now, and the cost after changes such as model routing and caching.
+### A compliance map
+We compare the system with the Privacy Act, your own AI policy and the rules for your industry, such as APRA CPS 230 if it applies to you.
+### A fix plan you keep
+The work in phases, the effort for each phase, and a clear test for go-live. The plan is yours, whoever does the work. If you start the work with us within 60 days, we credit the review fee in full.
+## How it works
+### First conversation
+You show us the prototype and tell us what it must do. We tell you if a review is the right next step.
+### Test set
+We select records from your history. Your experts tell us the correct output for each record.
+### Review
+We run the prototype on the test set, and we examine the code, the security, the cost and the compliance. The work stays inside your own environment.
+### Report and fix plan
+A rating for each area, the findings, and a costed plan with a test for go-live. Then the decision is yours.
+## When a review is a good fit
+You have a Claude prototype or pilot, and you must decide if it can go to production.
+A review also helps when the output is sometimes wrong and nobody can say how often, when the running cost is higher than you expected, or when your risk team asks questions that you cannot answer yet.
+## Why Beyond Zenith
+Our founder, Anastas Manojlovski, has run partner programmes with AWS, Anthropic and OpenAI.
+Since 2021, our teams have delivered cloud, data and AI platforms for Australian businesses in insurance, financial services, and freight and logistics. We work inside your environment, and we build to the standards that you must meet, such as ISO 27001 and SOC 2. When your data must stay in your own AWS account, we use Claude on Amazon Bedrock.
+## Other services
+- Technical advisoryArchitecture, a costed plan and a second opinion before you build.
+- Delivery teamsA dedicated team that builds and maintains your product.
+## Tell us about your prototype.
+A few lines are enough. We’ll come back with questions, or a time to talk.
+Start a conversationhello@beyondzenith.com.au
+
+---
+
+URL: https://beyondzenith.com.au/industries/insurance/
+Title: Software and data for insurance brokers · Beyond Zenith
+
+Home / Insurance
+# Software and data for insurance brokers
+Broking runs on client data that sits in many systems. We help brokers join that data, build on it, and get it ready for AI.
+Start a conversationEmail hello@beyondzenith.com.au
+## What we see
+### Client records in many systems
+The same client is in the CRM, the broking platform and the policy systems, often with different details in each.
+### Work done twice
+People copy data from one system to another by hand, and reports from different systems do not agree.
+### Hard questions from outside
+Insurers, auditors and enterprise clients ask how you protect client data. Some ask for certifications such as SOC 2.
+### AI that needs clean data
+AI tools give poor answers when the client data under them is incomplete or in conflict.
+## What we build
+### One record for each client
+We match client records across your CRM, broking platform and policy systems, so each client has one record that every system can use.
+### A client portal on your broking system
+Clients see their policies, documents and renewal dates. We read the data from your broking system. You do not replace it.
+### Renewal and document workflows
+We read schedules, certificates and emails, and put the data where your team needs it. A person checks each result before it goes to a client.
+### AI on your own data
+Search and summaries over your client files, in your own cloud account. We measure accuracy on your own records before go-live.
+### Answers for security reviews
+Access control, audit logs and data location, written down so you can answer insurers, auditors and clients.
+## How a project runs
+### Discovery session
+We learn your systems, your data and the problem. You get a short plan and a fixed estimate.
+### Clickable prototype
+Within two weeks, you see the main screens and test them with your team.
+### First version
+In four to six weeks, we build the first version around your broking system.
+### Run and improve
+A team sized to your budget supports the system and adds features each month.
+## Questions brokers ask
+### Do we need to replace our broking system?
+Usually not. Most brokerages get more value when we build around the system they already use. We read its data, join it with your other systems, and add what is missing.
+### Where does our client data stay?
+In Australia. We build on Amazon Web Services in the Sydney Region. When your data must stay in your own AWS account, we build in that account.
+### Who does the work?
+Beyond Zenith is Australian-led, with developers working Australian business hours. One senior lead is your contact from the first workshop to the last release.
+### What does it cost?
+It depends on your systems, your data and how clear the requirements are. The discovery session gives you a fixed estimate before you commit to the build.
+### Can we keep client knowledge when a senior broker leaves?
+Yes, when the knowledge is in your files, emails and notes. We bring it into one client record that the next broker can search.
+## Our work
+For an Australian insurance broker, we are building one source of truth for client identity.
+It matches client records across Salesforce and the broker’s other systems, so that each client has one record that every system can use. It is also the base for the broker’s AI work. For the same broker, we scoped what SOC 2 certification for one of its products would take.
+## Services that fit
+- Data and integration platformsYour systems connected, your data in one place you own.
+- Claude readiness reviewAccuracy, security, cost and compliance, checked before go-live.
+## Tell us about your systems.
+A few lines are enough. We’ll come back with questions, or a time to talk.
+Start a conversationhello@beyondzenith.com.au
+
+---
+
+URL: https://beyondzenith.com.au/industries/freight-and-logistics/
+Title: Software for freight and logistics · Beyond Zenith
+
+Home / Freight and logistics
+# Software for freight and logistics
+Freight platforms must run every day, and a bad release costs real money. We build and maintain freight software, and we release changes with care.
+Start a conversationEmail hello@beyondzenith.com.au
+## What we see
+### A platform that must not stop
+Carriers and shippers use the platform every day. A failed release or lost data stops their work, not only yours.
+### Cloud set-ups that grew fast
+Many platforms grew faster than their cloud security. Old settings and wide access stay in place until someone reviews them.
+### Manual onboarding
+Each new customer needs rates, lanes and accounts set up, and people often do this by hand.
+### Pricing and quoting
+Quotes depend on many rates and rules. AI can help, but only on a platform that is stable first.
+## What we build
+### A safe release process
+Each change gets a risk rating, a peer review and a test in a sandbox before it goes live.
+### Cloud security fixes
+We review your AWS set-up and fix the findings in order of risk.
+### Customer onboarding tools
+Rates, lanes and accounts loaded from your customers’ files, and checked by a person.
+### Quoting and rate data
+Your rate tables and rules in one place, ready for automation and AI.
+### Integrations
+Connections to carriers, customers and accounting systems.
+## How a project runs
+### Review
+We review the code, the cloud set-up and the release process, and rank the risks.
+### Stabilise
+We fix the highest risks first, so the platform keeps running.
+### Build
+A team sized to your budget adds the features on your roadmap each month.
+## Questions freight platforms ask
+### Can you take over a platform that another team built?
+Yes. We start with a review of the code, the cloud set-up and the release process. Then we fix the highest risks before we add features.
+### Who does the work?
+Beyond Zenith is Australian-led, with developers working Australian business hours. One senior lead is your contact for priorities and releases.
+### Do you work on AWS?
+Yes. We build and run platforms on Amazon Web Services, in the Sydney Region when your data must stay in Australia.
+## Our work
+For an Australian freight technology platform, our delivery team maintains and develops the product each month.
+We put in a stricter release process: a risk rating for each change, peer review, AI code review, a test merge in a sandbox, and a final check by the tech lead. We also reviewed the platform’s AWS security, and we are fixing the findings in order of risk before the next work on onboarding and AI.
+## Services that fit
+- Delivery teamsA dedicated team that builds and maintains your product.
+- Technical advisoryArchitecture, a costed plan and a second opinion before you build.
+## Tell us about your platform.
+A few lines are enough. We’ll come back with questions, or a time to talk.
+Start a conversationhello@beyondzenith.com.au
+
+---
+
+URL: https://beyondzenith.com.au/services/ai-consulting/
+Title: AI consulting in Melbourne · Beyond Zenith
+
+Home / Services / AI consulting
+# AI consulting in Melbourne that gets to production
+Many AI pilots stop at the demo. We help you choose the right first use case, check that it works on your data, and put it into production.
+Start a conversationEmail hello@beyondzenith.com.au
+## Where are you now?
+### We don’t know where to start
+A fixed-price discovery finds the first use case that is worth building, and gives you a costed plan. About technical advisory
+### We have a prototype
+In two weeks, a readiness review measures accuracy, security, cost and compliance, and gives you a fix plan. About the Claude readiness review
+### Our data isn’t ready
+We connect your systems, so that your data is in one place that AI tools can use. About data platforms
+### We need people to build it
+A dedicated team builds the AI feature into your product and supports it after go-live. About delivery teams
+## How we work with AI
+### The best model for the job
+We choose the model that suits your task, your data and your budget, and we test it on your own records.
+### Accuracy measured on your data
+Before go-live, we measure how often the output is correct on records from your own business.
+### Your data in your account
+When your data must stay in your own AWS account, we use Claude on Amazon Bedrock in that account.
+## Our work
+For an Australian insurance broker, we are building one source of truth for client data.
+It joins client records across the broker’s systems, and it is the base for the broker’s AI work. More about our insurance work
+## AI consulting in Melbourne
+We are based in Melbourne. We meet you in person for the discovery session and the main reviews. We also work with teams across Australia, with developers working Australian business hours.
+## Why Beyond Zenith
+Our founder, Anastas Manojlovski, has run partner programmes with AWS, Anthropic and OpenAI.
+Before Beyond Zenith, Anastas led solution architecture across Australia and New Zealand for nine years at Whispir. Since 2021, Anastas has built and led engineering teams that deliver cloud, data and AI platforms for Australian businesses.
+## Tell us what you want AI to do.
+A few lines are enough. We’ll come back with questions, or a time to talk.
+Start a conversationhello@beyondzenith.com.au
+
+---
+
+URL: https://beyondzenith.com.au/faq/
+Title: Frequently asked questions · Beyond Zenith
+
+Home / FAQ
+# Frequently asked questions
+Short answers about how we work, what it costs, who owns the work and how we keep your data safe. If your question is not here, send us an email.
+Start a conversationEmail hello@beyondzenith.com.au
+## The company
+### Who is in the Beyond Zenith team?
+We are a small core team in Melbourne with a bench of onshore and offshore engineers that we know and trust. Our roles include software developers, senior software developers, DevOps engineers, technical leads, solution architects, data engineers, data scientists, QA engineers, UI/UX designers, project managers and a virtual CTO. We choose the people for each project, manage them and stay accountable for their work. The team gets bigger or smaller as the project needs. We use onshore engineers, offshore engineers or a mix, based on your budget, scope and requirements.
+### Where do you work?
+We work with clients across Australia and New Zealand, and we can work with clients in other countries. Our core team is in Melbourne and works in Australian time zones.
+### What size of company do you work with?
+We work with start-ups, scale-ups and mid-sized businesses. Our clients usually need senior engineering and AI skills but do not want to hire a full team, or they need to deliver faster than their own team can.
+### Which industries do you work in?
+We work mostly in regulated industries: insurance, financial services, payments, freight and logistics, government and health. We know how to deliver where security, compliance and reliability matter. We also work in other industries.
+### Why choose Beyond Zenith and not a big consultancy or a freelancer?
+A big consultancy gives you a large team, high rates and a long ramp-up. A freelancer gives you one person and no back-up. We are in the middle. You work directly with senior people who do the work, and we can add engineers when the project needs them. We work as part of your team, in your tools and your cloud. We change the scope and the team as your needs change. After go-live, we stay accountable for what we built.
+## Price and contracts
+### How do you charge?
+We offer fixed-price projects, monthly retainers or a mix of the two. First, we help you define the outcome and the scope. Then we agree the model that suits your budget and how you like to work.
+### What is the smallest engagement?
+Our smallest engagements start from $5,000 AUD (excluding GST).
+### How fast can you start?
+For most projects, we can start within days of agreement. Larger teams can take longer to put together.
+### What happens after go-live?
+We give a warranty period of 30 or 90 days on the work we deliver, depending on the project. We also offer ongoing support. You can choose a support plan that suits you, from on-call fixes to a monthly retainer.
+### Who owns the code and the intellectual property?
+You do. When the invoices are paid, you own all the code, documents and other work from the engagement. We keep nothing.
+## AI, cloud and data
+### Which AI models do you use?
+We help you choose the right model and platform for the job. We can work with any major AI platform. We usually recommend Anthropic’s Claude or OpenAI’s models, because they are the strongest for business work today.
+### Can our data stay in Australia?
+Yes. When your data must stay in Australia, we use Claude through Amazon Bedrock in your own AWS account, with the Australian routing option, which sends requests only between AWS regions in Australia. Amazon Bedrock does not share your prompts or outputs with Anthropic.
+### Which cloud and data platforms do you work with?
+AWS is our first choice. We also work with Microsoft Azure, Google Cloud, Databricks and Snowflake.
+## Teams and advisory
+### How big is a delivery team?
+A delivery team usually starts with a technical lead and a solution architect, who scope and design the solution. Then we add engineers based on the scope, the budget and the agreed outcome. Most teams have between 3 and 10 people, and some have more.
+### Do you work in our tools and systems?
+Yes. We prefer to work in your environment: your cloud accounts, code repositories, ticket system and chat tools. Then you can see the work every day, and everything stays with you at the end.
+### What does technical advisory look like?
+It depends on what you need. We offer a fixed-scope review, regular advice from 1 day per month, or a part-time virtual CTO.
+## Security and compliance
+### Are you ISO 27001 or SOC 2 certified?
+We do not hold these certifications ourselves. We build to the standards that our clients must meet, such as ISO 27001, SOC 2 and APRA CPS 234, and we work inside your security controls. We can also help you prepare for an audit or a certification.
+### Do you sign NDAs and do background checks?
+Yes. We sign NDAs, and we can arrange police checks for the people on your project. When a project needs a government security clearance, we work with you on the clearance process.
+## Still have a question?
+Send us a few lines. We’ll reply with an answer, or a time to talk.
+Start a conversationhello@beyondzenith.com.au
+
+---
+
+URL: https://beyondzenith.com.au/insights/shipping-with-ai/
+Title: Code is cheap, outcomes aren’t · Beyond Zenith
+
+Home / Insights / Shipping with AI
+# Shipping with AI: code is cheap, outcomes aren’t
+Thanks for coming to Shipping with AI at Nintex. Here’s the stuff from my talk, so you don’t need a photo of every slide.
+Shipping with AI · Wednesday 11 November 2026 · Nintex, Level 14, 530 Collins Street, Melbourne · Hosted by Clodagh Lynch · Meetup event page
+## Four questions to take back to your team
+### What business number will judge this work, and who agreed to it?
+Test it on real data, not a demo.
+### What has to be true about your data and your controls before this goes to production?
+### Is your customer paying for hours, or for the result?
+### Where did AI change how the work gets done, not just how fast?
+A bot that answers handbook questions might cut tickets. If no workflow changes, park it.
+If you can’t answer one of these, that’s your next piece of work. It’s probably not a prompt.
+## The “deeper, not bigger” prompt
+This idea comes from Felix Rieseberg’s post, How to be more ambitious: A tutorial for humans with models. Read the original. It’s worth it.
+The idea is simple. Don’t ask AI for a bigger version of your task. Ask it for a deeper one. Here’s my version of the prompt:
+Prompt
+Don't make this task bigger. Make it deeper. Before you start, answer these four questions: 1. What would a real expert in this field do here that I haven't asked for? 2. What raw data or source material would they start from, instead of a summary? 3. What methods and tools would they use? 4. How would we know the result is right, without taking your word for it? Name a test, a check or a source. Then rewrite my request so it asks for exactly that. Show me the rewrite before you start.
+The last question matters most. Don’t let the AI mark its own homework.
+## Write the spec first
+AI writes code fast. So the expensive mistake isn’t slow code any more. It’s fast code for the wrong thing.
+Spec-driven development changes the order. You write the spec first: what the feature must do, who it’s for, and how you’ll know it works. A person reviews the spec before any code exists. Then the agent plans the work and writes the code against the spec.
+If the business outcome isn’t in the spec, the AI won’t build towards it.
+Tools worth a look: Spec Kit and OpenSpec.
+## Sort the data out before the AI
+If your data’s a mess, AI gives you confident answers from bad records.
+A medallion setup is a simple way to think about it. Bronze is the raw data as it lands. Silver is cleaned up and matched. Gold is what the business actually uses. Databricks explains it well.
+## Let’s talk
+Want to talk about shipping AI in your business? Get in touch.
+Start a conversationhello@beyondzenith.com.au
+Follow me and Beyond Zenith on LinkedIn.
+
+---
+
+URL: https://beyondzenith.com.au/insights/
+Title: Insights: articles and talks · Beyond Zenith
+
+Home / Insights
+# Articles and talks
+Notes from our talks, and articles on shipping software, data and AI that reach production.
+## Latest
+Article · 26 November 2026
+### AI for claims and renewals in a brokerage: what to build first, and how to keep client data safe
+Three places to start (claims emails, renewals, certificates), what it costs, and five rules to keep client data safe, including the privacy policy change from 10 December 2026.
+Article · 26 November 2026
+### How to connect your broking system to Xero and your CRM
+Your broking system, CRM and Xero each hold part of the client. What each system should own, three ways to connect them, and what it costs.
+Article · 26 November 2026
+### Build, buy or connect: what a broker system costs in Australia
+Most brokerages do not need a new broking system. Three paths, indicative prices, what moves the price, and how to get a fixed estimate before you commit.
+Article · 20 November 2026
+### Lean AI governance: a practical framework for Australian financial services
+A lean, practical AI governance framework for mid-sized Australian financial services businesses: seven areas, from accountability and approved tools to testing, training and supplier checks. Built for APRA, ASIC and Privacy Act obligations.
+Article · 20 November 2026
+### Claude for business: what to check before your prototype goes live
+A Claude prototype is quick to build. Before staff or customers depend on it, check the platform, your data, accuracy, security, compliance, cost and support. A practical guide for Australian businesses.
+Article · 20 November 2026
+### Spec-driven development: write the spec before the AI writes the code
+AI writes code fast, so the expensive mistake is fast code for the wrong thing. How spec-driven development works, the tools (Spec Kit, OpenSpec, Kiro), its limits, and how to put the business outcome in the spec.
+Talk · 11 November 2026
+### Shipping with AI: code is cheap, outcomes aren’t
+From the Shipping with AI meetup at Nintex, Melbourne. Four questions to take back to your team, the “deeper, not bigger” prompt, writing the spec first, and sorting the data out before the AI.
+## Want us to speak at your event?
+Tell us about your meetup or team, and the topic you have in mind.
+Start a conversationhello@beyondzenith.com.au
+
+---
+
+URL: https://beyondzenith.com.au/insights/ai-governance-australia/
+Title: Lean AI governance for financial services · Beyond Zenith
+
+Home / Insights / Lean AI governance
+# Lean AI governance: a practical framework for Australian financial services
+Most mid-sized financial services businesses already use AI. Staff use chat tools. Suppliers add AI to products you already pay for. A team wants to put an AI feature in front of customers.
+By Anastas Manojlovski · 20 November 2026
+The pressure goes two ways. The business wants to move faster. The risk team cannot approve what it cannot see. Without governance, AI work either stops or happens without control.
+AI governance fixes that. It does not need a large team or a 40-page policy. It needs clear decisions, made once and applied every time.
+Here is the lean framework that we use. It has seven areas. Start with the essentials in each area, then add detail as your AI use grows.
+## Which rules apply?
+Australia has no single AI law for financial services. The rules that apply to your AI are mostly the rules that already apply to your business:
+- APRA CPS 230 Operational Risk Management, in effect since 1 July 2025, makes the board accountable for operational risk. That includes the risk of AI failures, and the risk from service providers who use AI for you.
+- APRA CPS 234 Information Security requires security controls in line with the risk to your information. AI often needs a lot of data, so it is in scope.
+- The Financial Accountability Regime (FAR) requires clear accountability. Each AI system and its risks should map to a named senior executive.
+- ASIC obligations for licensees apply to AI the same as any other process. For example, you must still provide services efficiently, honestly and fairly.
+- The Privacy Act applies to any personal information that AI reads, stores or produces. From 10 December 2026, privacy policies must explain when a computer program uses personal information to make, or substantially help to make, decisions that significantly affect people.
+The Australian Government has also consulted on mandatory guardrails for AI in high-risk settings. A framework that you build now prepares you for whatever comes next.
+If you operate in more than one country, for example Australia, New Zealand and the United Kingdom, build one framework. Then map each country's rules to it. Do not run three separate frameworks.
+## 1. Purpose and accountability
+- Say why you use AI. Write down how AI supports your strategy and your values. This guides every later decision.
+- Set clear goals for governance, including how you will meet your APRA, ASIC and Privacy Act obligations.
+- Give each AI system a named owner, and map the risks to the executive who is accountable under FAR.
+- Define roles: who approves new uses, who manages the risks, and who reports to the board.
+## 2. Know your AI: inventory and risk
+- Keep an AI register. List each AI system and tool, its owner, what it does, and the data it uses. Include supplier products with AI features.
+- Assess the risk of each use. Use a simple AI risk assessment, with a plan to monitor, report and fix the risks.
+- Assess the impact on customers. Before a customer-facing launch, ask what harm it could cause and to whom.
+- Check for bias and fairness, with extra care for vulnerable customers.
+## 3. Approved tools and uses
+- Approved models and licence types. List the AI providers, models and plans that staff can use, and the ones that they must not use. Business plans and enterprise licences usually give you control of your data. Free and personal plans usually do not.
+- Approved and rejected uses. Publish a short list of uses that are approved, and uses that are not.
+- A path for new ideas. Give staff a simple way to suggest a new use or a new provider, and a clear process to assess it.
+- Personal and company accounts. Company work goes only in company AI accounts. Never in a personal account.
+- Access control. Decide who can use which AI tools and data, by role.
+- Approved connectors. List which systems AI tools can connect to, for example Jira or Confluence, and which they cannot.
+## 4. Data and security
+- Classify and label your data, so staff know what can go into which AI tool.
+- Control where data goes. Decide where AI can process your data, and manage cross-border disclosure. For example, on Amazon Bedrock you can keep Claude requests between AWS regions in Australia.
+- Update your security controls for AI: access, logging, and protection against new attacks such as prompt injection.
+- Tell customers how you use AI with their data. Write a customer AI data policy, and update your terms and conditions where needed.
+## 5. Build, launch and change
+- One end-to-end process to design, build, test and launch AI systems.
+- A pre-launch checklist that every AI system passes before go-live.
+- Be open about AI-generated content. Tell customers when they deal with AI, or when AI produced the content that they see.
+- Plan changes to the AI system and to the framework itself. Do not change them ad hoc.
+- Plan the exit. Know how to turn off, replace or move each AI system.
+## 6. People
+- Train all staff, and check what they learnt. Monthly at the start, then quarterly.
+- Include AI awareness in onboarding for every new staff member.
+- State the consequences for anyone who breaches the policies or works outside the agreed risk limits.
+- Make it easy to speak up. Give staff and customers a clear way to give feedback, make suggestions and report problems.
+## 7. Assurance
+- Test and report regularly, quarterly or six-monthly, on accuracy, incidents and risks.
+- Review suppliers. AI providers change their terms often. Review the terms, and audit key suppliers, quarterly or six-monthly.
+## A simple rhythm
+How often What
+Every new staff member AI awareness in onboarding
+Monthly at the start Staff training and checks
+Quarterly Staff training, testing reports, supplier terms review
+Six-monthly Supplier audits, framework review
+Before every launch Risk assessment, customer impact assessment, pre-launch checklist
+## Start lean, then grow
+You do not need all of this on day one. A one-page AI register, named owners, a list of approved tools and clear data rules already put you ahead of most businesses. They also unblock your teams, because the rules are clear.
+## Want a head start?
+We help mid-sized financial services businesses set up lean AI governance and validation frameworks, so they can launch customer-facing AI with confidence and protect the company's reputation. We bring templates, not a blank page, and we fit them to your size and your regulators.
+Talk to us about a framework for your business. See also Claude for business: what to check before your prototype goes live.
+Sources: APRA, CPS 230 and CPS 234 (apra.gov.au/standards); consult.industry.gov.au/ai-mandatory-guardrails.
+Anastas Manojlovski
+Founder and principal, Beyond Zenith. Before Beyond Zenith, Anastas led solution architecture across Australia and New Zealand for nine years at Whispir. Since 2021, Anastas has built and led engineering teams that deliver cloud, data and AI platforms for Australian businesses.
+Anastas on LinkedIn
+## Tell us what you’re working on.
+A few lines are enough. We’ll come back with questions, or a time to talk.
+Start a conversationhello@beyondzenith.com.au
+
+---
+
+URL: https://beyondzenith.com.au/insights/claude-for-business-before-go-live/
+Title: Claude for business: checks before go-live · Beyond Zenith
+
+Home / Insights / Claude for business
+# Claude for business: what to check before your prototype goes live
+A Claude prototype can work in a week. That is the easy part. The hard part is the day after, when staff or customers start to depend on it.
+By Anastas Manojlovski · 20 November 2026
+Here is what we check before a Claude project goes live. Almost none of it is about the prompt.
+## 1. Use the right plan or platform
+Is there a business account for Claude? Yes. There are two ways to use Claude at work, and they suit different jobs.
+- For your staff to use Claude directly, Anthropic offers Team (for teams of 2 to 150 people) and Enterprise plans. On both, Anthropic's pricing page says there is "no model training on your content by default".
+- For Claude inside your own product or systems, you call Claude through an API: the Claude API from Anthropic, or a cloud platform such as Amazon Bedrock.
+A prototype often starts on a personal account. Move it to a business plan or your own cloud account before real data goes in.
+## 2. Why we recommend Amazon Bedrock
+We are an AWS-first company. For most businesses that build Claude into their own systems, we recommend Amazon Bedrock. Here is why.
+- It runs in your own AWS account. Your AI sits next to your data and your systems, under the same account structure, billing and controls that your team already manages.
+- You use the security controls that you already know. Access is controlled with AWS IAM, so you decide exactly who and what can call each model. AWS CloudTrail records the calls, so you have an audit trail.
+- Your prompts stay away from the model provider. AWS says Bedrock "does not share your content with model providers". Anthropic does not see your prompts or outputs.
+- You can keep requests in Australia with the Australian routing option (see the next section).
+- AWS has well-established practices for AI. Its guidance on security, operations and cost gives your team a proven way to run AI in production, not a new set of rules to invent.
+- You are not locked to one model. Bedrock offers models from several providers, so you can compare and change models without a new contract.
+Other cloud providers also offer Claude and other strong models, for example Google Cloud and Microsoft Azure. If your business is already committed to one of them, that can be the right choice. We are happy to talk through the options with you.
+## 3. Know where your data goes
+For many Australian businesses, this is the first question from the board or the risk team.
+On Amazon Bedrock, you choose how requests are routed. AWS documents three options:
+- The Australian option (au.) "routes only among Australian Regions".
+- The Asia Pacific option (apac.) can route to "any supported Asia Pacific Region". That includes countries other than Australia.
+- The global option (global.) can route to "any supported AWS commercial Region worldwide". AWS says it costs about 10% less.
+If your data must stay in Australia, use the Australian option. Then confirm where it routes. AWS itself warns: "Don't rely on the geographic prefix in an inference profile ID alone to determine where requests can be routed."
+Also check the data retention settings. Some of the newest Claude models on Bedrock need a mode where AWS can keep prompts and outputs "for up to 30 days" for human review. Check this for the model you choose.
+## 4. Measure accuracy on your own data
+A demo shows that Claude can get the answer right. Production needs to know how often it does.
+Collect real examples from your business, with the answers a person would accept. Run them before go-live, and again every time the prompt, the data or the model changes. Write down the result. "It looked good in testing" is not a number.
+## 5. Security: more than a password
+AI adds new ways for things to go wrong. Before go-live, check that:
+- The AI can reach only what the job needs. If it can read your whole SharePoint or send email, ask why.
+- It treats what it reads as untrusted. A customer email or a document can contain hidden instructions. This is called prompt injection, and it needs controls, not just a careful prompt.
+- Guardrails filter what goes in and what comes out, for example personal information or topics that it must not discuss.
+- Every action is logged, so you can see what happened when someone asks.
+- Someone has tried to break it before your customers do.
+How we help: we review the design, test it against common AI attacks, and give you a prioritised list of fixes.
+## 6. Compliance: map it before the auditor asks
+AI does not replace the rules that you already follow. It adds new places where you must show that you follow them. Map the project against:
+- the Privacy Act, for any personal information that the AI reads, stores or produces
+- your customer contracts and terms, which may limit how you use customer data
+- for APRA-regulated entities, CPS 234 Information Security and CPS 230 Operational Risk Management, including the risks from AI service providers
+- your own policies on records, data retention and customer communication.
+How we help: we map your AI project to your obligations and identify the gaps. Then you can show your board, and your auditor, how the risks are managed. If you need the bigger picture, read AI governance for Australian mid-sized businesses.
+## 7. Running cost
+Cost depends on the model, the length of each request and how many requests you get. A larger model is not always better value. Test with realistic volumes and compare a smaller model before you choose. Then set budgets and alerts, so a busy month does not surprise you.
+## 8. Support after go-live
+AI models change fast. Anthropic released three new Claude models between 22 September and 7 October 2026. Plan for:
+- an owner who watches accuracy, approves changes and answers when it gets something wrong
+- monitoring of accuracy, errors, response time and cost
+- a process for model upgrades: test the new model on your examples before you switch
+- a plan for incidents: how you turn the feature off, tell users and fix it.
+How we help: we can run and support your AI features after go-live, or set up the monitoring and processes for your own team.
+## Get a second opinion before go-live
+Our Claude readiness review checks your prototype for accuracy, security, cost and compliance in two weeks, and gives you a written fix plan.
+Not sure which platform, or where to start? Talk to us. We'll give you a straight answer, even if the answer is "not yet".
+Sources: Anthropic pricing (claude.com/pricing); AWS Bedrock User Guide: cross-Region inference, geographic cross-Region inference, data protection and data retention; Anthropic newsroom.
+Anastas Manojlovski
+Founder and principal, Beyond Zenith. Before Beyond Zenith, Anastas led solution architecture across Australia and New Zealand for nine years at Whispir. Since 2021, Anastas has built and led engineering teams that deliver cloud, data and AI platforms for Australian businesses.
+Anastas on LinkedIn
+## Tell us what you’re working on.
+A few lines are enough. We’ll come back with questions, or a time to talk.
+Start a conversationhello@beyondzenith.com.au
+
+---
+
+URL: https://beyondzenith.com.au/insights/ai-claims-renewals-brokerage/
+Title: AI for claims and renewals in a brokerage · Beyond Zenith
+
+Home / Insights / AI for claims and renewals
+# AI for claims and renewals in a brokerage: what to build first, and how to keep client data safe
+Start with the work that reads and sorts. Let AI draft, let a person approve, and keep client data in Australia.
+By Anastas Manojlovski · 26 November 2026
+Short answer. Start with the work that reads and sorts: claims emails, renewal preparation and certificates of currency. Let AI draft and sort, and let a person approve. A first working flow can be tested within two weeks on test data. Keep client data in your own cloud account in Australia, and never put it into a public chatbot.
+## The question behind the question
+Brokers ask two questions together. “Can AI take over claims triage, renewals and certificates?” And straight after: “Is our client data safe if we do?” Both are right. The value is in the volume of emails and documents. The risk is the same client data.
+So the question is not “should we use AI?” It is “which job do we give it first, and what must stay with a person?”
+## Three places to start
+### 1. Claims emails and documents
+AI reads each new claim email and its attachments. It finds the client and the policy, takes out the key facts (date, type of loss, amount), files the email to the right client, and drafts an acknowledgement. A person checks and sends.
+- Cost: a clickable prototype is $5k–10k. A first version is usually $20k–45k. See what a broker system costs.
+- Good for: brokerages and broker networks with many claim emails each day, often into shared inboxes.
+- Watch for: the wrong client match. An email filed to the wrong client is a privacy breach. AI must never make the claim decision. When you act for your client, you are their advocate and the insurer decides. When you handle claims under an insurer’s authority, the decision is a regulated claims handling service, and a person must make it.
+### 2. Renewal preparation
+Before each renewal, AI collects the policy, past claims, notes and emails, and drafts a short summary with the questions to ask the client.
+- Cost: similar to claims, and lower if the claims flow already exists, because both use the same connection to your broking system.
+- Good for: brokers who spend the first hour of each renewal looking for information.
+- Watch for: old or missing data. The summary is only as good as your records. The broker still gives the advice.
+### 3. Certificates of currency and endorsements
+Clients ask for a certificate or a change, and get an answer from a portal without waiting for a person.
+- Cost: in the same range. It needs a reliable connection to your broking system. See how to connect your broking system.
+- Good for: brokerages with many small, repeat requests.
+- Watch for: the certificate must come from your broking system’s data, not from text that AI writes. AI helps with the request. The system produces the document.
+## Five rules to keep client data safe
+- No public chatbots. The OAIC recommends that organisations do not put personal information into publicly available AI tools. Use a business AI service that you control.
+- Your own cloud account, in Australia. For example, Claude on Amazon Bedrock with the Australian profile keeps requests in Sydney and Melbourne. Bedrock does not store your prompts or use them to train models. Some new models need data sharing with the model provider, so check that setting and turn it off.
+- A person approves anything that leaves the brokerage. AI drafts and sorts. A person sends to clients and insurers.
+- Log every AI action. Record what the AI read, what it suggested and who approved it. Insurers, auditors and clients now ask for this.
+- Update your privacy policy. From 10 December 2026, if a computer program makes or informs decisions that significantly affect people, your privacy policy must say so. Check with your adviser whether your AI flows are covered.
+## What moves the price
+- The number of inboxes and email types. One shared claims inbox is simpler than ten brokers’ personal inboxes.
+- Access to your broking system. AI needs client and policy data to match emails correctly.
+- The state of your records. Duplicate clients and missing policy numbers lower accuracy.
+- How much a person must check. More checks at the start, fewer once accuracy is measured.
+- Security and audit needs. Logs, access control and data location add work, and they are what makes the system safe to use.
+## How to get to a fixed answer
+- Discovery session. We look at your inboxes, your broking system and your records, and choose the first flow. You get a short plan and a fixed estimate.
+- Prototype on test data. Within two weeks, one flow works on test or anonymised data, so you see the result before real client data goes in. If you go ahead, the cost is credited against the build.
+- First version. We measure accuracy on your own records before go-live, and we show it in a demo before each invoice.
+## Questions brokers ask
+### Will AI decide our claims?
+No. AI sorts emails, takes out the facts and drafts replies. When you act for the client, you advocate and the insurer decides. When you handle claims under an insurer’s authority, a person in your team still makes each decision.
+### Can our team use ChatGPT for client emails?
+Not with client details in a public tool. The OAIC recommends against it. A business AI service in your own environment gives you the same help with control over the data.
+### Where does our client data go?
+It stays in your own cloud account in Australia. With Claude on Amazon Bedrock and the Australian profile, requests are processed in Sydney and Melbourne, and Bedrock does not store prompts or train on them.
+### Do we need to change our privacy policy?
+Possibly. From 10 December 2026, a privacy policy must describe computer programs that make or inform decisions that significantly affect people. Sorting emails is usually not that. Deciding priority or outcomes may be. Check with your adviser.
+### How accurate is it?
+We do not promise a number before we test it. We measure accuracy on your own records during the build, and you decide what a person must still check.
+Want to test one flow on your own inbox? Talk to us. See also the Claude readiness review and software and data for insurance brokers.
+Sources: OAIC, “Guidance on privacy and the use of commercially available AI products”; OAIC, “New resources on transparency for use of AI and automated decision-making”; NIBA, Insurance Brokers Code of Practice; ASIC, INFO 253 (claims handling and settling); AWS, cross-Region inference in Australia; AWS, “Data protection – Amazon Bedrock”; AWS Security Blog, zero data retention on Amazon Bedrock.
+Anastas Manojlovski
+Founder and principal, Beyond Zenith. Before Beyond Zenith, Anastas led solution architecture across Australia and New Zealand for nine years at Whispir. Since 2021, Anastas has built and led engineering teams that deliver cloud, data and AI platforms for Australian businesses.
+Anastas on LinkedIn
+## Tell us about your inbox.
+A few lines are enough. We’ll come back with questions, or a time to talk.
+Start a conversationhello@beyondzenith.com.au
+
+---
+
+URL: https://beyondzenith.com.au/insights/connect-broking-system-xero-crm/
+Title: Connect your broking system to Xero and your CRM · Beyond Zenith
+
+Home / Insights / Connect your broking system
+# How to connect your broking system to Xero and your CRM
+Your broking system, CRM and Xero each hold part of the client. What each system should own, and three ways to connect them.
+By Anastas Manojlovski · 26 November 2026
+Short answer. Keep your broking system as the source of truth for clients, policies and trust money. Send Xero one summary journal each day, and give your CRM a read copy of each client. A first version usually takes four to six weeks. The hard part is not Xero. It is how you get data out of your broking system.
+## The question behind the question
+Brokers describe it in the same words: a “spaghetti mess”. The broking system, the CRM, Xero, Outlook and the phone system each hold part of the client. Month-end journals go into Xero by hand. Collections and cash-flow forecasts are not automatic. Certificates of currency and endorsements wait for a person to copy data from one screen to another.
+So the question is not “can these systems talk?” Most can. The question is “what should each system own, and which connection is safe enough for client money?”
+## What stays where
+Decide this first. Most integration problems come from two systems that both think they own the same data.
+Data Owner (source of truth) Other systems get
+Clients and policies Broking system CRM: a read copy, updated daily or on change
+Trust money (premiums held for insurers) Broking system Xero: nothing, or one summary balance if your accountant wants it
+Commission, fees and GST Broking system Xero: one summary journal each day
+Operating costs, payroll, BAS Xero —
+Sales activity and follow-ups CRM Broking system: nothing, or a note on the client
+Emails and documents Broking system or your document store CRM: a link, not a copy
+Trust money stays in the broking system. Broking systems such as Steadfast INSIGHT and JAVLN Platform include trust accounting and bank reconciliation. Keep the trust ledger and the trust bank reconciliation there. If your accountant wants the trust balance in Xero for the balance sheet, send one summary journal to a trust bank account and a trust liability account, and do not reconcile trust in Xero. Check the design with your accountant or auditor, because client money has its own rules under Part 7.8 of the Corporations Act.
+## Three ways to connect
+### 1. A ready-made connector or automation tool
+For example a marketplace add-on, or a tool such as Zapier or Make.
+- Cost: a monthly subscription, plus a few days of set-up.
+- Good for: simple flows, such as a new client in the CRM creating a task.
+- Watch for: money flows, error handling and audit. If a step fails quietly, nobody sees it until month-end.
+### 2. Scheduled export and import
+The broking system exports a report each day. A small job reads the file, checks it and sends the result to Xero or the CRM.
+- Cost: a small build. Low running cost.
+- Good for: broking systems with no API, or an API that you cannot get access to.
+- Watch for: reports that change format after an upgrade. The job must check every file and stop when something looks wrong.
+### 3. Direct API integration
+A small integration service, in your own cloud account, reads from the broking system’s API and writes to Xero and the CRM.
+- Cost: see the table in what a broker system costs. A first version is usually in the $20k–45k range.
+- Good for: daily journals, client sync, collections and cash-flow reports, and anything you want to automate later with AI.
+- Watch for: API access. Ask your broking system vendor early what they allow, and what security checks they need.
+## What moves the effort
+- Access to the broking system. This differs a lot between systems. JAVLN publishes its API documentation on a public developer portal. Steadfast offers an INSIGHT API, and it is moving partners to an API marketplace with security checks. WinBEAT interfaces with most industry providers. Ask your vendor what applies to you.
+- Platform changes. INSIGHT is becoming Steadfast Apps. Steadfast says existing API integrations are not affected at this stage. Design the integration so that the connection to the broking system is one small part you can change.
+- Xero’s limits. Xero allows 60 API calls a minute and 5,000 a day for each organisation. Send summaries, not every transaction.
+- The state of your data. Duplicate clients and different spellings across systems must be matched first.
+- Who signs off. Every journal that reaches Xero needs an owner who checks it, at least for the first months.
+## How to get to a fixed answer
+- Discovery session. We map your systems, your data flows and who owns what. We check API access with your vendor. You get a short plan and a fixed estimate.
+- Clickable prototype or one working flow. Within two weeks, for example the daily journal into a test Xero organisation. If you go ahead, the cost is credited against the build.
+- First version. The agreed flows, with logs, alerts and a check before anything posts to Xero. We show it in a demo before each invoice.
+## Questions brokers ask
+### Can we connect Steadfast INSIGHT, WinBEAT or JAVLN to Xero?
+Usually yes, through the vendor’s API or a scheduled report. Each vendor controls access differently, so we confirm it in the discovery session before you commit.
+### Does our trust account move to Xero?
+No. Keep the trust ledger and the trust reconciliation in your broking system. Xero receives your commission, fees and GST as a summary journal, and, if your accountant wants it, the trust balance as one summary line.
+### What happens when INSIGHT becomes Steadfast Apps?
+Steadfast says existing API integrations are not affected at this stage. We keep the broking-system connection small and separate, so a change affects one part only.
+### Do we need to replace our CRM?
+Usually not. The CRM gets a read copy of each client from the broking system, so your team sees the same details everywhere.
+### Is Zapier or Make enough?
+For simple, low-risk flows, yes. For money and client data, use a connection that checks each step, logs it, and alerts a person when something fails.
+Want to see what your systems can share? Talk to us. See also what a broker system costs and data and integration platforms.
+Sources: Steadfast Technologies, “INSIGHT: Your Trusted Broking Platform”; Steadfast Technologies, “Steadfast Apps FAQs”; Ebix Australia, WinBEAT; JAVLN Developer Portal; JAVLN, “Trust accounting and financial management for insurance brokers”; Xero Developer, “Limits”; Corporations Act 2001, Part 7.8 (general reference).
+Anastas Manojlovski
+Founder and principal, Beyond Zenith. Before Beyond Zenith, Anastas led solution architecture across Australia and New Zealand for nine years at Whispir. Since 2021, Anastas has built and led engineering teams that deliver cloud, data and AI platforms for Australian businesses.
+Anastas on LinkedIn
+## Tell us about your systems.
+A few lines are enough. We’ll come back with questions, or a time to talk.
+Start a conversationhello@beyondzenith.com.au
+
+---
+
+URL: https://beyondzenith.com.au/insights/broker-system-cost-australia/
+Title: What a broker system costs in Australia · Beyond Zenith
+
+Home / Insights / Broker system cost
+# Build, buy or connect: what a broker system costs in Australia
+Most brokerages do not need a new broking system. They need the systems they have to work together. Here is what each path costs.
+By Anastas Manojlovski · 26 November 2026
+Short answer. Most owner-led brokerages do not need a new broking system. They need the systems they already have to work together. Connecting those systems usually costs $20k–45k for a first version, built in four to six weeks. A full custom build costs more and takes longer. Your final estimate comes after a discovery session.
+## The question behind the question
+When brokers ask us what a system costs, they usually describe the same problem. The broking system, the CRM, Xero and Outlook do not talk to each other. Staff type the same data twice. Month-end journals are done by hand. Certificates of currency and endorsements wait for a person.
+So the real question is not “what does software cost?” It is “which of three paths fixes this, and what does each one cost?”
+## Three paths
+### 1. Buy and configure
+You keep or change your broking system (for example WinBEAT or Steadfast Insight) and use its own features and add-ons.
+- Cost: a licence per user each month, plus set-up and data migration. Most vendors do not publish their prices, so ask for a quote that includes migration and training.
+- Good for: standard broking work, when the vendor’s workflow fits how you work.
+- Watch for: the gaps between systems stay. The licence cost grows with every new staff member.
+### 2. Connect and build around your broking system
+You keep your broking system. We connect it to your CRM, Xero and email, and build the missing parts on top: a client portal, renewal workflows, document handling, AI on your own data.
+- Cost: see the table below. This is where most of our broker work sits.
+- Good for: brokerages that are happy with their broking system, but lose time between systems.
+- Watch for: access to the broking system’s data. Some systems give a full API, some give exports only, and some limit access. We check this in the discovery session, before you commit.
+### 3. Full custom build
+You build your own system, or a large part of one, for example a claims platform.
+- Cost: see the table below. General Australian guides put large custom platforms at several hundred thousand dollars.
+- Good for: broker networks and firms whose workflow is their advantage, or who must stop depending on a third-party platform.
+- Watch for: you also own the support, the security and the updates. Budget for it every year.
+## What it costs with us
+Indicative prices, AUD ex-GST, November 2026. Your final estimate comes after a discovery session. We price the discovery session separately, and it is not included in these ranges.
+OptionTimeTeamIndicative cost
+Clickable prototypeUp to 2 weeks1 developer, 1 designer, tech lead review$5k–10k
+First version, built around your broking system4–6 weeks2 developers, part-time tech lead$20k–45k
+Larger integration or full build2–4 months2–3 developers, part-time tech lead$40k–150k
+Ongoing teamEach monthSized to your budgetFrom $5k a month
+We are Australian-led, with developers working Australian business hours.
+## What moves the price
+- Access to your data. A broking system with a good API costs less to connect than one that gives exports only.
+- The number of systems. Each extra system (CRM, accounting, email, insurer portals) adds work.
+- The state of your data. Duplicate clients and missing fields must be fixed before automation works.
+- Compliance and security. Audit logs, access control and where data is stored add work, and insurers and clients now ask about them.
+- How clear the requirements are. This is the biggest driver. Unclear requirements make every estimate wide.
+## How to turn a range into a fixed price
+- Discovery session. We learn your systems, your data and the problem. You get a short plan and a fixed estimate.
+- Clickable prototype. Within two weeks, you see the main screens and test them with your team. If you go ahead, the prototype cost is credited against the build.
+- First version. We build it around your broking system, and show it in a demo before each invoice.
+## Questions brokers ask
+### Do we need to replace our broking system?
+Usually not. Most brokerages get more value when we connect the system they already use and build what is missing around it.
+### Why is your range lower than the general guides?
+General guides price a full product from scratch with a local agency team. We usually build around your broking system, so there is less to build. Our team is Australian-led, with developers working Australian business hours.
+### What is not in the price?
+The discovery session, hosting and licences for other software, and support after go-live. We tell you each of these in the estimate.
+### How long until we see something?
+A clickable prototype within two weeks. A first version in four to six weeks.
+Want a fixed estimate for your brokerage? Talk to us. See also software and data for insurance brokers and data and integration platforms.
+Sources: Hatchet, “How much does custom software cost in Australia? (2026 guide)”; AW Labs, “How much does custom software cost in Australia? (2026 guide)”; Ebix Australia, WinBEAT.
+Anastas Manojlovski
+Founder and principal, Beyond Zenith. Before Beyond Zenith, Anastas led solution architecture across Australia and New Zealand for nine years at Whispir. Since 2021, Anastas has built and led engineering teams that deliver cloud, data and AI platforms for Australian businesses.
+Anastas on LinkedIn
+## Tell us about your systems.
+A few lines are enough. We’ll come back with questions, or a time to talk.
+Start a conversationhello@beyondzenith.com.au
+
+---
+
+URL: https://beyondzenith.com.au/insights/spec-driven-development/
+Title: Spec-driven development with AI · Beyond Zenith
+
+Home / Insights / Spec-driven development
+# Spec-driven development: write the spec before the AI writes the code
+AI writes code fast. So the expensive mistake isn't slow code any more. It's fast code for the wrong thing.
+By Anastas Manojlovski · 20 November 2026 · Updated 26 November 2026
+More and more developers are moving to spec-driven development to fix that. I talked about it at the Shipping with AI meetup at Nintex. This is the longer version.
+## What is spec-driven development?
+GitHub puts it simply: "Instead of coding first and writing docs later, in spec-driven development, you start with a (you guessed it) spec."
+The spec says what the feature must do, who it is for, and how you will know it works. A person reviews it before any code exists. Then an AI coding agent, such as Claude Code, plans the work and writes the code against the spec. GitHub calls the spec "a contract for how your code should behave".
+## How the workflow works
+- Draft the spec first. Write down the problem, the functional and non-functional requirements, the inputs and outputs, the constraints, and what is out of scope. Keep it in plain files in the repository, for example requirements.md, design.md and tasks.md.
+- Break the work into small tasks. Split each feature into small, ordered tasks that you can check one at a time. Thin vertical slices work best: each one delivers a small piece that works end to end. The agent builds one task at a time.
+- Keep the context clean. Start a fresh context, or a separate session, for each stage: writing the spec, then building each task. Less noise in the context means less drift, fewer mistakes and lower token cost.
+- Review early, then verify. Move most of the human review to the start: approve the spec and the task plan before the agent writes code. Then check the code and the tests against the spec.
+- Keep improving the process. Spec-driven development is still new, and the tools change every month. Review how it works for your team regularly, and change it.
+## Tools worth a look
+- Spec Kit is GitHub's open-source toolkit. You run its steps as commands in your AI coding agent's chat, such as /speckit-specify, /speckit-plan, /speckit-tasks and /speckit-implement. A "constitution" holds the principles that every spec must follow.
+- OpenSpec describes itself as "fluid not rigid" and "built for brownfield not just greenfield". Each change gets a folder with a proposal, specs, a design and tasks. When the change is done, you archive it.
+- Kiro is an AI development tool from AWS. Its spec workflow goes from requirements to design to tasks, with one document for each step.
+## The limits
+Spec-driven development is not a fix for everything. Birgitta Böckeler tested Kiro, Spec Kit and Tessl on martinfowler.com and found real problems:
+- The agent did not always follow the spec: "I frequently saw the agent ultimately not follow all the instructions."
+- The specs can be a lot to read: "I'd rather review code than all these markdown files."
+- Big up-front specs can turn into waterfall.
+She also describes three levels: spec-first (write the spec for the task), spec-anchored (keep the spec and update it as the feature changes), and spec-as-source (people edit only the spec, never the code). Most teams today are at the first level.
+## Our three rules
+Put the business outcome in the spec. "Add a claims triage screen" is a task. "Reply to every new claim within four hours, measured from the claim log" is an outcome. (This is an illustration.) The AI builds towards what the spec says, so put the outcome there.
+Keep each spec small. One change, one spec. A spec that takes an hour to review will not get reviewed.
+Turn acceptance criteria into tests. Write criteria that a test can check, for example "given …, when …, then …". Then a test checks the agent's work. Don't let the AI mark its own homework.
+## Specs and client data
+Clients now ask how a supplier keeps their data safe while AI writes the code. Our answer starts with the spec. We build the first prototype on test data, so stakeholders can comment early and nothing real is at risk. The spec also says how the real system gets access to personal information: who can see it, where it is stored, and how each access is logged. We build that access process before any real client data goes in.
+## What are the advantages?
+- People agree on what to build before the code exists, when changes are cheap.
+- The agent works from a short, clear spec.
+- The spec stays as a record of why the code does what it does.
+- Reviews get easier: reviewers check the code against the spec.
+If your team ships fast with AI but not always the right thing, talk to us. See also technical advisory and delivery teams.
+Sources: GitHub Spec Kit README and GitHub blog (2 September 2025); OpenSpec README; kiro.dev; Birgitta Böckeler, "Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl", martinfowler.com (15 October 2025).
+Anastas Manojlovski
+Founder and principal, Beyond Zenith. Before Beyond Zenith, Anastas led solution architecture across Australia and New Zealand for nine years at Whispir. Since 2021, Anastas has built and led engineering teams that deliver cloud, data and AI platforms for Australian businesses.
+Anastas on LinkedIn
+## Tell us what you’re working on.
+A few lines are enough. We’ll come back with questions, or a time to talk.
+Start a conversationhello@beyondzenith.com.au
+
+---
+
+URL: https://beyondzenith.com.au/careers/
+Title: Careers: working with us · Beyond Zenith
+
+Home / Careers
+# Working with us
+We build and run software for Australian businesses. Our engineers work across Australia and Asia, and a lead works in each client’s time zone. When we hire, the role is listed here.
+See open roles
+## How we work
+### Work that goes to production
+What you build goes live, and people use it every day. We stay with it after go-live.
+### Clients own what we build
+The code, the data and the cloud accounts belong to the client from day one. We build so that someone else can take it over.
+### Working software, shown often
+Clients see working software often. You demo your own work and hear what the client thinks first hand.
+### AI in the daily work
+We use AI from discovery to code to operations. You help choose the tools and how we use them.
+### A say in how we build
+You work with the tech lead and the founder. You help decide how we build and how we work with clients.
+### Remote, led locally
+Our engineers work remotely across the region. A lead works in the client’s time zone, so you get clear priorities.
+## Open roles
+Remote, Indonesia · Full-time contractor
+### Senior backend engineer, data and AI
+Backend services, data pipelines and LLM features on AWS. You start on an Australian insurance-technology platform.
+## How to apply
+Open the role and apply on LinkedIn with your CV.
+We reply to every applicant within 2 weeks.
+## No role that fits now?
+We post new roles on LinkedIn first. Follow Beyond Zenith there to see them.
+Follow on LinkedIn
+
+---
+
+URL: https://beyondzenith.com.au/careers/senior-backend-engineer-data-ai/
+Title: Senior backend engineer, data and AI · Beyond Zenith
+
+Home / Careers / Senior backend engineer, data and AI
+# Senior backend engineer, data and AI
+Beyond Zenith is hiring a senior backend engineer in Indonesia with strong data engineering skills. You start on an Australian insurance-technology platform, work across its products, and grow with us as we add clients. Your work goes to production and people use it every day.
+Remote, Indonesia · Full-time contractor
+Apply on LinkedInAll roles
+## About Beyond Zenith
+Beyond Zenith builds and runs software for Australian businesses. Our clients own their code, data and cloud accounts from day one. We work as dedicated delivery teams, build data and integration platforms (mostly on AWS), and give independent architecture and delivery advice. Clients see working software often, and we stay engaged after go-live so their systems keep performing. Our model is senior engineers across the region, led locally in the client’s time zone. We use AI in everything we do, from discovery to code to operations.
+You join early. You help decide how we build, which tools we use and how we work with clients, and you grow with the company as we add clients and products.
+## The role
+You are a senior backend engineer at Beyond Zenith first. You bring strong engineering skills, learn new domains fast and use AI to deliver more. Your first focus is data and AI work for our insurance-technology client, and you move across clients and products as the business grows. You work with our tech lead, the team in Indonesia and the founder in Melbourne.
+## What you will do
+- Design, build and run backend services and APIs on AWS.
+- Build and run data pipelines and integrations: ingestion, transformation, data quality and matching.
+- Build AI features with LLMs, such as document extraction and workflow automation, and measure how well they work.
+- Work with clients to turn unclear needs into a plan and working software.
+- Write short design decisions, review code and demo your work to clients.
+## Must-have skills
+- 5+ years as a backend or data engineer, with production systems you built and ran.
+- Backend: strong Python, API design (REST), testing, and a backend framework such as FastAPI or Django.
+- Data engineering: strong SQL (PostgreSQL), data pipelines and ETL, layered data models (medallion or similar), data quality and entity matching.
+- AWS serverless: Lambda, Step Functions, S3, RDS/Aurora or Athena, IAM, CloudWatch, and CI/CD with GitHub Actions. Infrastructure as code is expected.
+- LLMs in production: you have used an LLM (Bedrock, OpenAI, Anthropic or similar) to turn documents or data into structured output, with JSON schemas and a way to measure accuracy.
+- Clear written and spoken English. You work with Australian clients every week.
+## Nice to have
+- Salesforce data model and APIs, or AWS AppFlow.
+- BI dashboards (QuickSight, Power BI or similar).
+- AI coding tools in daily use (Claude Code, Kiro, Cursor or similar).
+- Work for an agency or consultancy with several clients.
+- Any AWS certification is a big plus.
+## Hiring process
+### CV and short-answer review
+### 30-minute intro call with the founder
+### 60-minute technical interview with the tech lead
+Live Python and SQL, plus a data design question.
+### Short take-home
+Extract structured data from sample documents and show how you measure accuracy.
+### Reference check and offer
+We reply to every applicant within 2 weeks.
+## How to apply
+Apply on LinkedIn with your CV. In a few lines, tell us about one data pipeline or AI extraction system you built: what it did, its size, and what you would change now. A GitHub link or code sample helps.
+Apply on LinkedInAll roles

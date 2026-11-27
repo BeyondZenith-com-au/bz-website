@@ -34,7 +34,7 @@
       "url": "https://beyondzenith.com.au/insights/spec-driven-development/",
       "mainEntityOfPage": "https://beyondzenith.com.au/insights/spec-driven-development/",
       "datePublished": "2026-11-20",
-      "dateModified": "2026-11-20",
+      "dateModified": "2026-11-26",
       "inLanguage": "en-AU",
       "image": "https://beyondzenith.com.au/art/spec-driven-development-og.jpg",
       "author": {
@@ -113,7 +113,7 @@
       <p class="crumbs"><a href="/">Home</a> / <a href="/insights/">Insights</a> / <span aria-current="page">Spec-driven development</span></p>
       <h1>Spec-driven development: write the spec before the AI writes the code</h1>
       <p class="lede">AI writes code fast. So the expensive mistake isn't slow code any more. It's fast code for the wrong thing.</p>
-      <p class="byline">By <a href="#author">Anastas Manojlovski</a> · <time datetime="2026-11-20">20 November 2026</time></p>
+      <p class="byline">By <a href="#author">Anastas Manojlovski</a> · <time datetime="2026-11-20">20 November 2026</time> · Updated <time datetime="2026-11-26">26 November 2026</time></p>
     </div>
     <figure class="s-band"><picture><source type="image/webp" srcset="/art/spec-driven-development-1260.webp 1260w, /art/spec-driven-development.webp 2048w" sizes="(max-width: 760px) 180vw, 100vw"><img src="/art/spec-driven-development.jpg" srcset="/art/spec-driven-development-1260.jpg 1260w, /art/spec-driven-development.jpg 2048w" sizes="(max-width: 760px) 180vw, 100vw" width="2048" height="878" alt="A lamp at the top of a sloped wall at dusk" fetchpriority="high" style="object-position: 6% 50%"></picture></figure>
   </header>
@@ -127,7 +127,7 @@
       <li><a href="#tools-worth-a-look">Tools worth a look</a></li>
       <li><a href="#the-limits">The limits</a></li>
       <li><a href="#our-three-rules">Our three rules</a></li>
-      <li><a href="#what-are-the-advantages">What are the advantages?</a></li>
+      <li><a href="#specs-and-client-data">Specs and client data</a></li><li><a href="#what-are-the-advantages">What are the advantages?</a></li>
       </ol>
     </nav>
   <article class="prose prose--banded">
@@ -161,6 +161,8 @@
 <p><strong>Put the business outcome in the spec.</strong> "Add a claims triage screen" is a task. "Reply to every new claim within four hours, measured from the claim log" is an outcome. (This is an illustration.) The AI builds towards what the spec says, so put the outcome there.</p>
 <p><strong>Keep each spec small.</strong> One change, one spec. A spec that takes an hour to review will not get reviewed.</p>
 <p><strong>Turn acceptance criteria into tests.</strong> Write criteria that a test can check, for example "given …, when …, then …". Then a test checks the agent's work. Don't let the AI mark its own homework.</p>
+<h2 id="specs-and-client-data">Specs and client data</h2>
+<p>Clients now ask how a supplier keeps their data safe while AI writes the code. Our answer starts with the spec. We build the first prototype on test data, so stakeholders can comment early and nothing real is at risk. The spec also says how the real system gets access to personal information: who can see it, where it is stored, and how each access is logged. We build that access process before any real client data goes in.</p>
 <h2 id="what-are-the-advantages">What are the advantages?</h2>
 <ul>
 <li>People agree on what to build before the code exists, when changes are cheap.</li>

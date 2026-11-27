@@ -1,0 +1,33 @@
+# Tell Bing (and other IndexNow engines) about every page after each deploy of main.
+# Bing feeds ChatGPT search. Netlify deploys main in about a minute; we wait 3 minutes to be safe.
+name: IndexNow ping
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Wait for the Netlify deploy
+        run: sleep 180
+      - name: Send all sitemap URLs to IndexNow
+        run: |
+          python3 - <<'PY'
+          import json, re, urllib.request
+          key = "cf1d0140f6cfb37104bc0c313d9b63fd"
+          urls = re.findall(r"<loc>([^<]+)</loc>", open("sitemap.xml", encoding="utf-8").read())
+          body = json.dumps({
+              "host": "beyondzenith.com.au",
+              "key": key,
+              "keyLocation": f"https://beyondzenith.com.au/{key}.txt",
+              "urlList": urls,
+          }).encode()
+          req = urllib.request.Request("https://api.indexnow.org/indexnow", data=body,
+                                       headers={"Content-Type": "application/json; charset=utf-8"})
+          with urllib.request.urlopen(req, timeout=30) as r:
+              print("IndexNow:", r.status, "for", len(urls), "URLs")
+          PY

@@ -79,6 +79,14 @@ repo. This file is how they stay in step. Read `README.md` for the file layout.
   `/services/ai-consulting/` and `/industries/freight-and-logistics/` (legal check), and the
   "Since 2021" dates on the home page and `/services/ai-consulting/`.
 
+## Fixed facts (same on the site, llms.txt, schema and every listing)
+
+- Company: Beyond Zenith Software Pty Ltd, ABN 54 654 970 091, registered since November 2021
+  (schema `foundingDate` 2021-11-01). Melbourne. hello@beyondzenith.com.au. https://beyondzenith.com.au/
+  Phone +61 400 922 464: in the schema `telephone` only, not shown on pages (decision 27 Nov 2026).
+- Listings describe the business, not the founder's career. Do not change these facts without
+  Anastas. The master list is the vault note `03 - Sales and Pipeline/Entity Facts.md`.
+
 ## Checks before every commit
 
 - Run the site locally (`python3 -m http.server`) and look at each changed page at 390 px and 1440 px.
@@ -88,6 +96,8 @@ repo. This file is how they stay in step. Read `README.md` for the file layout.
 - Text contrast passes WCAG AA. Touch targets at least 24 px high on phones (the design system aims
   for 44 px).
 - New page: add it to `sitemap.xml`, the nav dropdown, the phone menu and the footer on every page.
+- Copy changed or page added? Run `python3 scripts/build_llms_full.py` and commit the new `llms-full.txt`.
+- Do not delete the IndexNow key file (`cf1d0140f6cfb37104bc0c313d9b63fd.txt`). `.github/workflows/indexnow.yml` pings IndexNow after each push to `main`.
 - `netlify.toml` has a Content Security Policy: no inline scripts, no outside scripts or styles unless
   you update the policy.
 - Never commit client documents, call notes, keys or tokens.

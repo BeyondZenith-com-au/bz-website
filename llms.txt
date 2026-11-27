@@ -5,6 +5,7 @@
 Key facts:
 
 - Founder and principal: Anastas Manojlovski. Nine years leading solution architecture across Australia and New Zealand at Whispir. Has led engineering teams that deliver cloud, data and AI platforms for Australian businesses since 2021.
+- Company: Beyond Zenith Software Pty Ltd, registered in Australia since November 2021 (ABN 54 654 970 091).
 - Team: a small core team in Melbourne with onshore and offshore engineers. Roles include software developers, DevOps engineers, technical leads, solution architects, data engineers, data scientists, QA engineers, UI/UX designers, project managers and a virtual CTO. Delivery teams usually have 3 to 10 people.
 - Pricing: fixed-price projects, monthly retainers or a mix. The smallest engagements start from $5,000 AUD (excluding GST).
 - Warranty: 30 or 90 days on delivered work, depending on the project, plus optional ongoing support.
@@ -14,7 +15,7 @@ Key facts:
 
 ## Services
 
-- [AI consulting](https://beyondzenith.com.au/services/ai-consulting/): choose the first AI use case worth building, check a prototype before go-live, and get your data ready.
+- [AI consulting in Melbourne](https://beyondzenith.com.au/services/ai-consulting/): choose the first AI use case worth building, check a prototype before go-live, and get your data ready.
 - [Claude readiness review](https://beyondzenith.com.au/services/claude-readiness-review/): a review of a Claude prototype for accuracy, security, cost and compliance, with a written fix plan.
 - [Delivery teams](https://beyondzenith.com.au/services/delivery-teams/): a dedicated team that builds and maintains your product, led by a senior lead in Australia.
 - [Data and integration platforms](https://beyondzenith.com.au/services/data-platforms/): connect the systems you already run, so your data is in one place that you own.
@@ -30,6 +31,9 @@ Key facts:
 - [Articles and talks](https://beyondzenith.com.au/insights/)
 - [Lean AI governance: a practical framework for Australian financial services](https://beyondzenith.com.au/insights/ai-governance-australia/): A lean, practical AI governance framework for mid-sized Australian financial services businesses: seven areas, from accountability and approved tools to testing, training and supplier checks. Built for APRA, ASIC and Privacy Act obligations.
 - [Claude for business: what to check before your prototype goes live](https://beyondzenith.com.au/insights/claude-for-business-before-go-live/): A Claude prototype is quick to build. Before staff or customers depend on it, check the platform, your data, accuracy, security, compliance, cost and support. A practical guide for Australian businesses.
+- [AI for claims and renewals in a brokerage](https://beyondzenith.com.au/insights/ai-claims-renewals-brokerage/): where AI helps a brokerage first, what it costs, and five rules to keep client data safe (OAIC guidance, data in Australia, APP 1.7 from 10 December 2026).
+- [How to connect your broking system to Xero and your CRM](https://beyondzenith.com.au/insights/connect-broking-system-xero-crm/): what each system should own (clients, policies, trust money, commission), three ways to connect, and what moves the effort.
+- [Build, buy or connect: what a broker system costs in Australia](https://beyondzenith.com.au/insights/broker-system-cost-australia/): three paths for insurance brokers, indicative prices (AUD ex-GST), what moves the price, and how to get a fixed estimate.
 - [Spec-driven development: write the spec before the AI writes the code](https://beyondzenith.com.au/insights/spec-driven-development/): AI writes code fast, so the expensive mistake is fast code for the wrong thing. How spec-driven development works, the tools (Spec Kit, OpenSpec, Kiro), its limits, and how to put the business outcome in the spec.
 - [Shipping with AI: code is cheap, outcomes aren't](https://beyondzenith.com.au/insights/shipping-with-ai/): notes from a talk at the Shipping with AI meetup at Nintex, Melbourne, on 11 November 2026.
 
@@ -38,3 +42,4 @@ Key facts:
 - [Frequently asked questions](https://beyondzenith.com.au/faq/): team, location, prices, IP, warranty, AI models, data residency and security.
 - [Home page](https://beyondzenith.com.au/)
 - [Privacy policy](https://beyondzenith.com.au/privacy.html)
+- [Full text of every page](https://beyondzenith.com.au/llms-full.txt): the main text of each page, for AI tools.
