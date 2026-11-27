@@ -38,3 +38,4 @@ Key facts:
 - [Frequently asked questions](https://beyondzenith.com.au/faq/): team, location, prices, IP, warranty, AI models, data residency and security.
 - [Home page](https://beyondzenith.com.au/)
 - [Privacy policy](https://beyondzenith.com.au/privacy.html)
+- [Full text of every page](https://beyondzenith.com.au/llms-full.txt): the main text of each page, for AI tools.

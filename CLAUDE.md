@@ -88,6 +88,8 @@ repo. This file is how they stay in step. Read `README.md` for the file layout.
 - Text contrast passes WCAG AA. Touch targets at least 24 px high on phones (the design system aims
   for 44 px).
 - New page: add it to `sitemap.xml`, the nav dropdown, the phone menu and the footer on every page.
+- Copy changed or page added? Run `python3 scripts/build_llms_full.py` and commit the new `llms-full.txt`.
+- Do not delete the IndexNow key file (`cf1d0140f6cfb37104bc0c313d9b63fd.txt`). `.github/workflows/indexnow.yml` pings IndexNow after each push to `main`.
 - `netlify.toml` has a Content Security Policy: no inline scripts, no outside scripts or styles unless
   you update the policy.
 - Never commit client documents, call notes, keys or tokens.
